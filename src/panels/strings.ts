@@ -21,11 +21,15 @@ const PANEL = {
     'A model of the collector, the loop and the tank, with no pump and no controller. The collector’s figure comes from an independent certificate; the bores of the tubes and the exchange of the double jacket, nobody publishes: they are estimated. In this machine it is a mix of water and glycol that climbs, not the water you drink.',
   ],
   tagLegend: [
-    '† résultat du modèle · * estimation : les sources se taisent.',
-    '† result of the model · * estimate: the sources are silent.',
+    '† calculé, à partir de chiffres publiés ou par le modèle · * estimation : les sources se taisent.',
+    '† computed, from published figures or by the model · * estimate: the sources are silent.',
   ],
   preset: ['Point de départ', 'Starting point'],
   custom: ['Réglages personnels', 'Custom settings'],
+  drawnHint: [
+    'La 3D dessine toujours cette machine-ci, à sa pente de 30° et en circuit fermé. Les autres points de départ, le circuit direct, la pente du toit, le capteur sélectif et les diamètres ne changent que les chiffres.',
+    'The 3D always draws this one machine, at its 30° pitch and on its closed circuit. The other starting points, the direct circuit, the roof pitch, the selective collector and the bores change only the figures.',
+  ],
   resetSim: ['Recommencer', 'Start again'],
   scenarios: ['Scénarios', 'Scenarios'],
   scenarioHint: [
@@ -70,8 +74,8 @@ const PANEL = {
   livePlate: ['Plaque − air', 'Plate − air'],
   liveGain: ['Gain', 'Gain'],
   liveLoss: ['Pertes', 'Losses'],
-  liveToday: ['Au ballon, ce jour', 'To the tank, today'],
-  liveFraction: ['Part solaire, ce jour', 'Solar share, today'],
+  liveToday: ['Ballon, ce jour', 'Tank, today'],
+  liveFraction: ['Solaire, ce jour', 'Solar, today'],
   liveSun: ['Soleil', 'Sun'],
   liveTap: ['Robinet', 'Tap'],
 
@@ -102,8 +106,8 @@ const PANEL = {
   day: ['Jour de l’année', 'Day of the year'],
   tankHeight: ['Hauteur du ballon', 'Height of the tank'],
   tankHeightHint: [
-    'Le bas du ballon, au-dessus ou au-dessous du haut du capteur. La vraie machine reste à zéro, sur ses cales : ailleurs, c’est un banc d’essai.',
-    'The bottom of the tank, above or below the top of the collector. The real machine stays at zero, on its spacers: anywhere else is a test stand.',
+    'Le bas du ballon, au-dessus ou au-dessous du haut du capteur. La vraie machine reste à zéro, sur ses cales : ailleurs, c’est un banc d’essai. Sous zéro, le banc le porte à côté des capteurs, et le dessin fait un détour de tuyau que le modèle ne compte pas.',
+    'The bottom of the tank, above or below the top of the collector. The real machine stays at zero, on its spacers: anywhere else is a test stand. Below zero, the stand carries it beside the collectors, and the drawing makes a detour of pipe that the model does not count.',
   ],
   checkValve: ['Clapet anti-retour', 'One-way valve'],
   circuit: ['Circuit', 'Circuit'],
@@ -112,7 +116,7 @@ const PANEL = {
     'On direct, it is the tank’s water that crosses the collector: hot water climbing with no pump, to the letter, but it freezes like water.',
   ],
   secMachine: ['La machine', 'The machine'],
-  tilt: ['Pente du toit', 'Roof pitch'],
+  tilt: ['Pente du toit (chiffres seuls)', 'Roof pitch (figures only)'],
   azimuth: ['Écart à l’équateur', 'Away from the equator'],
   absorber: ['Capteur', 'Collector'],
   glycol: ['Glycol', 'Glycol'],

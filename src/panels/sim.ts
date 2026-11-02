@@ -263,6 +263,7 @@ export class SimPanel implements PanelController {
           icon(ICONS.reset, 16),
         ),
       ),
+      hint('drawnHint'),
       h('div', { class: 'eyebrow' }, st('scenarios')),
       h(
         'div',
