@@ -33,7 +33,7 @@ interface Fixture {
 
 function open(lang: 'fr' | 'en' = 'fr', sim = new SolarSim()): Fixture {
   setLang(lang);
-  const ctx = { sim, ui: { scene: 'device' }, gotoScene: () => undefined } as unknown as AppContext<SolarSim>;
+  const ctx = { sim, ui: { scene: 'house' }, gotoScene: () => undefined } as unknown as AppContext<SolarSim>;
   const panel = new SimPanel(ctx);
   panel.render();
   return { sim, panel, root: panel.el as unknown as FakeElement };

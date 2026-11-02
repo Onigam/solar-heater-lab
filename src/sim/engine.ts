@@ -129,7 +129,6 @@ const newState = (): SolarState => ({
   flowStarted: 0,
   reversalCount: 0,
   showerCount: 0,
-  angle: 0,
   alarms: [],
 });
 
@@ -388,9 +387,6 @@ export class SolarSim implements LabSim {
       n++;
     }
     if (this.pending >= THERMAL_STEP) this.pending = 0;
-    const s = this.state;
-    const q = this.plant.Q * 3.6e6;
-    s.angle = (s.angle + Math.sign(q) * Math.min(Math.abs(q) / 40, 2) * dt * this.params.slowMo) % (2 * Math.PI);
     this.refreshState();
   }
 
@@ -649,6 +645,3 @@ export class SolarSim implements LabSim {
     });
   }
 }
-
-/** The template's placeholder scene (src/three/device.ts) until the 3D role replaces it: it only reads a turning angle. */
-export type DemoState = { readonly angle: number };

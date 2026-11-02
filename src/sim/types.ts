@@ -201,9 +201,6 @@ export interface SolarState {
   reversalCount: number;
   showerCount: number;
 
-  /** A turning that follows the flow, for the template's placeholder scene until the 3D role replaces it. */
-  angle: number;
-
   alarms: AlarmKey[];
 }
 

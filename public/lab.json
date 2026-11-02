@@ -1,10 +1,21 @@
 {
   "id": "solar-heater-lab",
-  "title": { "fr": "Solar Heater Lab", "en": "Solar Heater Lab" },
-  "tagline": { "fr": "Un lab à remplacer", "en": "A lab to replace" },
-  "tags": [],
-  "difficulty": 1,
-  "minutes": 10,
+  "title": {
+    "fr": "Chauffe-eau solaire",
+    "en": "Solar Water Heater"
+  },
+  "tagline": {
+    "fr": "Sans pompe, en 3D : le capteur, le ballon, la nuit, la douche",
+    "en": "With no pump, in 3D: the collector, the tank, the night, the shower"
+  },
+  "tags": [
+    "heat",
+    "solar",
+    "water",
+    "thermosiphon"
+  ],
+  "difficulty": 2,
+  "minutes": 25,
   "status": "building",
   "energyProfile": null
 }

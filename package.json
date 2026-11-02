@@ -2,7 +2,7 @@
   "name": "solar-heater-lab",
   "private": true,
   "version": "0.1.0",
-  "description": "Interactive 3D lab of a thermosiphon solar water heater: hot water that rises with no pump",
+  "description": "Interactive 3D lab of a thermosiphon solar water heater, with no pump: the collector, the tank, the night, the shower",
   "type": "module",
   "scripts": {
     "dev": "vite",

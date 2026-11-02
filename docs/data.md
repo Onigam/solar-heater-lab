@@ -13,15 +13,14 @@
 | `src/data/parts/tank.ts`             | 17 sheets of `tank-and-tap`                                                                                    |
 | `src/data/parts/dim-specs.ts`        | every length of a sheet, **read from `src/three/dims.ts`**, nothing typed                                      |
 | `src/data/assembly.ts`, `install.ts` | the guides: 20 and 10 steps. Each ends on its origin. No torque, tool list or duration: no source has any      |
-| `src/data/guide.ts`                  | a barrel under the name `src/lab.ts` still imports; remove it when the lead wires the lab                      |
-| `src/data/overviews.ts`              | `OVERVIEWS`: title and text per world, for the lead to wire with the `go…` actions                             |
+| `src/data/overviews.ts`              | `OVERVIEWS`: title and text per world, wired in `src/lab.ts` with the `go…` actions                            |
 | `src/data/lessons.ts`                | `LESSONS`, see `docs/lessons.md`                                                                               |
 | `src/data/sources.ts`                | `SOURCE_GROUPS`, `MAIN_VIDEO`, `sourcesPanel(ctx)`: `about: sourcesPanel` in `src/lab.ts`                      |
 | `src/data/chapters.ts`               | `CHAPTERS` of the main video, `VIDEO_ID` for `video: { id }` in `src/lab.ts`                                   |
 | `src/data/figures.ts`                | `FIG`: every figure that is not reported, with its unit and status; `SWEEP_TABLE`, `YEAR_TABLE` for the sheets |
 | `src/data/part-helpers.ts`           | `lf` fills `{placeholders}` with number, unit and mark; `sp`, `maint`, `v`                                     |
 | `src/data/dims-read.ts`              | what `figures.ts` reads of `dims.ts` and `ROOF_UNIT`, in one place                                             |
-| `src/i18n/ui.ts`                     | `LAB_STRINGS`: only the lab's own. `sceneDevice`, `groupDevice` stay until `src/lab.ts` is wired               |
+| `src/i18n/ui.ts`                     | `LAB_STRINGS`: only the lab's own. The sheets' groups are in `SHEET_GROUPS`, `src/drawings/index.ts`           |
 
 ## The marks
 
@@ -56,4 +55,4 @@ No wording promises safety: a test bans « safely », « sans danger », « guar
 
 ## Choices
 
-**The installation guide crosses two worlds in ten steps:** a step plays in one world, so `cold-main` and `hot-line` share step 4 in `house`, and the valves come in step 5 in `tank-and-tap`. Steps 9 and 10 frame again what the gesture is on: `cold-relief-valve`, `roof-unit`. **Glycol in the circuit** is said to be the maker's bottle, 24 %†; its brand is not named. **Timestamps** of the main video are approximate, from a private transcription. **`src/three/part-ids.ts` writes French names with a straight apostrophe**, the sheets with a typographic one; the data test compares them modulo that.
+**The installation guide crosses two worlds in ten steps:** a step plays in one world, so `cold-main` and `hot-line` share step 4 in `house`, and the valves come in step 5 in `tank-and-tap`. Steps 9 and 10 frame again what the gesture is on: `cold-relief-valve`, `roof-unit`. **Glycol in the circuit** is said to be the maker's bottle, 24 %†; its brand is not named. **Timestamps** of the main video are approximate, from a private transcription. **The French names** of `src/three/part-ids.ts` and of the sheets use the same typographic apostrophe, and the data test compares them as they are.
