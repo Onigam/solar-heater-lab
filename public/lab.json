@@ -1,6 +1,6 @@
 {
-  "id": "lab-template",
-  "title": { "fr": "Lab Template", "en": "Lab Template" },
+  "id": "solar-heater-lab",
+  "title": { "fr": "Solar Heater Lab", "en": "Solar Heater Lab" },
   "tagline": { "fr": "Un lab à remplacer", "en": "A lab to replace" },
   "tags": [],
   "difficulty": 1,
