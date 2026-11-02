@@ -41,6 +41,8 @@ type ChartOpts = ConstructorParameters<typeof LineChart>[0];
 const QUIET = 0.35;
 /** Days of a year's run in one frame: a few tens of milliseconds. */
 const YEAR_CHUNK = 10;
+/** The air's dashed line, a reference. The kit's `pv` is 2.5:1 on the light card; this grey is 3.7:1 there and 3.9:1 on the dark one, and a canvas cannot read a token. */
+const AIR_LINE = '#78838d';
 
 interface Control {
   key: keyof SolarParams;
@@ -160,7 +162,7 @@ export class SimPanel implements PanelController {
         { key: 'out', label: () => st('seriesOut'), color: SERIES_COLORS.load },
         { key: 'top', label: () => st('seriesTop'), color: SERIES_COLORS.dump, bold: true },
         { key: 'bottom', label: () => st('seriesBottom'), color: SERIES_COLORS.hydro, bold: true },
-        { key: 'air', label: () => st('seriesAir'), color: SERIES_COLORS.pv, dash: true },
+        { key: 'air', label: () => st('seriesAir'), color: AIR_LINE, dash: true },
       ],
       yFmt: deg,
       xFmt: days,
