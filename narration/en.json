@@ -1,0 +1,407 @@
+{
+  "lang": "en",
+  "voiceLabel": {
+    "fr": "Voix de synthèse",
+    "en": "Synthetic voice"
+  },
+  "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.35,
+    "speed": 0.95
+  },
+  "segments": [
+    {
+      "id": "intro",
+      "scope": "intro",
+      "title": "About the lab",
+      "scene": "house",
+      "text": "[[home]] Picture a tiled roof on a summer morning. No motor, no sensor, no button… and yet, by this evening, the water will be hot. How does the heat get up there, all by itself? [[frame:roof-unit]] Let’s follow one small blue drop. This is not the water you drink: it is a mix of water and glycol, in a circuit of its own. [[scene:collector]] At first light it lies asleep in a tube, under glass, against a black plate. [[frame:absorber-plate]] The sun warms the plate, the plate warms the drop, and now it is a little lighter. Only just! [[scene:rig]] [[flows:on]] Around noon, our model finds a push of six point six millimetres of water, no more. [[frame:hot-pipe]] That is enough: our drop climbs towards the tank, with no motor and no controller. [[flows:off]] [[scene:tank-and-tap]] Here it is in a narrow gap, along the vessel. [[frame:mantle-jacket]] It gives up its heat through the steel without ever touching the water, grows heavier, and comes back down. [[frame:water-column]] The hot water, meanwhile, stays on top, above the cold. But at night? [[scene:rig]] The clear sky cools the collector, and our drop would like to set off backward, taking the tank’s heat along. So it depends on the height of that tank: here, you can raise it and lower it. [[scene:tank-and-tap]] Morning comes, and someone opens a tap, [[frame:shower-head]] and there is water at forty degrees on somebody’s back. That is the whole story: a sun, a drop, a wall of steel… and a shower with no pump. [[scene:house]] A few landmarks: four views, the house, the machine, the collector, the tank and its shower. Click a part: its sheet opens, and you can listen to its story. [[mode:assembly]] One guide tells of the factory, then the climb to the roof. [[mode:install]] Another joins the machine to the house. [[mode:sim]] The simulation changes the place, the hour and the tank’s height, and runs twelve scenarios. Its other starting points change only the figures: the three-dimensional view always draws this one machine. [[mode:lessons]] Six lessons, with quizzes, explain the physics. [[mode:plans]] Ten sheets gather the drawings. [[mode:explore]] One last thing: this lab is an educational reconstruction. It follows a real machine, from its maker’s documents. It is neither a plan to follow, nor a product of that maker. [[scene:house]] The figures come from those documents, and from published certificates and tests. Or from our simulation and our estimates: calculations, not measurements. The Sources panel says who said what. [[select:none]] Come on, the sun is rising, and our drop is waiting for you!"
+    },
+    {
+      "id": "scene-house",
+      "scope": "scene:house",
+      "title": "A house, a roof, no pump",
+      "scene": "house",
+      "text": "[[home]] A village, a stone house, and on its roof, a machine with no pump. [[frame:roof-unit]] Two collectors and, just above them, a tank lying flat. [[frame:shade-tree]] The olive tree recalls the first rule: no shade, all year round. [[frame:roof-structure]] Sliced along the machine, the house shows its rafters. [[frame:load-bearing-wall]] Under the tank’s line, a load-bearing wall runs down to the ground. [[frame:meter-box]] This panel serves only the booster: the one current in the whole affair. [[home]] [[flows:on]] Flows draws the water’s route, from the street to the roof, then to the bathroom. Here, these dots move only when a tap draws. [[flows:off]] What share of your hot water will come from the sun? At two hundred litres a day, the published results run from forty-five per cent at Stockholm to eighty-one at Athens. That is a test plus a calculation, not a year measured on a roof."
+    },
+    {
+      "id": "scene-rig",
+      "scope": "scene:rig",
+      "title": "The machine, and the tank that moves",
+      "scene": "rig",
+      "text": "[[home]] The same machine, alone, on a piece of roof. That support has no source. [[frame:collector-link]] [[xray:on]] Two collectors, one bank of seventy tubes. [[xray:off]] [[frame:collector-rail]] Right at the bottom, the rail, where it all starts. [[frame:hot-pipe]] On the left, the hot pipe, where our drop climbs. [[frame:cold-pipe]] On the right, the cold pipe, where it comes back down. [[frame:tank-strap]] Up top, the tank, level with the top of the collectors. [[home]] The real machine stays at zero. The Height of the tank slider takes it onto a test stand. [[xray:on]] [[flows:on]] Let’s switch on Flows. The clock starts out at an hour a second; these dots do not. By day they run at their true speed, about twelve centimetres a second at noon, in the pipes. At night they stay visible, and then go faster than the truth. [[flows:off]] [[xray:off]] Run the scenario A tank too low: by evening, they set off backward! Sixty-one centimetres below the top of the collectors: the worst place in our model. Those figures come from a model of nineteen eighty-one, with an upright tank, or from ours. We found no measurement of a flat collector with its tank lower."
+    },
+    {
+      "id": "scene-collector",
+      "scope": "scene:collector",
+      "title": "Where the sun becomes heat",
+      "scene": "collector",
+      "text": "[[home]] One collector alone, on an easel, at the roof’s pitch. This world opens already cut: a stair at its corner shows the layers. [[frame:glass-seal]] The glass first, held by its supple seal. [[frame:absorber-plate]] Beneath it, the black plate, where light becomes heat. [[frame:riser-tube]] Then the tubes, where our drop waits its turn. [[frame:back-insulation]] Behind them, a blanket closes the way to the back. [[frame:upper-header]] And right at the top, the header, where it all gathers. [[home]] [[cutaway:on]] The Section tool now cuts across the tubes. They are painted in false colour: a tube at sixty degrees does not turn orange. Their scale, in degrees, stands just beside them. [[cutaway:off]] [[explode:0.5]] Let’s part the layers, in the order they went on… [[explode:0]] And at night? The paper turns blue, the plate falls below the air, and it is the sky that pulls it down."
+    },
+    {
+      "id": "scene-tank-and-tap",
+      "scope": "scene:tank-and-tap",
+      "title": "The tank, then the way to the shower",
+      "scene": "tank-and-tap",
+      "text": "[[home]] From left to right, in the order of the heat. This world too opens cut, along the tank’s axis. [[frame:water-column]] Here is the water column, in ten layers, coloured live. [[frame:booster-element]] At half height, the booster element, for grey days. [[frame:trio-valve,cold-relief-valve]] On the wall, the non-return valve and the cold relief valve. [[frame:tempering-valve]] Then the tempering valve, between scald and legionella. [[frame:shower-head]] And at last the shower, the reason for it all. [[home]] The two brackets carrying the tank are a support of this world, with no source. [[flows:on]] Flows shows two paths: our drop’s circuit, and the water you drink, which moves only when a tap draws. [[flows:off]] [[frame:end-cap]] Now let’s look at the tank from its end. [[cutaway:on]] The Section tool cuts it across: here are the ten layers, as slices of a circle. [[cutaway:off]] Then run the scenario The family’s morning: at the third shower, the tempering valve goes away. Watch the tap’s figure."
+    },
+    {
+      "id": "part-roof-unit",
+      "scope": "part:roof-unit",
+      "title": "The roof unit",
+      "scene": "house",
+      "text": "The whole machine sits on one frame: two collectors, a tank lying flat just above them, and no pump. Only the booster element asks for current. Nothing turns, so nothing wears fast. But nothing rings either: one day the water stays lukewarm, with no alarm. So compare a clear day with earlier ones."
+    },
+    {
+      "id": "part-roof-structure",
+      "scope": "part:roof-structure",
+      "title": "Rafters and battens",
+      "scene": "house",
+      "text": "Five hundred and fifteen kilos when full, and nearly all that weight sits up high. The average looks tame: about eighty-five kilos a square metre. But the tank weighs four hundred and seventeen of them, along a single line. That line decides. Plan on a lifting device, and the view of a builder or structural engineer, before buying anything."
+    },
+    {
+      "id": "part-roof-tiles",
+      "scope": "part:roof-tiles",
+      "title": "Roof tiles",
+      "scene": "house",
+      "text": "The machine does not replace the roof covering: it sits on top. The tiles are lifted, the straps slip beneath them to the rafters, and the tiles go back. No roof to redo, as long as the timbers can take it. And up there, you walk over the rafters, never mid-tile."
+    },
+    {
+      "id": "part-roof-penetration",
+      "scope": "part:roof-penetration",
+      "title": "Roof penetration",
+      "scene": "house",
+      "text": "The only hole in the whole job! Cold water, hot water, the booster’s cable, the drain: everything passes here. One seal to watch, instead of four. The maker wants it behind the tank, at the high point of a tile. The high point is the tile’s back: the rain runs in the trough."
+    },
+    {
+      "id": "part-load-bearing-wall",
+      "scope": "part:load-bearing-wall",
+      "title": "Load-bearing wall",
+      "scene": "house",
+      "text": "How do four hundred and seventeen kilos get down to the ground? By the shortest path, if there is one. A wall under the tank shortens that path, instead of beefing up the rafters. The maker only calls it advisable. And this wall is a choice for the setting: not every house has it in the right place."
+    },
+    {
+      "id": "part-cold-main",
+      "scope": "part:cold-main",
+      "title": "Cold water main",
+      "scene": "house",
+      "text": "[[xray:on]] No pump on this side either! The mains fill the tank from below, each time a tap draws from the top. The same pressure pushes the hot water on to the taps: it serves twice. [[xray:off]] Hence a vessel of thick steel. At the tank, six hundred and eighty kilopascals at most with a cold relief valve, eight hundred without."
+    },
+    {
+      "id": "part-hot-line",
+      "scope": "part:hot-line",
+      "title": "Hot water line",
+      "scene": "house",
+      "text": "[[xray:on]] [[flows:on]] From the roof to the taps, down through the whole house. It sees the water as it leaves the tank. In summer, sixty to seventy degrees, and at times up to ninety-five, says the manual. Its dots move only when a tap draws. [[flows:off]] [[xray:off]] The rest of the time it cools: the longer it is, the more hot water sits in it to be lost."
+    },
+    {
+      "id": "part-drain-outlet",
+      "scope": "part:drain-outlet",
+      "title": "Relief drain outlet",
+      "scene": "house",
+      "text": "[[xray:on]] A drip here, while the tank is heating? That is normal! From ten to eighty degrees, about eight point six litres must leave. [[xray:off]] Each drain falls on its own, with no rise, and ends in the open, in plain view. Because nobody notices a valve that no longer opens, except someone who has learned to expect its drip."
+    },
+    {
+      "id": "part-meter-box",
+      "scope": "part:meter-box",
+      "title": "Meter box and isolator",
+      "scene": "house",
+      "text": "The one current in the whole machine, and it serves only the booster. The whole choice lies in this timer. Left on all the time, the element heats water the sun would have heated. Set on its timer, it heats here from four to seven in the afternoon: an assumption. The wiring is for a qualified electrician: this is mains current, on a roof, next to water."
+    },
+    {
+      "id": "part-shade-tree",
+      "scope": "part:shade-tree",
+      "title": "The olive tree",
+      "scene": "house",
+      "text": "An innocent olive tree… as long as its shadow misses the collectors. The maker wants no shade, all year: a tree grows, and the winter sun runs low. Our model, for its part, knows no shade at all. A fun detail: this machine comes from Australia, where its north is our south. Only the direction of the noon sun counts."
+    },
+    {
+      "id": "part-collector-left",
+      "scope": "part:collector-left",
+      "title": "Left collector",
+      "scene": "rig",
+      "text": "Dark glass in a pale frame: our drop leaves by the top corner of this collector. An independent laboratory gives it nearly seventy-eight per cent efficiency, at equal temperature with the air. After that, every degree more costs. The button on this sheet opens it in section, tubes in colour."
+    },
+    {
+      "id": "part-collector-right",
+      "scope": "part:collector-right",
+      "title": "Right collector",
+      "scene": "rig",
+      "text": "Its neighbour, mirrored. Our drop comes in at its low corner, and crosses the bank on the diagonal. So each tube has about the same path, with no valve or pump. Its test sheet says it all. A single day gives six kilowatt-hours at five degrees above the air, four at twenty, zero point seven at fifty. The whole art of this machine: hand it back cold fluid!"
+    },
+    {
+      "id": "part-collector-link",
+      "scope": "part:collector-link",
+      "title": "Collector connector",
+      "scene": "rig",
+      "text": "[[xray:on]] The collectors fade, and this connector stays. For our drop there are no longer two collectors: one union above, another below, and here is a single bank. [[xray:off]] Nothing is more discreet. It is the one joint between two parts that each expand their own way, once a day. A dry blue trace here, and the circuit may have been losing its level for months."
+    },
+    {
+      "id": "part-storage-tank",
+      "scope": "part:storage-tank",
+      "title": "The storage tank",
+      "scene": "rig",
+      "text": "From outside, a long aluminium cylinder with black end caps. Inside, three hundred litres of drinking water, four hundred and seventeen kilos when full. An official guide calls such tanks far less efficient: too little height to keep hot and cold apart. But upright on a roof, it would stand tall, heavy, and full of wind!"
+    },
+    {
+      "id": "part-hot-pipe",
+      "scope": "part:hot-pipe",
+      "title": "Hot pipe",
+      "scene": "rig",
+      "text": "[[flows:on]] A very small pipe, and nothing to push our drop up it, except a difference in weight. Around noon, under a clear sky, our model finds a push of six point six millimetres of water. About the thickness of a pencil. And that moves a hundred and thirty-two litres an hour! On a clear June day, in solar time, the plate is gaining from ten to five. But the drop only sets off at about ten past seven: it must first climb back from the night’s cold. [[flows:off]] At night, as it happens, a trickle runs backward here: a litre and a half an hour, as a mean from midnight to dawn."
+    },
+    {
+      "id": "part-cold-pipe",
+      "scope": "part:cold-pipe",
+      "title": "Cold pipe",
+      "scene": "rig",
+      "text": "[[flows:on]] The long pipe on the right: the heavy half of the loop. Cooled, denser, our drop comes back down it, and that weight is what turns the whole thing. [[flows:off]] At noon’s flow, the circuit’s nineteen litres go round in about nine minutes. So no valve added without a reason: every narrowing eats into a push already tiny."
+    },
+    {
+      "id": "part-collector-rail",
+      "scope": "part:collector-rail",
+      "title": "Collector rail",
+      "scene": "rig",
+      "text": "It all starts from the rail, and it is set askew, on purpose! The maker raises it twelve millimetres per collector, on one side. The manual does not say why, in what we read. Our reading: the headers then climb towards one corner, and air has only one way to go. It goes on before anything else: every measurement starts from it."
+    },
+    {
+      "id": "part-collector-strap",
+      "scope": "part:collector-strap",
+      "title": "Collector strap",
+      "scene": "rig",
+      "text": "Forty-three kilos is nothing to a rafter. But a head wind lifts a collector like a wing! These steel bands hook to the rail, pass under the tiles, and fix where there is timber. A fixing to a tile would hold nothing. Four are drawn here, at an estimated size."
+    },
+    {
+      "id": "part-tank-spacer",
+      "scope": "part:tank-spacer",
+      "title": "Tank-to-collector spacer",
+      "scene": "rig",
+      "text": "[[xray:on]] Two little spacers, and the whole question of the night rests on them. The tank stops there, its bottom level with the collectors’ top, within five centimetres, by our reading of the drawings. [[xray:off]] For some sources, that is the line between a quiet night and a costly one. Others do not agree on the right value."
+    },
+    {
+      "id": "part-tank-strap",
+      "scope": "part:tank-strap",
+      "title": "Tank strap",
+      "scene": "rig",
+      "text": "[[xray:on]] Four hundred and seventeen kilos hang down the slope, and the wind catches them at an angle along two metres thirty-one. This strap answers for them, over the top of the tank. [[xray:off]] It does almost nothing, then a lot, over a few hours of storm. Its size and place are estimates. A marked band gets changed."
+    },
+    {
+      "id": "part-fill-port",
+      "scope": "part:fill-port",
+      "title": "Fill assembly",
+      "scene": "rig",
+      "text": "This is the corner where our drop enters the story. A nineteen-litre circuit, with one bottle of four and a half litres of blue food-grade glycol. That makes about twenty-four per cent of the mix, which freezes at minus nine point two degrees. The manual keeps this job to trained installers, with the tank already full and the collectors covered."
+    },
+    {
+      "id": "part-top-plug",
+      "scope": "part:top-plug",
+      "title": "Collector plug",
+      "scene": "rig",
+      "text": "At the other end of the diagonal, a simple brass plug. During filling, the air leaves this way, until the mix arrives. A tiny, decisive role: a bubble left at the high point can stop a circulation that almost nothing pushes. The symptom? A scorching collector and a cold tank, at noon."
+    },
+    {
+      "id": "part-overheat-valve",
+      "scope": "part:overheat-valve",
+      "title": "Overheat valve",
+      "scene": "rig",
+      "text": "A family leaves for a week in July: nobody draws any water, and the tank climbs. This valve, an option, then shuts the loop. At Athens, our model climbs to ninety-four degrees at the top of the tank without it, eighty-five with it… but a hundred and sixteen at the collector, left alone in the sun. Neither its setting nor its place is published: here, two estimates."
+    },
+    {
+      "id": "part-overflow-reservoir",
+      "scope": "part:overflow-reservoir",
+      "title": "Circuit reservoir",
+      "scene": "rig",
+      "text": "A closed circuit full of hot liquid has to put its expansion somewhere. The maker publishes neither the volume of this reservoir, nor its mount. So this little cylinder is our estimate, and our model leaves it out. If the maker answered one message, this is the sheet that would change most!"
+    },
+    {
+      "id": "part-test-stand",
+      "scope": "part:test-stand",
+      "title": "Test stand",
+      "scene": "rig",
+      "text": "It is no part of the machine: it asks a question. What if the tank stood lower? Take a clear June night. Sixty-one centimetres above zero, our model loses one point one per cent of the day’s heat. Thirty centimetres below: thirteen point seven. The worst: fifteen point three, sixty-one centimetres below. Lower still, the day stops, and nothing is left to steal! All this rests on a sum for the sky, with no dew: without it, these losses fall to about a quarter. And below zero, the drawing makes a detour of pipe that the model does not count."
+    },
+    {
+      "id": "part-glass-cover",
+      "scope": "part:glass-cover",
+      "title": "Glass cover",
+      "scene": "collector",
+      "text": "Three point two millimetres of tempered glass, without the green edge of ordinary glass. The sun passes through it, and the heat the plate sends back largely stops there. But at night, it changes sides! It radiates to the clear sky, and pulls the plate down."
+    },
+    {
+      "id": "part-glass-seal",
+      "scope": "part:glass-seal",
+      "title": "Glass seal",
+      "scene": "collector",
+      "text": "Here is a part with no figure: nobody publishes its material or its shape. This supple seal must grip a fragile pane, and let the tray expand. Its work shows by its absence: if it leaks, the wind gets in under the glass. Mist is then the first sign."
+    },
+    {
+      "id": "part-air-gap",
+      "scope": "part:air-gap",
+      "title": "Air gap",
+      "scene": "collector",
+      "text": "This part is no part! Air has no surface: this lab draws it a nearly invisible slab, just to name it and see its outline. There is nothing else to show. Yet as long as it stays still, this air conducts heat very poorly: it is the insulation on the sun’s side. And it is the only sheet with no part to order."
+    },
+    {
+      "id": "part-absorber-plate",
+      "scope": "part:absorber-plate",
+      "title": "Absorber plate",
+      "scene": "collector",
+      "text": "The machine’s one conversion: at the surface of this sheet, the sun becomes heat. It is painted black, with no selective coating. A good choice for fluid that is not very hot. Under eight hundred watts a square metre, black wins up to twenty-five degrees above the air. But at night, it radiates. On a clear night, with air at ten degrees, the sums put it five point four degrees lower."
+    },
+    {
+      "id": "part-riser-tube",
+      "scope": "part:riser-tube",
+      "title": "Riser tube",
+      "scene": "collector",
+      "text": "[[flows:on]] Our drop’s bedroom: one steel tube among seventy. This is where it warms, and where the climb begins. Around noon, it moves at about one point four centimetres a second: the flow shares itself out among them all. [[flows:off]] Nobody publishes their bore: seven millimetres is an estimate. And narrower? At three millimetres, our model sees noon’s flow fall to fifty-three litres an hour. The day loses only three per cent, and eight over the year. But a model cannot say whether such a circuit starts: nothing to copy here."
+    },
+    {
+      "id": "part-upper-header",
+      "scope": "part:upper-header",
+      "title": "Upper header",
+      "scene": "collector",
+      "text": "Right at the top, our drop meets all the others: this tube gathers the fluid from the collector’s thirty-five risers. Every height is measured from here too: a tank at zero has its bottom just at this level. Its bore comes from a small sum. Three point eight litres a collector, less what the tubes hold: that leaves twenty-seven millimetres."
+    },
+    {
+      "id": "part-lower-header",
+      "scope": "part:lower-header",
+      "title": "Lower header",
+      "scene": "collector",
+      "text": "[[xray:on]] Here it is cold by design: it receives the tank’s bottom, and shares the fluid among all the tubes. [[xray:off]] At night, the backward trickle leaves this way, colder than the air. On a clear night, our model reaches freezing here from five point six degrees of air with water alone. With our mix, at minus three point two. Those are the first crystals: it does not say whether a tube bursts."
+    },
+    {
+      "id": "part-back-insulation",
+      "scope": "part:back-insulation",
+      "title": "Back insulation",
+      "scene": "collector",
+      "text": "[[explode:0.5]] Let’s part the layers: here it is, the thickest in the collector, between the tray and the tubes. [[explode:0]] Thirty-eight millimetres of polyester blanket, which close the back to the heat and set the tubes at their level. But if water gets in, a wet blanket insulates poorly, and dries slowly under the glass."
+    },
+    {
+      "id": "part-collector-tray",
+      "scope": "part:collector-tray",
+      "title": "Tray",
+      "scene": "collector",
+      "text": "Zero point seven millimetres of aluminium: this tray holds by its shape, not its thickness. So thin a sheet will do, because the fluid never presses on it: the pressure stays in the tubes. This is what sits on the rail and takes the straps. Forty-three kilos in all, carried by two people, never by the glass."
+    },
+    {
+      "id": "part-inner-vessel",
+      "scope": "part:inner-vessel",
+      "title": "Enamelled vessel",
+      "scene": "tank-and-tap",
+      "text": "[[xray:on]] The only part that touches the shower’s water. Two point five millimetres of steel, two coats of enamel, and three hundred litres at mains pressure. [[xray:off]] A curiosity from the manual: left undrawn for two weeks or more, flammable hydrogen may gather in it. So you first run a sink tap, with no flame nearby. And if it rusts through, it cannot be mended."
+    },
+    {
+      "id": "part-mantle-jacket",
+      "scope": "part:mantle-jacket",
+      "title": "Heat-exchange jacket",
+      "scene": "tank-and-tap",
+      "text": "[[xray:on]] [[flows:on]] Our drop’s great moment. It climbs through this gap, along the vessel, gives up its heat through the steel, then comes back down. [[flows:off]] [[xray:off]] About ten litres on one side, three hundred on the other, and the two liquids never touch. And if the wall gave way? That is what the blue is for: blue water at the tap means a leak. Then you shut everything off, and call the installer."
+    },
+    {
+      "id": "part-water-column",
+      "scope": "part:water-column",
+      "title": "The water column",
+      "scene": "tank-and-tap",
+      "text": "The heart of this lab! Hot water is lighter: it stays on top, with no wall to hold it there. These layers are the tank’s whole fortune: the cold goes back to the collector, the hot leaves from the top. On the evening of a clear June day at Athens, our model finds seventy-two and a half degrees at the top. At the bottom, nearly forty-seven. At dawn, the top is still at sixty-eight. In the scenario The family’s morning, the hot layer falls, shower after shower."
+    },
+    {
+      "id": "part-tank-foam",
+      "scope": "part:tank-foam",
+      "title": "Insulating foam",
+      "scene": "tank-and-tap",
+      "text": "[[xray:on]] A very thin coat: about twenty-five millimetres of injected polyurethane. Other machines have thirty to fifty: that is the price of a slim shape on a roof. [[xray:off]] On a clear June night, our model sees zero point eight six kilowatt-hours go through this skin. Through the circuit running backward, zero point four five more. That puts the thief in its place!"
+    },
+    {
+      "id": "part-outer-case",
+      "scope": "part:outer-case",
+      "title": "Aluminium case",
+      "scene": "tank-and-tap",
+      "text": "[[xray:on]] Zero point four millimetres of aluminium is very little. This skin is only there for the rain, the sun and the eye. [[xray:off]] The tank’s weight stays in the steel that holds the pressure. This sheet carries nothing: never lean on it, and close a split at once."
+    },
+    {
+      "id": "part-end-cap",
+      "scope": "part:end-cap",
+      "title": "End cap",
+      "scene": "tank-and-tap",
+      "text": "[[explode:0.6]] Two black caps, slightly domed, close the ends of the cylinder. [[explode:0]] Being black, in the sun, they get hot: their polypropylene is stabilised. The left one carries an oval hatch, where the element comes out in one piece. And this plastic cuts a thermal bridge: the vessel’s heat finds no metal path there."
+    },
+    {
+      "id": "part-sacrificial-anode",
+      "scope": "part:sacrificial-anode",
+      "title": "Sacrificial anode",
+      "scene": "tank-and-tap",
+      "text": "A hero that disappears for the others. No enamel is perfect: a few tiny flaws remain, where water touches steel. Magnesium, quicker to corrode, takes the corrosion in its place. The cheapest bargain in the whole machine. As long as you remember: it gives no warning, and the maker has it replaced at five years."
+    },
+    {
+      "id": "part-booster-element",
+      "scope": "part:booster-element",
+      "title": "Booster element",
+      "scene": "tank-and-tap",
+      "text": "For grey days, a copper-sheathed element… at half height, and that is no accident. It heats only the upper hundred and fifty litres, and leaves the collector a cold bottom to work with. At three point six kilowatts, with fifty degrees to gain, the maker quotes two and a half hours. Our model takes two point eight hours: it adds the steel, the skin and the conduction."
+    },
+    {
+      "id": "part-tank-thermostat",
+      "scope": "part:tank-thermostat",
+      "title": "Thermostat",
+      "scene": "tank-and-tap",
+      "text": "Sixty degrees: a chosen figure. It answers legionella, the bacteria that multiply from twenty-five to forty-five degrees. The manual allows seventy at most. At eighty-three, a second device cuts the element if the thermostat has failed. Here it measures at half height: so it does not cut out when the sun has only filled the top."
+    },
+    {
+      "id": "part-tpr-valve",
+      "scope": "part:tpr-valve",
+      "title": "Temperature and pressure relief valve",
+      "scene": "tank-and-tap",
+      "text": "The tank’s last resort: it opens at ninety-nine degrees, or at a thousand kilopascals. In a German test, with no draw and in the sun, a comparable tank reached a hundred and nine degrees. So the water leaving here is very hot: the drain falls in the open, never on the roof or into a gutter. And it is never blocked."
+    },
+    {
+      "id": "part-jacket-relief-valve",
+      "scope": "part:jacket-relief-valve",
+      "title": "Jacket relief valve",
+      "scene": "tank-and-tap",
+      "text": "Two pressures, two worlds: drinking water at mains pressure, the circuit at almost none. This valve keeps the collectors at eighty kilopascals, far below the vessel’s thousand. That is what allows such thin tubes. It never comes off in service. And its drain holds glycol: it must not reach a rainwater tank."
+    },
+    {
+      "id": "part-cold-diffuser",
+      "scope": "part:cold-diffuser",
+      "title": "Cold water diffuser",
+      "scene": "tank-and-tap",
+      "text": "When the shower opens, as much cold water comes in below as hot leaves above. A direct jet would stir everything! Hence this tube along the bottom, with its spreader. On other tanks, measurements find layers over forty to sixty per cent of the volume. Our model finds sixty-one. Its shape, here, is an estimate."
+    },
+    {
+      "id": "part-hot-outlet",
+      "scope": "part:hot-outlet",
+      "title": "Hot outlet",
+      "scene": "tank-and-tap",
+      "text": "The tap does not draw at random: it takes from the very top, where the water is hottest. That is why you can shower from a tank half cold. A mixed tank, by contrast, loses twelve per cent of its year at Athens, in our sums. Drawing from the top, filling at the bottom: the same choice, at every move."
+    },
+    {
+      "id": "part-trio-valve",
+      "scope": "part:trio-valve",
+      "title": "Isolating and non-return valve",
+      "scene": "tank-and-tap",
+      "text": "On the cold water’s path, the maker sets the order: an isolating valve, this non-return valve, then the relief valve. It lets water through one way only: when the tank expands, lukewarm water does not reach your neighbours’. Nothing to do with the optional valve on the closed circuit. This one is on the drinking water, at least a metre from the tank."
+    },
+    {
+      "id": "part-cold-relief-valve",
+      "scope": "part:cold-relief-valve",
+      "title": "Cold relief valve",
+      "scene": "tank-and-tap",
+      "text": "Hot water takes more room, and water does not compress. With the non-return valve in place, it needs a way out. This valve opens at eight hundred and fifty kilopascals, ahead of the tank’s. The manual warns: water will run during heating. So it is no leak. The scenario A holiday week counts those litres one by one."
+    },
+    {
+      "id": "part-tempering-valve",
+      "scope": "part:tempering-valve",
+      "title": "Tempering valve",
+      "scene": "tank-and-tap",
+      "text": "The line between a scald and legionella. At sixty degrees, an adult burns in two to five seconds, a child about four times faster. In summer this tank runs at sixty or seventy degrees, and may reach ninety-five. So the maker asks for a tempering valve in every case, rated for ninety-nine degrees. It mixes in cold water, and lets only fifty degrees through. Lower the thermostat? That would give room back to the bacteria. And before stepping in, always test the water with a hand."
+    },
+    {
+      "id": "part-shower-head",
+      "scope": "part:shower-head",
+      "title": "The shower",
+      "scene": "tank-and-tap",
+      "text": "The whole story ends here, with water at forty degrees on somebody’s back. A French survey finds fifty-six litres at forty degrees, per person per day, give or take twenty-three. For four people, about a hundred and ninety litres at forty-five degrees. These drops follow the flow; the steam is mere decoration. And our blue drop? It will never have seen this shower. Tomorrow morning, it starts again."
+    }
+  ]
+}

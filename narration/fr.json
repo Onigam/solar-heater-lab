@@ -1,0 +1,407 @@
+{
+  "lang": "fr",
+  "voiceLabel": {
+    "fr": "Voix de synthèse",
+    "en": "Synthetic voice"
+  },
+  "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.35,
+    "speed": 0.95
+  },
+  "segments": [
+    {
+      "id": "intro",
+      "scope": "intro",
+      "title": "Présentation du labo",
+      "scene": "house",
+      "text": "[[home]] Imaginez un toit de tuiles, un matin d’été. Ni moteur, ni sonde, ni bouton… et pourtant, ce soir, l’eau sera chaude. Comment la chaleur monte-t-elle là-haut, toute seule ? [[frame:roof-unit]] Suivons une petite goutte bleue. Ce n’est pas l’eau que vous buvez : c’est un mélange d’eau et de glycol, dans son propre circuit. [[scene:collector]] Au petit jour, elle dort dans un tube, sous un verre, contre une plaque noire. [[frame:absorber-plate]] Le soleil chauffe la plaque, la plaque réchauffe la goutte, et la voici un peu plus légère. Si peu ! [[scene:rig]] [[flows:on]] Vers midi, notre modèle trouve une poussée de six virgule six millimètres d’eau, pas davantage. [[frame:hot-pipe]] C’est assez : notre goutte grimpe vers le ballon, sans moteur et sans commande. [[flows:off]] [[scene:tank-and-tap]] La voici dans une fente, le long de la cuve. [[frame:mantle-jacket]] Elle donne sa chaleur à travers l’acier, sans jamais toucher l’eau, s’alourdit, puis redescend. [[frame:water-column]] L’eau chaude, elle, reste en haut, au-dessus du froid. Mais la nuit ? [[scene:rig]] Le ciel clair refroidit le capteur, et notre goutte voudrait repartir à l’envers, avec la chaleur du ballon. Cela dépend alors de la hauteur de ce ballon : ici, vous pourrez le faire monter et descendre. [[scene:tank-and-tap]] Le matin venu, quelqu’un ouvre un robinet, [[frame:shower-head]] et voilà une eau à quarante degrés sur un dos. Voilà toute l’histoire : un soleil, une goutte, une paroi d’acier… et une douche sans pompe. [[scene:house]] Quelques repères : quatre vues, la maison, la machine, le capteur, le ballon et sa douche. Cliquez sur une pièce : sa fiche s’ouvre, et vous pouvez écouter son histoire. [[mode:assembly]] Un guide raconte l’usine, puis la montée sur le toit. [[mode:install]] Un autre relie la machine à la maison. [[mode:sim]] La simulation change le lieu, l’heure, la hauteur du ballon, et lance douze scénarios. Ses autres points de départ ne changent que les chiffres : la vue en trois dimensions dessine toujours cette machine-ci. [[mode:lessons]] Six leçons, avec des quiz, expliquent la physique. [[mode:plans]] Dix planches réunissent les dessins. [[mode:explore]] Une dernière chose : ce laboratoire est une reconstitution pédagogique. Il suit une vraie machine, d’après les documents de son constructeur. Ce n’est ni un plan à suivre, ni un produit de ce constructeur. [[scene:house]] Les chiffres viennent de ces documents, de certificats et d’essais publiés. Ou de notre simulation et de nos estimations : des calculs, pas des mesures. Le panneau Sources dit qui a dit quoi. [[select:none]] Allez, le soleil se lève, et notre goutte n’attend que vous !"
+    },
+    {
+      "id": "scene-house",
+      "scope": "scene:house",
+      "title": "Une maison, un toit, aucune pompe",
+      "scene": "house",
+      "text": "[[home]] Un village, une maison de pierre, et sur son toit, une machine sans pompe. [[frame:roof-unit]] Deux capteurs et, juste au-dessus, un ballon couché. [[frame:shade-tree]] L’olivier rappelle la première règle : aucune ombre, de toute l’année. [[frame:roof-structure]] Tranchée le long de la machine, la maison montre ses chevrons. [[frame:load-bearing-wall]] Sous la ligne du ballon, un mur porteur descend jusqu’au sol. [[frame:meter-box]] Ce tableau ne sert qu’à l’appoint : le seul courant de l’affaire. [[home]] [[flows:on]] Flux dessine le chemin de l’eau, de la rue au toit, puis à la salle de bains. Ici, ces points ne bougent que quand un robinet tire. [[flows:off]] Quelle part de votre eau chaude viendra du soleil ? À deux cents litres par jour, les résultats publiés vont de quarante-cinq pour cent à Stockholm à quatre-vingt-un à Athènes. C’est un essai plus un calcul, pas une année mesurée sur un toit."
+    },
+    {
+      "id": "scene-rig",
+      "scope": "scene:rig",
+      "title": "La machine, et le ballon qui bouge",
+      "scene": "rig",
+      "text": "[[home]] La même machine, seule, sur un morceau de toit. Ce support-là n’a pas de source. [[frame:collector-link]] [[xray:on]] Deux capteurs, une seule rangée de soixante-dix tubes. [[xray:off]] [[frame:collector-rail]] Tout en bas, le rail, d’où tout part. [[frame:hot-pipe]] À gauche, le tuyau chaud, où notre goutte monte. [[frame:cold-pipe]] À droite, le tuyau froid, où elle redescend. [[frame:tank-strap]] En haut, le ballon, au niveau du haut des capteurs. [[home]] La vraie machine reste à zéro. Le curseur Hauteur du ballon, lui, l’emmène sur un banc d’essai. [[xray:on]] [[flows:on]] Allumons Flux. L’horloge file, au départ, à une heure par seconde ; ces points, non. Le jour, ils courent à leur vraie vitesse, environ douze centimètres par seconde à midi, dans les tuyaux. La nuit, ils restent visibles, et vont alors plus vite que la vérité. [[flows:off]] [[xray:off]] Lancez le scénario Un ballon trop bas : au soir, ils repartent à l’envers ! Soixante et un centimètres sous le haut des capteurs : la pire place de notre modèle. Ces chiffres-là viennent d’un modèle de mil neuf cent quatre-vingt-un, au ballon debout, ou du nôtre. Nous n’avons trouvé aucune mesure d’un capteur plan avec son ballon plus bas."
+    },
+    {
+      "id": "scene-collector",
+      "scope": "scene:collector",
+      "title": "Là où le soleil devient chaleur",
+      "scene": "collector",
+      "text": "[[home]] Un seul capteur, sur un chevalet, à la pente du toit. Ce monde s’ouvre déjà coupé : une marche, à son coin, montre les couches. [[frame:glass-seal]] Le verre d’abord, tenu par son joint souple. [[frame:absorber-plate]] Dessous, la plaque noire, où la lumière devient chaleur. [[frame:riser-tube]] Puis les tubes, où notre goutte attend son tour. [[frame:back-insulation]] Derrière eux, une laine ferme le passage vers l’arrière. [[frame:upper-header]] Et tout en haut, le collecteur, où tout se rassemble. [[home]] [[cutaway:on]] L’outil Coupe tranche maintenant en travers des tubes. Ils sont peints en fausses couleurs : un tube à soixante degrés ne devient pas orange. Leur échelle, en degrés, est juste à côté. [[cutaway:off]] [[explode:0.5]] Écartons les couches, dans l’ordre de leur pose… [[explode:0]] Et la nuit ? Le papier passe au bleu, la plaque descend sous l’air, et c’est le ciel qui la tire vers le bas."
+    },
+    {
+      "id": "scene-tank-and-tap",
+      "scope": "scene:tank-and-tap",
+      "title": "Le ballon, puis le chemin jusqu’à la douche",
+      "scene": "tank-and-tap",
+      "text": "[[home]] De gauche à droite, dans l’ordre de la chaleur. Ce monde aussi s’ouvre coupé, le long de l’axe du ballon. [[frame:water-column]] Voici la colonne d’eau, en dix couches, colorées en direct. [[frame:booster-element]] À mi-hauteur, la résistance, pour les jours gris. [[frame:trio-valve,cold-relief-valve]] Sur le mur, le clapet et la soupape d’eau froide. [[frame:tempering-valve]] Puis le mitigeur, entre la brûlure et la légionelle. [[frame:shower-head]] Et enfin la douche, pour qui tout existe. [[home]] Les deux consoles qui portent le ballon sont un support de ce monde, sans source. [[flows:on]] Flux montre deux chemins : le circuit de notre goutte, et l’eau que l’on boit, qui ne bouge que quand un robinet tire. [[flows:off]] [[frame:end-cap]] Regardons maintenant le ballon par son bout. [[cutaway:on]] L’outil Coupe le tranche en travers : voici les dix couches, en tranches de cercle. [[cutaway:off]] Puis lancez le scénario Le matin de la famille : à la troisième douche, le mitigeur disparaît. Regardez le chiffre du robinet."
+    },
+    {
+      "id": "part-roof-unit",
+      "scope": "part:roof-unit",
+      "title": "Le chauffe-eau sur le toit",
+      "scene": "house",
+      "text": "Toute la machine tient sur un seul cadre : deux capteurs, un ballon couché juste au-dessus, et aucune pompe. Seule la résistance d’appoint demande du courant. Rien ne tourne, donc rien ne s’use vite. Mais rien ne sonne non plus : un jour, l’eau reste tiède, sans alarme. Comparez donc une journée claire à celles d’avant."
+    },
+    {
+      "id": "part-roof-structure",
+      "scope": "part:roof-structure",
+      "title": "Chevrons et liteaux",
+      "scene": "house",
+      "text": "Cinq cent quinze kilos en charge, et presque tout ce poids se tient en haut. La moyenne a l’air sage : environ quatre-vingt-cinq kilos par mètre carré. Mais le ballon en pèse quatre cent dix-sept, sur une seule ligne. C’est cette ligne qui décide. Prévoyez un engin de levage, et l’avis d’un charpentier ou d’un ingénieur de structure, avant tout achat."
+    },
+    {
+      "id": "part-roof-tiles",
+      "scope": "part:roof-tiles",
+      "title": "Tuiles",
+      "scene": "house",
+      "text": "La machine ne remplace pas la couverture : elle se pose dessus. On soulève les tuiles, les feuillards glissent dessous jusqu’aux chevrons, et les tuiles reprennent leur place. Pas de toit à refaire, tant que la charpente suit. Et là-haut, on marche sur les chevrons, jamais au milieu d’une tuile."
+    },
+    {
+      "id": "part-roof-penetration",
+      "scope": "part:roof-penetration",
+      "title": "Traversée de toit",
+      "scene": "house",
+      "text": "Le seul trou de toute l’affaire ! Eau froide, eau chaude, câble de l’appoint, évacuation : tout passe ici. Une seule étanchéité à surveiller, au lieu de quatre. Le constructeur la veut derrière le ballon, au point haut d’une tuile. Le point haut, c’est son dos : la pluie, elle, court dans le creux."
+    },
+    {
+      "id": "part-load-bearing-wall",
+      "scope": "part:load-bearing-wall",
+      "title": "Mur porteur",
+      "scene": "house",
+      "text": "Comment quatre cent dix-sept kilos descendent-ils jusqu’au sol ? Par le plus court chemin, s’il existe. Un mur sous le ballon raccourcit ce chemin, au lieu de muscler les chevrons. Le constructeur dit seulement que c’est souhaitable. Et ce mur-ci est un choix de décor : toutes les maisons ne l’ont pas au bon endroit."
+    },
+    {
+      "id": "part-cold-main",
+      "scope": "part:cold-main",
+      "title": "Arrivée d’eau froide",
+      "scene": "house",
+      "text": "[[xray:on]] Pas de pompe de ce côté non plus ! Le réseau remplit le ballon par le bas, chaque fois qu’un robinet tire en haut. La même pression pousse l’eau chaude jusqu’aux robinets : elle sert deux fois. [[xray:off]] D’où une cuve d’acier épais. Au ballon, six cent quatre-vingts kilopascals au plus avec une soupape d’eau froide, huit cents sans elle."
+    },
+    {
+      "id": "part-hot-line",
+      "scope": "part:hot-line",
+      "title": "Conduite d’eau chaude",
+      "scene": "house",
+      "text": "[[xray:on]] [[flows:on]] Du toit aux robinets, à travers toute la maison. Elle voit l’eau telle qu’elle sort du ballon. L’été, soixante à soixante-dix degrés, et parfois jusqu’à quatre-vingt-quinze, dit le manuel. Ses points ne bougent que quand un robinet tire. [[flows:off]] [[xray:off]] Le reste du temps, elle refroidit : plus elle est longue, plus il reste d’eau chaude à y perdre."
+    },
+    {
+      "id": "part-drain-outlet",
+      "scope": "part:drain-outlet",
+      "title": "Évacuation des soupapes",
+      "scene": "house",
+      "text": "[[xray:on]] Une goutte ici, pendant que le ballon chauffe ? C’est normal ! De dix à quatre-vingts degrés, environ huit virgule six litres doivent sortir. [[xray:off]] Chaque évacuation descend seule, sans contre-pente, et finit à l’air libre, bien en vue. Car personne ne remarque une soupape qui ne s’ouvre plus, sauf celui qui a appris à attendre sa goutte."
+    },
+    {
+      "id": "part-meter-box",
+      "scope": "part:meter-box",
+      "title": "Tableau et interrupteur",
+      "scene": "house",
+      "text": "Le seul courant de toute la machine, et il ne sert qu’à l’appoint. Tout le choix tient dans cette horloge. Laissée allumée en permanence, la résistance chauffe l’eau que le soleil aurait chauffée. Réglée sur horloge, elle chauffe ici de seize à dix-neuf heures : une hypothèse. Le raccordement revient à un électricien qualifié : c’est du courant du réseau, sur un toit, à côté de l’eau."
+    },
+    {
+      "id": "part-shade-tree",
+      "scope": "part:shade-tree",
+      "title": "L’olivier",
+      "scene": "house",
+      "text": "Un olivier bien innocent… tant que son ombre manque les capteurs. Le constructeur ne veut aucune ombre, toute l’année : un arbre pousse, et le soleil d’hiver passe bas. Notre modèle, lui, ne connaît aucune ombre. Un détail amusant : cette machine vient d’Australie, où son nord est notre sud. Seule compte la direction du soleil de midi."
+    },
+    {
+      "id": "part-collector-left",
+      "scope": "part:collector-left",
+      "title": "Capteur de gauche",
+      "scene": "rig",
+      "text": "Une vitre sombre dans un cadre pâle : c’est par le coin haut de ce capteur que notre goutte s’en va. Un laboratoire indépendant lui donne près de soixante-dix-huit pour cent de rendement, à température égale avec l’air. Ensuite, chaque degré de plus coûte. Le bouton de cette fiche l’ouvre en coupe, tubes en couleur."
+    },
+    {
+      "id": "part-collector-right",
+      "scope": "part:collector-right",
+      "title": "Capteur de droite",
+      "scene": "rig",
+      "text": "Son voisin, en miroir. Notre goutte entre par son coin bas, et traverse la rangée en diagonale. Chaque tube a ainsi à peu près le même chemin, sans vanne ni pompe. Sa fiche d’essai dit tout. Une même journée donne six kilowattheures à cinq degrés au-dessus de l’air, quatre à vingt, zéro virgule sept à cinquante. Tout l’art de cette machine : lui rendre du froid !"
+    },
+    {
+      "id": "part-collector-link",
+      "scope": "part:collector-link",
+      "title": "Raccord entre capteurs",
+      "scene": "rig",
+      "text": "[[xray:on]] Les capteurs s’estompent, et ce raccord reste. Pour notre goutte, il n’y a plus deux capteurs : un raccord en haut, un autre en bas, et voilà une seule rangée. [[xray:off]] Rien de plus discret. C’est le seul joint entre deux pièces qui se dilatent chacune de leur côté, une fois par jour. Une trace bleue et sèche ici, et le circuit perd peut-être son niveau depuis des mois."
+    },
+    {
+      "id": "part-storage-tank",
+      "scope": "part:storage-tank",
+      "title": "Le ballon",
+      "scene": "rig",
+      "text": "De dehors, un long cylindre d’aluminium aux flasques noirs. Dedans, trois cents litres d’eau potable, quatre cent dix-sept kilos en charge. Un guide officiel juge ces ballons couchés bien moins performants : trop peu de hauteur pour le chaud et le froid. Mais debout sur un toit, il serait haut, lourd, et plein de vent !"
+    },
+    {
+      "id": "part-hot-pipe",
+      "scope": "part:hot-pipe",
+      "title": "Tuyau chaud",
+      "scene": "rig",
+      "text": "[[flows:on]] Un tout petit tuyau, et rien pour y pousser notre goutte, sinon une différence de poids. Vers midi, par ciel clair, notre modèle trouve une poussée de six virgule six millimètres d’eau. À peu près l’épaisseur d’un crayon. Et cela fait circuler cent trente-deux litres par heure ! Par un jour clair de juin, à l’heure solaire, la plaque gagne dès quatre heures cinquante. Mais la goutte ne part que vers sept heures dix : il faut d’abord remonter du froid de la nuit. [[flows:off]] La nuit, justement, un filet y coule à l’envers : un litre et demi par heure, en moyenne de minuit à l’aube."
+    },
+    {
+      "id": "part-cold-pipe",
+      "scope": "part:cold-pipe",
+      "title": "Tuyau froid",
+      "scene": "rig",
+      "text": "[[flows:on]] Le long tuyau de droite : la moitié lourde de la boucle. Refroidie, plus dense, notre goutte y redescend, et c’est ce poids-là qui fait tout tourner. [[flows:off]] Au débit de midi, les dix-neuf litres du circuit font le tour en neuf minutes environ. Pas de vanne ajoutée sans raison, donc : chaque rétrécissement mange une poussée déjà minuscule."
+    },
+    {
+      "id": "part-collector-rail",
+      "scope": "part:collector-rail",
+      "title": "Rail de pied",
+      "scene": "rig",
+      "text": "Tout part de lui, et il est posé de travers, exprès ! Le constructeur le relève de douze millimètres par capteur, d’un côté. Le manuel ne dit pas pourquoi, dans ce que nous avons lu. Notre lecture : les collecteurs montent alors vers un seul coin, et l’air n’a qu’une direction où aller. On le pose avant tout le reste : toutes les mesures partent de lui."
+    },
+    {
+      "id": "part-collector-strap",
+      "scope": "part:collector-strap",
+      "title": "Feuillard de capteur",
+      "scene": "rig",
+      "text": "Quarante-trois kilos, ce n’est rien pour un chevron. Mais un vent de face soulève un capteur comme une aile ! Ces bandes d’acier s’accrochent au rail, passent sous les tuiles, et se fixent là où il y a du bois. Une fixation à la tuile ne tiendrait rien. Quatre sont dessinées ici, à une taille estimée."
+    },
+    {
+      "id": "part-tank-spacer",
+      "scope": "part:tank-spacer",
+      "title": "Cale capteur-ballon",
+      "scene": "rig",
+      "text": "[[xray:on]] Deux cales de rien du tout, et toute la question de la nuit tient là. Le ballon s’y arrête, son bas au niveau du haut des capteurs, à cinq centimètres près, d’après notre lecture des plans. [[xray:off]] Pour certaines sources, c’est la limite entre une nuit tranquille et une nuit coûteuse. D’autres ne s’accordent pas sur la bonne valeur."
+    },
+    {
+      "id": "part-tank-strap",
+      "scope": "part:tank-strap",
+      "title": "Feuillard du ballon",
+      "scene": "rig",
+      "text": "[[xray:on]] Quatre cent dix-sept kilos pendent vers le bas de la pente, et le vent les prend de biais sur deux mètres trente et un. Ce feuillard en répond, par-dessus le ballon. [[xray:off]] Il ne fait presque rien, puis beaucoup, en quelques heures de tempête. Sa taille et sa place sont estimées. Une bande marquée se change."
+    },
+    {
+      "id": "part-fill-port",
+      "scope": "part:fill-port",
+      "title": "Remplissage",
+      "scene": "rig",
+      "text": "C’est par ce coin que notre goutte entre dans l’histoire. Dix-neuf litres de circuit, dont une bouteille de quatre litres et demi de glycol alimentaire bleu. Cela fait environ vingt-quatre pour cent du mélange, qui gèle à moins neuf virgule deux degrés. Le manuel réserve ce geste à des installateurs formés, ballon déjà plein et capteurs couverts."
+    },
+    {
+      "id": "part-top-plug",
+      "scope": "part:top-plug",
+      "title": "Bouchon haut",
+      "scene": "rig",
+      "text": "À l’autre bout de la diagonale, un simple bouchon de laiton. Au remplissage, l’air s’en va par là, jusqu’à ce que le mélange arrive. Rôle minuscule et décisif : une bulle restée au point haut peut bloquer une circulation que presque rien ne pousse. Le symptôme ? Un capteur brûlant et un ballon froid, à midi."
+    },
+    {
+      "id": "part-overheat-valve",
+      "scope": "part:overheat-valve",
+      "title": "Vanne anti-surchauffe",
+      "scene": "rig",
+      "text": "Une famille part une semaine en juillet : plus personne ne tire d’eau, et le ballon monte. Cette vanne, une option, ferme alors la boucle. À Athènes, notre modèle monte à quatre-vingt-quatorze degrés en haut du ballon sans elle, quatre-vingt-cinq avec… mais cent seize au capteur, resté seul au soleil. Ni sa consigne ni sa place ne sont publiées : ici, deux estimations."
+    },
+    {
+      "id": "part-overflow-reservoir",
+      "scope": "part:overflow-reservoir",
+      "title": "Vase du circuit",
+      "scene": "rig",
+      "text": "Un circuit fermé plein de liquide chaud doit bien mettre sa dilatation quelque part. Le constructeur ne publie ni le volume de ce vase, ni sa fixation. Ce petit cylindre est donc notre estimation, et notre modèle ne le compte pas. Si le constructeur répondait à un message, c’est cette fiche qui changerait le plus !"
+    },
+    {
+      "id": "part-test-stand",
+      "scope": "part:test-stand",
+      "title": "Banc d’essai",
+      "scene": "rig",
+      "text": "Il n’appartient pas à la machine : il pose une question. Et si le ballon était plus bas ? Prenons une nuit claire de juin. Soixante et un centimètres au-dessus de zéro, notre modèle perd un virgule un pour cent de la chaleur du jour. À trente centimètres dessous : treize virgule sept. Le pire : quinze virgule trois, à soixante et un centimètres dessous. Plus bas, le jour s’arrête, et il ne reste plus rien à voler ! Tout cela repose sur un calcul du ciel, sans rosée : sans lui, ces pertes tombent au quart environ. Et sous zéro, le dessin fait un détour de tuyau que le modèle ne compte pas."
+    },
+    {
+      "id": "part-glass-cover",
+      "scope": "part:glass-cover",
+      "title": "Vitrage",
+      "scene": "collector",
+      "text": "Trois virgule deux millimètres de verre trempé, sans le reflet vert du verre courant. Le soleil le traverse, et la chaleur que renvoie la plaque s’y arrête en bonne partie. Mais la nuit, il change de camp ! Il rayonne vers le ciel clair, et tire la plaque vers le bas."
+    },
+    {
+      "id": "part-glass-seal",
+      "scope": "part:glass-seal",
+      "title": "Joint de vitrage",
+      "scene": "collector",
+      "text": "Voici une pièce sans chiffre : personne ne publie sa matière, ni sa forme. Ce joint souple doit serrer un verre fragile, et laisser le caisson se dilater. Son travail se voit par son absence : qu’il fuie, et le vent entre sous le verre. La buée est alors le premier signe."
+    },
+    {
+      "id": "part-air-gap",
+      "scope": "part:air-gap",
+      "title": "Lame d’air",
+      "scene": "collector",
+      "text": "Cette pièce n’en est pas une ! L’air n’a pas de surface : ce labo lui dessine une plaque presque invisible, juste pour la nommer et voir son contour. Il n’y a rien d’autre à montrer. Pourtant, tant qu’il reste immobile, cet air conduit très mal la chaleur : c’est l’isolant côté soleil. Et c’est la seule fiche sans pièce à commander."
+    },
+    {
+      "id": "part-absorber-plate",
+      "scope": "part:absorber-plate",
+      "title": "Absorbeur",
+      "scene": "collector",
+      "text": "La seule transformation de toute la machine : à la surface de cette tôle, le soleil devient chaleur. Elle est peinte en noir, sans revêtement sélectif. Bon choix pour un fluide peu chaud. Sous huit cents watts par mètre carré, le noir gagne jusqu’à vingt-cinq degrés au-dessus de l’air. Mais la nuit, elle rayonne. Par nuit claire, à dix degrés d’air, le calcul la place cinq virgule quatre degrés plus bas."
+    },
+    {
+      "id": "part-riser-tube",
+      "scope": "part:riser-tube",
+      "title": "Tube montant",
+      "scene": "collector",
+      "text": "[[flows:on]] La chambre de notre goutte : un tube d’acier parmi soixante-dix. C’est ici qu’elle chauffe, et que la montée commence. Vers midi, elle avance à environ un virgule quatre centimètre par seconde : le débit se partage entre tous. [[flows:off]] Personne ne publie leur diamètre : sept millimètres, c’est une estimation. Et plus fin ? À trois millimètres, notre modèle voit le débit de midi tomber à cinquante-trois litres par heure. La journée, elle, ne perd que trois pour cent, et l’année huit. Mais un modèle ne dit pas si un tel circuit démarre : rien à copier ici."
+    },
+    {
+      "id": "part-upper-header",
+      "scope": "part:upper-header",
+      "title": "Collecteur haut",
+      "scene": "collector",
+      "text": "Tout en haut, notre goutte retrouve toutes les autres : ce tube reçoit le fluide des trente-cinq tubes du capteur. C’est aussi de lui que tout se mesure : un ballon à zéro a son bas juste à ce niveau. Son diamètre vient d’un petit calcul. Trois virgule huit litres par capteur, moins ce que tiennent les tubes : il reste vingt-sept millimètres."
+    },
+    {
+      "id": "part-lower-header",
+      "scope": "part:lower-header",
+      "title": "Collecteur bas",
+      "scene": "collector",
+      "text": "[[xray:on]] Ici, c’est froid par construction : il reçoit le bas du ballon, et partage le fluide entre tous les tubes. [[xray:off]] La nuit, c’est par là que sort le filet à l’envers, plus froid que l’air. Par nuit claire, notre modèle y atteint le point de gel dès cinq virgule six degrés d’air avec de l’eau seule. Avec notre mélange, à moins trois virgule deux. Ce sont les premiers cristaux : il ne dit pas si un tube éclate."
+    },
+    {
+      "id": "part-back-insulation",
+      "scope": "part:back-insulation",
+      "title": "Isolant arrière",
+      "scene": "collector",
+      "text": "[[explode:0.5]] Écartons les couches : la voici, la plus épaisse du capteur, entre le caisson et les tubes. [[explode:0]] Trente-huit millimètres de laine de polyester, qui ferment l’arrière à la chaleur, et posent les tubes à leur niveau. Mais si l’eau entre, une laine humide isole mal, et sèche lentement sous le verre."
+    },
+    {
+      "id": "part-collector-tray",
+      "scope": "part:collector-tray",
+      "title": "Caisson",
+      "scene": "collector",
+      "text": "Zéro virgule sept millimètre d’aluminium : ce caisson tient par sa forme, pas par son épaisseur. Une tôle si fine suffit, car le fluide ne s’y appuie jamais : la pression reste dans les tubes. C’est lui qui se pose sur le rail et prend les feuillards. Quarante-trois kilos en tout, et on le porte à deux, jamais par le verre."
+    },
+    {
+      "id": "part-inner-vessel",
+      "scope": "part:inner-vessel",
+      "title": "Cuve émaillée",
+      "scene": "tank-and-tap",
+      "text": "[[xray:on]] La seule pièce qui touche l’eau de la douche. Deux virgule cinq millimètres d’acier, deux couches d’émail, et trois cents litres à la pression du réseau. [[xray:off]] Une curiosité du manuel : laissée sans tirage deux semaines ou plus, elle peut amasser de l’hydrogène inflammable. On fait alors couler un robinet d’évier, sans flamme à côté. Et si elle perce, elle ne se répare pas."
+    },
+    {
+      "id": "part-mantle-jacket",
+      "scope": "part:mantle-jacket",
+      "title": "Double enveloppe",
+      "scene": "tank-and-tap",
+      "text": "[[xray:on]] [[flows:on]] Le grand moment de notre goutte. Elle monte dans cette fente, le long de la cuve, y laisse sa chaleur à travers l’acier, puis redescend. [[flows:off]] [[xray:off]] Environ dix litres d’un côté, trois cents de l’autre, et les deux liquides ne se touchent jamais. Et si la paroi cédait ? C’est à ça que sert le bleu : de l’eau bleue au robinet veut dire une fuite. Alors on coupe tout, et on appelle l’installateur."
+    },
+    {
+      "id": "part-water-column",
+      "scope": "part:water-column",
+      "title": "La colonne d’eau",
+      "scene": "tank-and-tap",
+      "text": "Le cœur de ce labo ! L’eau chaude est plus légère : elle reste au-dessus, sans aucune paroi pour l’y tenir. Ces couches sont toute la fortune du ballon : le froid retourne au capteur, le chaud sort par le haut. Le soir d’un jour clair de juin, à Athènes, notre modèle trouve soixante-douze degrés et demi en haut. En bas, près de quarante-sept. À l’aube, le haut est encore à soixante-huit. Dans le scénario Le matin de la famille, la couche chaude descend, douche après douche."
+    },
+    {
+      "id": "part-tank-foam",
+      "scope": "part:tank-foam",
+      "title": "Mousse isolante",
+      "scene": "tank-and-tap",
+      "text": "[[xray:on]] Un manteau bien mince : environ vingt-cinq millimètres de polyuréthane injecté. D’autres machines en ont de trente à cinquante : c’est le prix d’une forme fine sur un toit. [[xray:off]] Par une nuit claire de juin, notre modèle voit partir zéro virgule quatre-vingt-six kilowattheure par cette peau. Par le circuit à l’envers, zéro virgule quarante-cinq de plus. Voilà qui remet le voleur à sa place !"
+    },
+    {
+      "id": "part-outer-case",
+      "scope": "part:outer-case",
+      "title": "Enveloppe aluminium",
+      "scene": "tank-and-tap",
+      "text": "[[xray:on]] Zéro virgule quatre millimètre d’aluminium, c’est très peu. Cette peau n’est là que pour la pluie, le soleil et l’œil. [[xray:off]] Le poids du ballon reste dans l’acier qui tient la pression. Cette tôle ne porte rien : ne vous y appuyez jamais, et refermez une fente sans attendre."
+    },
+    {
+      "id": "part-end-cap",
+      "scope": "part:end-cap",
+      "title": "Flasque",
+      "scene": "tank-and-tap",
+      "text": "[[explode:0.6]] Deux flasques noirs, légèrement bombés, ferment les bouts du cylindre. [[explode:0]] Noirs au soleil, ils chauffent : leur polypropylène est stabilisé. Celui de gauche porte une trappe ovale, par où la résistance sort d’un seul bloc. Et ce plastique coupe un pont thermique : la chaleur de la cuve n’y trouve aucun chemin de métal."
+    },
+    {
+      "id": "part-sacrificial-anode",
+      "scope": "part:sacrificial-anode",
+      "title": "Anode",
+      "scene": "tank-and-tap",
+      "text": "Un héros qui disparaît pour les autres. Aucun émail n’est parfait : il reste de minuscules défauts, où l’eau touche l’acier. Le magnésium, plus prompt à se corroder, prend la corrosion à sa place. Le marché le moins cher de toute la machine. À condition d’y penser : elle ne prévient pas, et le constructeur la fait remplacer à cinq ans."
+    },
+    {
+      "id": "part-booster-element",
+      "scope": "part:booster-element",
+      "title": "Résistance d’appoint",
+      "scene": "tank-and-tap",
+      "text": "Pour les jours gris, une résistance gainée de cuivre… à mi-hauteur, et ce n’est pas un hasard. Elle ne chauffe que les cent cinquante litres du dessus, et laisse au capteur un bas froid où travailler. À trois virgule six kilowatts, pour cinquante degrés à gagner, le constructeur annonce deux heures et demie. Notre modèle met deux virgule huit heures : il ajoute l’acier, la peau et la conduction."
+    },
+    {
+      "id": "part-tank-thermostat",
+      "scope": "part:tank-thermostat",
+      "title": "Thermostat",
+      "scene": "tank-and-tap",
+      "text": "Soixante degrés : un chiffre choisi. Il répond aux légionelles, ces bactéries qui se multiplient de vingt-cinq à quarante-cinq degrés. Le manuel autorise soixante-dix au plus. À quatre-vingt-trois, un second dispositif coupe l’élément si le thermostat a lâché. Ici, il mesure à mi-hauteur : il ne coupe donc pas quand le soleil a seulement rempli le haut."
+    },
+    {
+      "id": "part-tpr-valve",
+      "scope": "part:tpr-valve",
+      "title": "Soupape température-pression",
+      "scene": "tank-and-tap",
+      "text": "Le dernier recours du ballon : elle s’ouvre à quatre-vingt-dix-neuf degrés, ou à mille kilopascals. Dans un essai allemand, sans tirage et au soleil, un ballon comparable a atteint cent neuf degrés. L’eau qui sort ici est donc très chaude : l’évacuation tombe à l’air libre, jamais sur le toit ni dans une gouttière. Et on ne la bouche jamais."
+    },
+    {
+      "id": "part-jacket-relief-valve",
+      "scope": "part:jacket-relief-valve",
+      "title": "Soupape du circuit",
+      "scene": "tank-and-tap",
+      "text": "Deux pressions, deux mondes : l’eau potable à la pression du réseau, le circuit presque sans pression. Cette soupape tient les capteurs à quatre-vingts kilopascals, loin des mille de la cuve. Voilà ce qui autorise des tubes si fins. On ne la retire jamais en service. Et son drain contient du glycol : il ne doit pas rejoindre une cuve d’eau de pluie."
+    },
+    {
+      "id": "part-cold-diffuser",
+      "scope": "part:cold-diffuser",
+      "title": "Diffuseur d’eau froide",
+      "scene": "tank-and-tap",
+      "text": "Quand la douche s’ouvre, autant d’eau froide entre en bas qu’il en sort de chaude en haut. Un jet direct remuerait tout ! D’où ce tube couché au fond, avec son répartiteur. Sur d’autres ballons, des mesures trouvent des couches sur quarante à soixante pour cent du volume. Notre modèle en trouve soixante et un. Sa forme, ici, est estimée."
+    },
+    {
+      "id": "part-hot-outlet",
+      "scope": "part:hot-outlet",
+      "title": "Sortie d’eau chaude",
+      "scene": "tank-and-tap",
+      "text": "Le robinet ne tire pas au hasard : il prend tout en haut, là où l’eau est la plus chaude. Voilà pourquoi on peut prendre une douche à un ballon à moitié froid. Un ballon mélangé, lui, perd douze pour cent de son année à Athènes, dans nos calculs. Prendre en haut, remplir en bas : le même choix, à chaque geste."
+    },
+    {
+      "id": "part-trio-valve",
+      "scope": "part:trio-valve",
+      "title": "Clapet et robinet d’arrêt",
+      "scene": "tank-and-tap",
+      "text": "Sur le chemin de l’eau froide, l’ordre vient du constructeur : une vanne d’arrêt, ce clapet, puis la soupape. Il ne laisse passer l’eau que dans un sens : quand le ballon se dilate, l’eau tiède ne rejoint pas celle de vos voisins. Rien à voir avec le clapet facultatif du circuit fermé : celui-ci est sur l’eau potable, à au moins un mètre du ballon."
+    },
+    {
+      "id": "part-cold-relief-valve",
+      "scope": "part:cold-relief-valve",
+      "title": "Soupape d’eau froide",
+      "scene": "tank-and-tap",
+      "text": "L’eau chaude prend plus de place, et l’eau ne se comprime pas. Le clapet posé, il lui faut une sortie : cette soupape s’ouvre à huit cent cinquante kilopascals, avant celle du ballon. Le manuel prévient : de l’eau coulera pendant le chauffage. Ce n’est donc pas une fuite. Le scénario Une semaine de vacances compte ces litres un à un."
+    },
+    {
+      "id": "part-tempering-valve",
+      "scope": "part:tempering-valve",
+      "title": "Mitigeur thermostatique",
+      "scene": "tank-and-tap",
+      "text": "La ligne entre la brûlure et la légionelle. À soixante degrés, un adulte se brûle en deux à cinq secondes, un enfant environ quatre fois plus vite. L’été, ce ballon tourne à soixante ou soixante-dix degrés, et peut atteindre quatre-vingt-quinze. Le constructeur demande donc un mitigeur dans tous les cas, prévu pour quatre-vingt-dix-neuf degrés. Il mêle de l’eau froide, et ne laisse passer que cinquante degrés. Baisser le thermostat ? Ce serait redonner de la place aux bactéries. Et avant d’entrer, testez toujours l’eau d’une main."
+    },
+    {
+      "id": "part-shower-head",
+      "scope": "part:shower-head",
+      "title": "La douche",
+      "scene": "tank-and-tap",
+      "text": "Toute l’histoire finit ici, par une eau à quarante degrés sur un dos. Une enquête française trouve cinquante-six litres à quarante degrés, par personne et par jour, à vingt-trois litres près. Pour quatre personnes, environ cent quatre-vingt-dix litres à quarante-cinq degrés. Ces gouttes suivent le débit ; la vapeur n’est qu’un décor. Et notre goutte bleue ? Elle n’aura jamais vu cette douche. Demain matin, elle recommence."
+    }
+  ]
+}
