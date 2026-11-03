@@ -47,10 +47,12 @@ function across(d: Drawing): void {
   // dimensions
   v.dim([-0.1, 0], [-0.1, mm(c.depth)], -9, { dir: 'v', label: mmL(c.depth, ''), size: 1.9 });
   v.dim([w, mm(c.trayThickness)], [w, mm(c.blanket)], 6, { dir: 'v', label: mmL(c.blanket, ''), size: 1.9 });
-  v.dim([w, mm(c.glassY)], [w, mm(c.glassY + c.glassThickness)], 6, {
-    dir: 'v',
-    label: mmL(c.glassThickness, ''),
+  // the glass is too thin for a label between its arrows: it goes beside them
+  v.dim([w, mm(c.glassY)], [w, mm(c.glassY + c.glassThickness)], 6, { dir: 'v', label: '', size: 1.9 });
+  v.text([w + 8, mm(c.glassY + c.glassThickness / 2)], mmL(c.glassThickness, ''), {
     size: 1.9,
+    mono: true,
+    baseline: 'middle',
   });
   v.dim([mm(c.frameWidth + 0.5 * c.riserPitch), plate + 3], [mm(c.frameWidth + 1.5 * c.riserPitch), plate + 3], -8, {
     dir: 'h',
@@ -74,7 +76,7 @@ function across(d: Drawing): void {
   v.leader([mm(c.frameWidth + 3.2 * c.riserPitch), 0.3], 50, 2, cat(l('caisson ', 'tray '), mmL(c.trayThickness, '')), {
     size: 1.8,
   });
-  v.leader([6, mm(c.glassY)], -2, -6, l('joint', 'seal'), { size: 1.8 });
+  v.leader([6, mm(c.glassY)], 6, -9, l('joint', 'seal'), { size: 1.8 });
 }
 
 function along(d: Drawing): void {
@@ -148,7 +150,7 @@ function chart(d: Drawing, x: number, y: number, w: number, h: number): void {
     { w: W.thick, color: COLORS.copper },
   );
   p.text([X(33), Y(0.74)], l('noir, ce capteur', 'black, this collector'), { size: 1.8, weight: 'bold' });
-  p.text([X(48), Y(0.47)], l('sélectif, le même constructeur', 'selective, the same maker'), {
+  p.text([X(61), Y(0.5)], l('sélectif, le même constructeur', 'selective, the same maker'), {
     size: 1.8,
     color: COLORS.copper,
     weight: 'bold',
@@ -160,7 +162,13 @@ function chart(d: Drawing, x: number, y: number, w: number, h: number): void {
     weight: 'bold',
   });
   p.line([X(25), y], [X(25), y + h], { w: W.thin, dash: 'hidden', color: COLORS.red });
-  p.text([X(25) + 1, y + 2.5], fig('crossK'), { size: 1.9, color: COLORS.red, baseline: 'middle', weight: 'bold' });
+  p.text([X(25) - 1, y + 2.5], fig('crossK'), {
+    size: 1.9,
+    color: COLORS.red,
+    anchor: 'end',
+    baseline: 'middle',
+    weight: 'bold',
+  });
 }
 
 export const collectorSheet: DrawingSheet = {

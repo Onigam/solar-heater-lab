@@ -142,8 +142,8 @@ export const heightsSheet: DrawingSheet = {
       y,
       186,
       lf(
-        'Colonne « 1981 » : la part perdue selon le seul modèle publié qui balaie cette hauteur, lue à l’œil sur sa figure, pour un ballon debout de 1,52 m et sans ciel de nuit : c’est un autre calcul, sur une autre machine. Le modèle de ce lab passe 5 % vers y = 0 et 10 % vers {y10pct}. Sans son terme de ciel de nuit, il trouverait {noSky0} à zéro et {noSkyM03} à −0,30 m : la vérité est entre les deux, et personne n’a mesuré un capteur plan sous cette ligne.',
-        'The “1981” column: the share lost according to the only published model that sweeps this height, read by eye from its figure, for an upright tank 1.52 m tall and with no night sky: another calculation, on another machine. This lab’s model passes 5% near y = 0 and 10% near {y10pct}. Without its night-sky term, it would find {noSky0} at zero and {noSkyM03} at −0.30 m: the truth lies between, and nobody has measured a flat collector below this line.',
+        'Colonne « Nuit » : l’écoulement en moyenne, de minuit à l’aube. Colonne « 1981 » : la part perdue selon le seul modèle trouvé qui balaie cette hauteur, lue à l’œil sur sa figure, pour un ballon debout de 1,52 m et sans ciel de nuit : c’est un autre calcul, sur une autre machine. Le modèle de ce lab passe 5 % vers y = 0 et 10 % vers {y10pct}. Sans son terme de ciel de nuit, il trouverait {noSky0} à zéro et {noSkyM03} à −0,30 m : la vérité est entre les deux, et nous n’avons trouvé aucune mesure d’un capteur plan sous cette ligne.',
+        'The “Night” column: the flow as a mean, from midnight to dawn. The “1981” column: the share lost according to the only model we found that sweeps this height, read by eye from its figure, for an upright tank 1.52 m tall and with no night sky: another calculation, on another machine. This lab’s model passes 5% near y = 0 and 10% near {y10pct}. Without its night-sky term, it would find {noSky0} at zero and {noSkyM03} at −0.30 m: the truth lies between, and we found no measurement of a flat collector below this line.',
       ),
     );
     y = note(

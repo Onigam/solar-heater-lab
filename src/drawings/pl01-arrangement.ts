@@ -90,10 +90,16 @@ export function drawPlan(d: Drawing, x: number, y: number, scale: number): void 
     label: mmL(COLLECTOR.width, ''),
     size: 1.8,
   });
+  // the gap's label beside its arrows: the centre line runs through the gap itself
   v.dim([mm(COLLECTOR_X.left + W2), mm(L)], [mm(COLLECTOR_X.right - W2), mm(L)], -3, {
     dir: 'h',
-    label: mmL(BANK.gap, '*'),
+    label: '',
     size: 1.7,
+  });
+  v.text([mm(COLLECTOR_X.right - W2 + 0.04), mm(L + 0.07)], mmL(BANK.gap, '*'), {
+    size: 1.7,
+    mono: true,
+    baseline: 'middle',
   });
   v.dim([mm(-TANK.caseLength / 2), mm(cs + TANK.caseR)], [mm(TANK.caseLength / 2), mm(cs + TANK.caseR)], -5, {
     dir: 'h',
@@ -105,7 +111,8 @@ export function drawPlan(d: Drawing, x: number, y: number, scale: number): void 
   v.leader([mm(-BANK_WIDTH / 2 + 0.03), mm(COLLECTOR.headerInset)], -12, 8, l('Remplissage', 'Fill'), { size: 1.7 });
   v.leader([mm(BANK_WIDTH / 2 - 0.03), mm(L - COLLECTOR.headerInset)], 14, -3, l('Bouchon', 'Plug'), { size: 1.7 });
   v.leader([mm(PIPE.hotTurnX), mm(L + 0.2)], -4, -10, l('Tuyau chaud', 'Hot pipe'), { size: 1.7 });
-  v.leader([mm(PIPE.coldRunX), mm(0.9)], 14, 0, l('Tuyau froid', 'Cold pipe'), { size: 1.7 });
+  // from the pipe's top end, into the free space left of the 2.49 m line
+  v.leader([mm(PIPE.coldTurnX), mm(cs - 0.1)], 0, -6, l('Tuyau froid', 'Cold pipe'), { size: 1.7 });
 }
 
 /** The machine from the side, on its roof. */
@@ -144,7 +151,8 @@ export function drawSide(d: Drawing, x: number, y: number, scale: number): void 
     l(`${TILT_DEG}°* de pente, 10° à 30° sur un toit`, `${TILT_DEG}°* of pitch, 10° to 30° on a roof`),
     { size: 1.8 },
   );
-  v.dimDiameter(c, mm(TANK.caseR), 150, { label: mmL(TANK.caseR * 2, '', 'Ø'), size: 1.8 });
+  // towards the upper right: the kit's label runs rightward from the arrow's tail, so it clears the tank
+  v.dimDiameter(c, mm(TANK.caseR), 40, { label: mmL(TANK.caseR * 2, '', 'Ø'), size: 1.8 });
 }
 
 const COS_ = Math.cos((TILT_DEG * Math.PI) / 180);

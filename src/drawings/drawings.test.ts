@@ -132,6 +132,25 @@ describe('the render', () => {
       }
     expect(clashes.join('\n')).toBe('');
   });
+  it('fills its paper on the two sheets that were half empty: tables and notes reach past the middle', () => {
+    for (const id of ['loads-and-pressures', 'bill-of-materials'])
+      for (const lang of LANGS) {
+        const left = textBoxes(rendered.get(key(id, lang))!).map(textExtent);
+        const lowest = Math.max(...left.filter((e) => e.x1 < 205).map((e) => e.y1));
+        expect(lowest, `${id} ${lang}`).toBeGreaterThan(190);
+      }
+  });
+  it('gives the night’s flow as a mean, and says what we found rather than what nobody did', () => {
+    for (const [id, words] of [
+      ['loop-heights', { fr: /en moyenne, de minuit à l’aube/, en: /as a mean, from midnight to dawn/ }],
+      ['hydraulic-schematic', { fr: /en moyenne de minuit à l’aube/, en: /as a mean from midnight to dawn/ }],
+    ] as const)
+      for (const lang of LANGS) expect(textsOf(id, lang).join(' '), id).toMatch(words[lang]);
+    expect(textsOf('loop-heights', 'en').join(' ')).toMatch(/we found no measurement of a flat collector/);
+    for (const s of SHEETS)
+      for (const lang of LANGS)
+        expect(textsOf(s.id, lang).join(' '), s.id).not.toMatch(/personne n’a mesuré|nobody has measured/i);
+  });
   it('keeps out of the title block', () => {
     const X0 = 232;
     const Y0 = 249;

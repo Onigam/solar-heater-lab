@@ -46,9 +46,11 @@ export const bomSheet: DrawingSheet = {
       }
       rows.push([p.name, p.material, String(p.qty ?? 1)]);
     }
+    // the type and the rows are sized to fill the sheet: the right-hand table must stop above the title block
     const half = 29;
-    grid(d, 14, 14, cols, rows.slice(0, half), { size: 1.6, pad: 0.4, lineH: 2.45 });
-    grid(d, 214, 14, cols, rows.slice(half), { size: 1.6, pad: 0.4, lineH: 2.45 });
+    const look = { size: 2.3, pad: 1.9, lineH: 3.6 };
+    grid(d, 14, 14, cols, rows.slice(0, half), look);
+    grid(d, 214, 14, cols, rows.slice(half), look);
     return d;
   },
 };

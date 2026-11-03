@@ -45,41 +45,43 @@ export const TEMPERATURES: readonly { t: number; v: L; name: L; hot?: boolean }[
 function pressures(d: Drawing, x: number, y0: number): number {
   const p = d.paper();
   const maxW = 100;
+  const barH = 10;
   let y = y0;
   for (const row of PRESSURES) {
     const w = (row.kpa / 1000) * maxW;
-    p.rect([x, y], [x + w, y + 5], { w: W.thin, fill: row.kpa >= 680 ? FILL.cold : FILL.hot });
-    p.text([x + maxW + 4, y + 2.5], l(`${nFr(row.kpa)} kPa`, `${nEn(row.kpa)} kPa`), {
-      size: 1.9,
+    p.rect([x, y], [x + w, y + barH], { w: W.thin, fill: row.kpa >= 680 ? FILL.cold : FILL.hot });
+    p.text([x + maxW + 4, y + barH / 2], l(`${nFr(row.kpa)} kPa`, `${nEn(row.kpa)} kPa`), {
+      size: 2.3,
       mono: true,
       baseline: 'middle',
       weight: 'bold',
     });
-    p.text([x + maxW + 22, y + 2.5], row.name, { size: 1.85, baseline: 'middle' });
-    y += 7;
+    p.text([x + maxW + 26, y + barH / 2], row.name, { size: 2.2, baseline: 'middle' });
+    y += barH + 4;
   }
   return y;
 }
 
 function ladder(d: Drawing, x: number, y0: number): void {
   const p = d.paper();
-  const Y = (t: number): number => y0 + (130 - t);
+  // 1.95 paper mm per degree: the ladder runs down to just above the title block
+  const Y = (t: number): number => y0 + (125 - t) * 1.95;
   p.line([x, Y(125)], [x, Y(20)], { w: W.medium });
   // hottest first: a label moves down when the one above it is too close, and a thin line ties it to its rung
   let next = -Infinity;
   for (const r of [...TEMPERATURES].sort((a, b) => b.t - a.t)) {
     const yy = Math.max(Y(r.t), next);
-    next = yy + 6;
-    p.line([x - 2, Y(r.t)], [x + 2, Y(r.t)], { w: W.medium });
-    p.line([x + 2, Y(r.t)], [x + 6, yy], { w: W.thin, color: INK_2 });
-    p.text([x + 7, yy], r.v, {
-      size: 1.9,
+    next = yy + 7;
+    p.line([x - 2.5, Y(r.t)], [x + 2.5, Y(r.t)], { w: W.medium });
+    p.line([x + 2.5, Y(r.t)], [x + 7, yy], { w: W.thin, color: INK_2 });
+    p.text([x + 8, yy], r.v, {
+      size: 2.3,
       mono: true,
       baseline: 'middle',
       weight: 'bold',
       color: r.hot ? COLORS.red : undefined,
     });
-    p.text([x + 23, yy], r.name, { size: 1.85, baseline: 'middle' });
+    p.text([x + 28, yy], r.name, { size: 2.2, baseline: 'middle' });
   }
 }
 
@@ -110,9 +112,9 @@ export const loadsSheet: DrawingSheet = {
       14,
       y,
       [
-        { label: l('Quoi', 'What'), w: 84 },
-        { label: l('À vide', 'Empty'), w: 30, align: 'end', mono: true },
-        { label: l('En charge', 'Full'), w: 30, align: 'end', mono: true },
+        { label: l('Quoi', 'What'), w: 105 },
+        { label: l('À vide', 'Empty'), w: 45, align: 'end', mono: true },
+        { label: l('En charge', 'Full'), w: 50, align: 'end', mono: true },
       ],
       [
         [
@@ -130,11 +132,12 @@ export const loadsSheet: DrawingSheet = {
           l('2 kN/m²', '2 kN/m²'),
         ],
       ],
+      { size: 2.3, pad: 1.8 },
     );
-    y += 6;
+    y += 12;
     y = heading(d, 14, y, l('LA CHAÎNE DES PRESSIONS', 'THE CHAIN OF PRESSURES'));
     y = pressures(d, 14, y);
-    y += 2;
+    y += 4;
     y = note(
       d,
       14,
@@ -144,11 +147,11 @@ export const loadsSheet: DrawingSheet = {
         'Le circuit et la cuve ne se voient qu’à travers une paroi d’acier. Un ballon de 300 L qui passe de 10 à 80 °C pousse {expansionL} vers la soupape d’eau froide : voilà pourquoi celle-ci goutte normalement, et pourquoi le réseau ne doit pas être réglé trop près de ses 850 kPa. Le constructeur demande de le consulter sous −15 °C, ou avec une neige qui reste plus de 24 h.',
         'The circuit and the vessel only meet through a steel wall. A 300 L tank going from 10 to 80 °C pushes {expansionL} to the cold relief: that is why it normally drips, and why the mains must not be set too near its 850 kPa. The maker asks to be consulted below −15 °C, or with snow lying more than 24 h.',
       ),
-      { size: 2 },
+      { size: 2.3 },
     );
-    marksLegend(d, 14, y + 2, 100);
+    marksLegend(d, 14, y + 6, 100);
     heading(d, 244, 14, l('CE QUE VEUT DIRE CHAQUE TEMPÉRATURE', 'WHAT EACH TEMPERATURE MEANS'));
-    ladder(d, 250, 24);
+    ladder(d, 252, 26);
     return d;
   },
 };

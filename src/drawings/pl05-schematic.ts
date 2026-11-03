@@ -90,8 +90,8 @@ export const schematicSheet: DrawingSheet = {
       64,
       126,
       lf(
-        'Le jour, la poussée vaut {pushPa} à midi d’après le modèle, soit {pushMm} d’eau, et le fluide tourne dans ce sens. La nuit, sur une machine à sa place, il repart lentement à l’envers, {nightFlow}. Le clapet anti-retour, en option dans la Simulation, se dessine sur le tuyau froid.',
-        'By day, the push is {pushPa} at noon by the model, or {pushMm} of water, and the fluid runs this way. At night, on a machine in its place, it slowly runs backward, {nightFlow}. The one-way valve, an option in the Simulation, is drawn on the cold pipe.',
+        'Le jour, la poussée vaut {pushPa} à midi d’après le modèle, soit {pushMm} d’eau, et le fluide tourne dans ce sens. La nuit, sur une machine à sa place, il repart lentement à l’envers, {nightFlow} en moyenne de minuit à l’aube. Le clapet anti-retour, en option dans la Simulation, se dessine sur le tuyau froid.',
+        'By day, the push is {pushPa} at noon by the model, or {pushMm} of water, and the fluid runs this way. At night, on a machine in its place, it slowly runs backward, {nightFlow} as a mean from midnight to dawn. The one-way valve, an option in the Simulation, is drawn on the cold pipe.',
       ),
       { size: 2 },
     );
