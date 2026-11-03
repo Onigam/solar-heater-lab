@@ -134,8 +134,8 @@ export const RIG_PARTS: PartInfo[] = [
       },
     ),
     tip: l(
-      'Cette fiche ouverte, l’outil Transparence ne garde en plein que ce raccord : tout le reste s’estompe, tubes compris. Fermez la fiche sans couper l’outil : les tubes colorés se voient à travers le verre, et le raccord se lit comme un simple pont.',
-      'With this sheet open, X-ray keeps only this connector solid: everything else fades, tubes included. Close the sheet with the tool still on: the coloured tubes show through the glass, and the connector reads as a simple bridge.',
+      'Cette fiche ouverte, l’outil Transparence ne garde en plein que ce raccord : les autres pièces s’estompent, tubes compris. Fermez la fiche sans couper l’outil : les tubes colorés se voient à travers le verre, et le raccord se lit comme un simple pont.',
+      'With this sheet open, X-ray keeps only this connector solid: the other parts fade, tubes included. Close the sheet with the tool still on: the coloured tubes show through the glass, and the connector reads as a simple bridge.',
     ),
     design: l(
       'Mettre deux petits capteurs côte à côte plutôt qu’un grand simplifie tout : un carton qu’une équipe soulève, un verre qui se change seul, et une machine de 180 L qui utilise le même capteur.',

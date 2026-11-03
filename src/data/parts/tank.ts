@@ -222,8 +222,8 @@ export const TANK_PARTS: PartInfo[] = [
       },
     ),
     tip: l(
-      'Cette fiche ouverte, l’outil Transparence ne garde en plein que cette enveloppe : tout le reste s’estompe. Fermez la fiche sans couper l’outil : l’enveloppe et la mousse s’effacent, et il reste la cuve et sa double enveloppe, toujours en coupe.',
-      'With this sheet open, X-ray keeps only this case solid: everything else fades. Close the sheet with the tool still on: the case and the foam fade, leaving the vessel and its jacket, still in section.',
+      'Cette fiche ouverte, l’outil Transparence ne garde en plein que cette enveloppe : les autres pièces s’estompent. Fermez la fiche sans couper l’outil : l’enveloppe et la mousse s’effacent, et il reste la cuve et sa double enveloppe, toujours en coupe.',
+      'With this sheet open, X-ray keeps only this case solid: the other parts fade. Close the sheet with the tool still on: the case and the foam fade, leaving the vessel and its jacket, still in section.',
     ),
     design: l(
       'L’aluminium ne craint guère la pluie et pèse peu : le poids du ballon reste dans l’acier qui tient la pression, pas dans sa peau.',

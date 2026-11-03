@@ -40,8 +40,8 @@ export const COLLECTOR_PARTS: PartInfo[] = [
       },
     ),
     tip: l(
-      'Cette fiche ouverte, l’outil Transparence ne garde en plein que le verre : tout le reste s’estompe, tubes compris. Fermez la fiche sans couper l’outil : le verre, son joint et la plaque s’effacent, et les tubes restent à la couleur de leur température.',
-      'With this sheet open, X-ray keeps only the glass solid: everything else fades, tubes included. Close the sheet with the tool still on: the glass, its seal and the plate fade, and the tubes keep the colour of their temperature.',
+      'Cette fiche ouverte, l’outil Transparence ne garde en plein que le verre : les autres pièces s’estompent, tubes compris. Fermez la fiche sans couper l’outil : le verre, son joint et la plaque s’effacent, et les tubes restent à la couleur de leur température.',
+      'With this sheet open, X-ray keeps only the glass solid: the other parts fade, tubes included. Close the sheet with the tool still on: the glass, its seal and the plate fade, and the tubes keep the colour of their temperature.',
     ),
     design: lf(
       'Il coûte de la lumière dès l’entrée : c’est pour cela que le rendement à température égale n’est que 0,778. Mais sans lui, le vent emporterait la chaleur. La nuit, c’est lui qui rayonne vers le ciel clair et tire la plaque vers le bas : le modèle le place à {depression} sous l’air pour de l’air à 10 °C.',
