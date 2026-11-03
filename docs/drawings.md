@@ -19,4 +19,4 @@ Ten sheets in `src/drawings/`, generated from `src/three/dims.ts`, `ROOF_UNIT` a
 
 **Numbers.** A length is read from `dims.ts`, a maker's figure from `ROOF_UNIT`, a result from `FIG`, `SWEEP_TABLE` or `YEAR_TABLE` through `fig()`; the curves through the simulation's own `curveEfficiency`. The tests check that no text falls on another or off the sheet, in both languages. **Not shown:** the maker's table of slots by rafter spacing, which the research did not transcribe; PL-S06 says so.
 
-**Looked at:** each sheet rasterised once by Quick Look, in French or English, for layout. Not looked at in the browser.
+**Looked at:** each sheet rasterised once by Quick Look, in French or English, for layout; then in the browser by the lead, at twice the pixels in both languages. Eight labels and one view moved in that look, positions only, no figure (PL-S01, S03, S04, S06, S09). **Still for the author:** PL-S07 and PL-S10 fill less than half their paper. Thin lines still cross text in places: « Tuyau froid » on the 2,49 m line and « 30 mm\* » on the centre line of PL-S01, the Ø510 mm on the tank in PL-S01 and the « 3,2 mm » beside its arrows in PL-S03.
