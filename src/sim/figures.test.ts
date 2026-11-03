@@ -273,6 +273,15 @@ const PINS: Record<string, number> = {
   'K33-depression-selective-10C': 3.939,
   'K33-depression-calm': 7.901,
   'K33-depression-windy': 3.297,
+  'K33-depression-black-minus7C': 6.074,
+  'valve-plate-0-open': -2.07,
+  'valve-plate-0-shut': -3.81,
+  'valve-plate-low-open': 1.723,
+  'valve-plate-low-shut': -3.811,
+  'valve-coldest-0-open': 15.79,
+  'valve-coldest-0-shut': 15.79,
+  'valve-coldest-low-open': 18.388,
+  'valve-coldest-low-shut': 15.79,
   'K33-outlet-below-share': 0.937,
   'K33-plate-below-trickle': 3.109,
   'K33-plate-below-valve': 4.897,
@@ -776,12 +785,30 @@ describe('the night, and the height of the tank', () => {
       pin('K33-depression-selective-10C', plateDepression(10, 1, 2, { plateEmissivity: EMISSIVITY.selective }), 1);
       pin('K33-depression-calm', plateDepression(10, 1, 0.5, { plateEmissivity: EMISSIVITY.black }), 1);
       pin('K33-depression-windy', plateDepression(10, 1, 5, { plateEmissivity: EMISSIVITY.black }), 1);
+      pin('K33-depression-black-minus7C', plateDepression(-7, 1, 2, { plateEmissivity: EMISSIVITY.black }), 1);
       const r = frostNight(ROOF_MACHINE, 0);
       pin('K33-outlet-below-share', r.outletBelowAirShare, 1);
       pin('K33-plate-below-trickle', r.plateMeanBelow, 1);
       const v = frostNight({ ...ROOF_MACHINE, checkValve: true }, 0);
       pin('K33-plate-below-valve', v.plateMeanBelow, 1);
       expect(v.plateMeanBelow).toBeGreaterThan(r.plateMeanBelow);
+    },
+    LONG,
+  );
+  it(
+    'find, the valve on a clear June night: the plate’s mean against the air, and its coldest node',
+    () => {
+      for (const [name, y] of [
+        ['0', 0],
+        ['low', -0.61],
+      ] as const) {
+        const open = roof(y);
+        const shut = roof(y, { checkValve: true });
+        pin(`valve-plate-${name}-open`, -open.plateMeanBelow, 1);
+        pin(`valve-plate-${name}-shut`, -shut.plateMeanBelow, 1);
+        pin(`valve-coldest-${name}-open`, open.coldestMin, 1);
+        pin(`valve-coldest-${name}-shut`, shut.coldestMin, 1);
+      }
     },
     LONG,
   );
@@ -1079,6 +1106,16 @@ describe('the doc', () => {
   it('names every key figure, retrieved or not', () => {
     const doc = raw['../../docs/physics.md'] ?? '';
     for (let k = 1; k <= 66; k++) expect(doc, `K${k}`).toMatch(new RegExp(`\\bK${k}\\b`));
+  });
+  it('the plant’s friction is tubeResistance, whichever way the flow runs: no simulation file calls tubeFlow', () => {
+    const sources = import.meta.glob(['./*.ts', '!./*.test.ts'], {
+      query: '?raw',
+      import: 'default',
+      eager: true,
+    }) as Record<string, string>;
+    expect(Object.keys(sources).length).toBeGreaterThan(5);
+    for (const [file, text] of Object.entries(sources)) expect(text, file).not.toMatch(/\btubeFlow\b/);
+    expect(sources['./plant.ts']).toMatch(/loopResistance\(p, Math\.abs\(p\.Q\)\)/);
   });
   it('the core’s water: same specific heat as the core’s liquidWater, real density', () => {
     expect(water().cp).toBe(4186);

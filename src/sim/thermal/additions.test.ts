@@ -40,6 +40,7 @@ import {
   sunAzimuth,
   sunTerms,
   tubeFlow,
+  tubePressureDrop,
   tubeResistance,
   verticalCylinderLayers,
   water,
@@ -320,6 +321,45 @@ describe('friction', () => {
     expect(b.Re).toBeCloseTo(a.Re, 8);
     expect(b.h).toBeCloseTo(a.h, 8);
     expect(b.velocity).toBeCloseTo(-a.velocity, 8);
+  });
+  it('a reversed flow is the same flow: Re, f and h read its size, the velocity keeps its sign', () => {
+    const air = { rho: 1.2, mu: 1.8e-5, k: 0.026, Pr: 0.71 };
+    const fast = tubeFlow(-2, 0.005, air);
+    expect(fast.Re).toBeCloseTo(2.829e7, -4);
+    expect(fast.f).toBeCloseTo(0.00704, 5);
+    expect(fast.h).toBeCloseTo(99640, 0);
+    expect(fast.velocity).toBeCloseTo(-84882.6, 1);
+    for (const gas of [air, { rho: 1017, mu: 2.222e-3, k: 0.505, Pr: 17.5 }]) {
+      for (const D of [0.005, 0.02, 0.094]) {
+        for (const m of [1e-3, 0.02, 0.07, 0.5, 2]) {
+          const on = tubeFlow(m, D, gas);
+          const back = tubeFlow(-m, D, gas);
+          expect(back.Re).toBe(on.Re);
+          expect(back.f).toBe(on.f);
+          expect(back.h).toBe(on.h);
+          expect(back.velocity).toBe(-on.velocity);
+          expect(tubePressureDrop(back, 2, D, gas.rho)).toBe(tubePressureDrop(on, 2, D, gas.rho));
+        }
+      }
+    }
+  });
+  it('a slow reversed flow is Poiseuille’s, the closed form that knows nothing of tubeFlow', () => {
+    const gas = { rho: 1017, mu: 2.222e-3, k: 0.505, Pr: 17.5 };
+    const D = 0.02;
+    const L = 1.69;
+    const Q = 14.05 / 3.6e6; // a backward night of the loop, L/h in m³/s
+    const closed = (128 * gas.mu * L * Q) / (Math.PI * D ** 4);
+    const back = tubeFlow(-gas.rho * Q, D, gas);
+    expect(back.Re).toBeCloseTo((4 * gas.rho * Q) / (Math.PI * D * gas.mu), 8);
+    expect(back.f).toBeCloseTo(64 / back.Re, 10);
+    expect(tubePressureDrop(back, L, D, gas.rho)).toBeCloseTo(closed, 8);
+    expect(tubeResistance(Q, D, L, 1, gas.rho, gas.mu) * Q).toBeCloseTo(closed, 8);
+    expect(closed).toBeCloseTo(3.73, 2);
+  });
+  it('the sign alone tells the loop which way: the same push the other way gives the mirror flow', () => {
+    for (const Q of [0, 1e-6, 4e-6, 4e-5]) {
+      expect(stepFlow(-Q, -30, 1e6, 1e7, 5)).toBeCloseTo(-stepFlow(Q, 30, 1e6, 1e7, 5), 14);
+    }
   });
 });
 

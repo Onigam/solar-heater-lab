@@ -79,15 +79,15 @@ export const SCENARIO_TEXTS: Record<ScenarioId, { name: Pair; lesson: Pair }> = 
   'one-way-valve': {
     name: ['Le clapet', 'The one-way valve'],
     lesson: [
-      'Le même ballon, un clapet sur le circuit. La fuite de nuit s’arrête. Mais la plaque, que le filet tiédissait, reste plus froide : en moyenne 3 K † de moins. Au point le plus froid, le filet ne gagnait que 1 ou 2 K † : le clapet soigne beaucoup et retire peu, sauf si le gel est juste à la limite.',
-      'The same tank, a one-way valve on the circuit. The night’s leak stops. But the plate, which the trickle kept warmer, stays colder: 3 K † less on average. At its coldest point the trickle only gained 1 or 2 K †: the valve cures a lot and takes away little, unless the frost is right at the limit.',
+      'Le même ballon, un clapet sur le circuit. La fuite de nuit s’arrête. Mais la plaque, que le filet tiédissait, reste plus froide : en moyenne entre 5 et 6 K † de moins. Au point le plus froid, une nuit de gel, le filet gagnait moins de 1 K † pour le mélange, un peu plus de 2 K † pour l’eau seule : le clapet soigne beaucoup et retire peu, sauf si le gel est juste à la limite.',
+      'The same tank, a one-way valve on the circuit. The night’s leak stops. But the plate, which the trickle kept warmer, stays colder: between 5 and 6 K † less on average. At its coldest point, on a frosty night, the trickle gained under 1 K † for the mix, a little over 2 K † for water alone: the valve cures a lot and takes away little, unless the frost is right at the limit.',
     ],
   },
   frost: {
     name: ['Une nuit de gel', 'A frosty night'],
     lesson: [
-      'Une nuit claire à −7 °C. La plaque descend d’environ 6 K † sous l’air : le mélange de cette machine atteint son point de gel vers −3 °C † d’air, et l’eau seule, ensuite, dès +5 °C † d’air. Le modèle s’arrête à la première glace, il ne dit pas si un tube éclate.',
-      'A clear night at −7 °C. The plate falls about 6 K † below the air: this machine’s mix reaches its freezing point at about −3 °C † of air, and water alone, next, from +5 °C † of air. The model stops at the first ice, it does not say whether a tube bursts.',
+      'Une nuit claire à −7 °C. Le point le plus froid de la plaque descend d’environ 6 K † sous l’air. Une nuit claire suffit donc à amener le mélange de cette machine à son point de gel si l’air touche environ −3 °C †, et l’eau seule, montrée ensuite, s’il touche environ +6 °C †. Le modèle s’arrête à la première glace, il ne dit pas si un tube éclate.',
+      'A clear night at −7 °C. The plate’s coldest point falls about 6 K † below the air. So a clear night is enough to bring this machine’s mix to its freezing point if the air touches about −3 °C †, and water alone, shown next, if it touches about +6 °C †. The model stops at the first ice, it does not say whether a tube bursts.',
     ],
   },
   'holiday-week': {
