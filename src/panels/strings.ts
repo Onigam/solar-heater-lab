@@ -164,8 +164,8 @@ const PANEL = {
   chartLayers: ['Le ballon, du bas vers le haut', 'The tank, from bottom to top'],
   chartSweep: ['La nuit, selon la hauteur du ballon', 'The night, by the height of the tank'],
   chartSweepHint: [
-    'Sur une journée claire du lieu et du mois choisis : la part de la chaleur du jour repartie au matin. Le seul autre chiffre à cet endroit est un modèle de 1981 pour un ballon debout, et sous zéro personne n’a rien mesuré : la forme de la courbe compte plus que ses valeurs.',
-    'On a clear day of the chosen place and month: the share of the day’s heat gone by morning. The only other figure here is a model from 1981 for a standing tank, and below zero nobody has measured anything: the curve’s shape counts more than its values.',
+    'Sur une journée claire du lieu et du mois choisis : la part de la chaleur du jour repartie au matin. Le seul autre chiffre à cet endroit est un modèle de 1981 pour un ballon debout, et sous zéro nous n’avons trouvé aucune mesure : la forme de la courbe compte plus que ses valeurs.',
+    'On a clear day of the chosen place and month: the share of the day’s heat gone by morning. The only other figure here is a model from 1981 for a standing tank, and below zero we found no measurement: the curve’s shape counts more than its values.',
   ],
   chartGain: ['Ce que la journée apporte au ballon', 'What the day brings to the tank'],
   chartGainHint: [

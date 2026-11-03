@@ -83,7 +83,7 @@ describe('the panel’s words', () => {
   it('say once what climbs, once that the height below zero is unmeasured, once that the table is a calculation', () => {
     const count = (re: RegExp) => entries.filter(([, [, en]]) => re.test(en)).length;
     expect(count(/not the water you drink/)).toBe(1);
-    expect(count(/nobody has measured anything/)).toBe(1);
+    expect(count(/we found no measurement/)).toBe(1);
     expect(count(/a test plus a calculation/)).toBe(1);
   });
   it('the panel’s lookups work in both languages', () => {
