@@ -13,7 +13,7 @@ It belongs to a series that started with [Pelton Lab](https://github.com/Onigam/
 - **Six lessons with twelve questions**, each opening on a scenario: why it climbs, the black plate under glass, the layers, the night, too cold and too hot, the shower.
 - **A simulation** (a pure, unit-tested model): the sun and the night sky at four European sites, the collector's certified curve, a loop of 94 nodes with its buoyancy and friction, a closed circuit or a direct one, a tank of ten layers, the taps, the booster, and twelve scenarios.
 - **Ten A3 design drawings** generated from the same dimensions as the 3D model and from the model's results.
-- **A spoken guide** for the introduction, each world and each part, in both languages: not written yet.
+- **A spoken guide** for the introduction, each world and each part, in both languages: the scripts in `narration/`, the audio in `public/audio/`, in a local voice.
 
 ## What is real and what is not
 

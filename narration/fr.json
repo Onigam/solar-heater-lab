@@ -128,7 +128,7 @@
       "scope": "part:collector-right",
       "title": "Capteur de droite",
       "scene": "rig",
-      "text": "Son voisin, en miroir. Notre goutte entre par son coin bas, et traverse la rangée en diagonale. Chaque tube a ainsi à peu près le même chemin, sans vanne ni pompe. Sa fiche d’essai dit tout. Une même journée donne six kilowattheures à cinq degrés au-dessus de l’air, quatre à vingt, zéro virgule sept à cinquante. Tout l’art de cette machine : lui rendre du froid !"
+      "text": "Son voisin, en miroir. Notre goutte entre par son coin bas, et traverse la rangée en diagonale. Chaque tube a ainsi à peu près le même chemin, sans vanne ni pompe. Sa fiche d’essai dit tout. Un même jour donne six kilowattheures à cinq degrés au-dessus de l’air, quatre kilowattheures à vingt, zéro virgule sept à cinquante. Tout l’art de cette machine : lui rendre du froid !"
     },
     {
       "id": "part-collector-link",

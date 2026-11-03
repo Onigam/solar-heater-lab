@@ -1,0 +1,3245 @@
+{
+  "lang": "fr",
+  "model": "qwen3-tts-1.7B",
+  "generatedAt": "2026-11-03T13:53:54.719Z",
+  "voiceLabel": {
+    "fr": "Voix de synthèse",
+    "en": "Synthetic voice"
+  },
+  "totalSeconds": 1381.37,
+  "segments": [
+    {
+      "id": "intro",
+      "scope": "intro",
+      "title": "Présentation du labo",
+      "scene": "house",
+      "file": "intro.mp3",
+      "duration": 131.93,
+      "chars": 2275,
+      "hash": "ccd4820746dbe5a4",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 2.62,
+          "text": "Imaginez un toit de tuiles, un matin d’été."
+        },
+        {
+          "t0": 2.62,
+          "t1": 4.7,
+          "text": "Ni moteur, ni sonde, ni bouton…"
+        },
+        {
+          "t0": 4.7,
+          "t1": 7.14,
+          "text": "et pourtant, ce soir, l’eau sera chaude."
+        },
+        {
+          "t0": 7.14,
+          "t1": 9.94,
+          "text": "Comment la chaleur monte-t-elle là-haut, toute seule ?"
+        },
+        {
+          "t0": 9.94,
+          "t1": 11.88,
+          "text": "Suivons une petite goutte bleue."
+        },
+        {
+          "t0": 11.88,
+          "t1": 16.64,
+          "text": "Ce n’est pas l’eau que vous buvez : c’est un mélange d’eau et de glycol, dans son propre circuit."
+        },
+        {
+          "t0": 16.64,
+          "t1": 20.92,
+          "text": "Au petit jour, elle dort dans un tube, sous un verre, contre une plaque noire."
+        },
+        {
+          "t0": 20.92,
+          "t1": 25.7,
+          "text": "Le soleil chauffe la plaque, la plaque réchauffe la goutte, et la voici un peu plus légère."
+        },
+        {
+          "t0": 25.7,
+          "t1": 26.78,
+          "text": "Si peu !"
+        },
+        {
+          "t0": 26.78,
+          "t1": 31.82,
+          "text": "Vers midi, notre modèle trouve une poussée de six virgule six millimètres d’eau, pas davantage."
+        },
+        {
+          "t0": 31.82,
+          "t1": 37.28,
+          "text": "C’est assez : notre goutte grimpe vers le ballon, sans moteur et sans commande."
+        },
+        {
+          "t0": 37.28,
+          "t1": 39.74,
+          "text": "La voici dans une fente, le long de la cuve."
+        },
+        {
+          "t0": 39.74,
+          "t1": 44.48,
+          "text": "Elle donne sa chaleur à travers l’acier, sans jamais toucher l’eau, s’alourdit, puis redescend."
+        },
+        {
+          "t0": 44.48,
+          "t1": 48.04,
+          "text": "L’eau chaude, elle, reste en haut, au-dessus du froid."
+        },
+        {
+          "t0": 48.04,
+          "t1": 49.14,
+          "text": "Mais la nuit ?"
+        },
+        {
+          "t0": 49.14,
+          "t1": 55.44,
+          "text": "Le ciel clair refroidit le capteur, et notre goutte voudrait repartir à l’envers, avec la chaleur du ballon."
+        },
+        {
+          "t0": 55.44,
+          "t1": 59.62,
+          "text": "Cela dépend alors de la hauteur de ce ballon : ici, vous pourrez le faire monter et descendre."
+        },
+        {
+          "t0": 59.62,
+          "t1": 66.04,
+          "text": "Le matin venu, quelqu’un ouvre un robinet, et voilà une eau à quarante degrés sur un dos."
+        },
+        {
+          "t0": 66.04,
+          "t1": 69.98,
+          "text": "Voilà toute l’histoire : un soleil, une goutte, une paroi d’acier…"
+        },
+        {
+          "t0": 69.98,
+          "t1": 71.58,
+          "text": "et une douche sans pompe."
+        },
+        {
+          "t0": 71.58,
+          "t1": 77.62,
+          "text": "Quelques repères : quatre vues, la maison, la machine, le capteur, le ballon et sa douche."
+        },
+        {
+          "t0": 77.62,
+          "t1": 81.28,
+          "text": "Cliquez sur une pièce : sa fiche s’ouvre, et vous pouvez écouter son histoire."
+        },
+        {
+          "t0": 81.28,
+          "t1": 84.76,
+          "text": "Un guide raconte l’usine, puis la montée sur le toit."
+        },
+        {
+          "t0": 84.76,
+          "t1": 86.46,
+          "text": "Un autre relie la machine à la maison."
+        },
+        {
+          "t0": 86.46,
+          "t1": 91.65,
+          "text": "La simulation change le lieu, l’heure, la hauteur du ballon, et lance douze scénarios."
+        },
+        {
+          "t0": 91.65,
+          "t1": 97.98,
+          "text": "Ses autres points de départ ne changent que les chiffres : la vue en trois dimensions dessine toujours cette machine-ci."
+        },
+        {
+          "t0": 97.98,
+          "t1": 102.36,
+          "text": "Six leçons, avec des quiz, expliquent la physique."
+        },
+        {
+          "t0": 102.36,
+          "t1": 104.34,
+          "text": "Dix planches réunissent les dessins."
+        },
+        {
+          "t0": 104.34,
+          "t1": 108.42,
+          "text": "Une dernière chose : ce laboratoire est une reconstitution pédagogique."
+        },
+        {
+          "t0": 108.42,
+          "t1": 112.24,
+          "text": "Il suit une vraie machine, d’après les documents de son constructeur."
+        },
+        {
+          "t0": 112.24,
+          "t1": 115.44,
+          "text": "Ce n’est ni un plan à suivre, ni un produit de ce constructeur."
+        },
+        {
+          "t0": 115.44,
+          "t1": 120.68,
+          "text": "Les chiffres viennent de ces documents, de certificats et d’essais publiés."
+        },
+        {
+          "t0": 120.68,
+          "t1": 125.98,
+          "text": "Ou de notre simulation et de nos estimations : des calculs, pas des mesures."
+        },
+        {
+          "t0": 125.98,
+          "t1": 128.32,
+          "text": "Le panneau Sources dit qui a dit quoi."
+        },
+        {
+          "t0": 128.32,
+          "t1": 131.93,
+          "text": "Allez, le soleil se lève, et notre goutte n’attend que vous !"
+        }
+      ],
+      "cues": [
+        {
+          "t": 0,
+          "do": {
+            "home": true
+          }
+        },
+        {
+          "t": 9.94,
+          "do": {
+            "frame": [
+              "roof-unit"
+            ]
+          }
+        },
+        {
+          "t": 16.64,
+          "do": {
+            "scene": "collector"
+          }
+        },
+        {
+          "t": 20.92,
+          "do": {
+            "frame": [
+              "absorber-plate"
+            ]
+          }
+        },
+        {
+          "t": 26.78,
+          "do": {
+            "scene": "rig"
+          }
+        },
+        {
+          "t": 26.78,
+          "do": {
+            "flows": true
+          }
+        },
+        {
+          "t": 31.82,
+          "do": {
+            "frame": [
+              "hot-pipe"
+            ]
+          }
+        },
+        {
+          "t": 37.28,
+          "do": {
+            "flows": false
+          }
+        },
+        {
+          "t": 37.28,
+          "do": {
+            "scene": "tank-and-tap"
+          }
+        },
+        {
+          "t": 39.74,
+          "do": {
+            "frame": [
+              "mantle-jacket"
+            ]
+          }
+        },
+        {
+          "t": 44.48,
+          "do": {
+            "frame": [
+              "water-column"
+            ]
+          }
+        },
+        {
+          "t": 49.14,
+          "do": {
+            "scene": "rig"
+          }
+        },
+        {
+          "t": 59.62,
+          "do": {
+            "scene": "tank-and-tap"
+          }
+        },
+        {
+          "t": 63.18,
+          "do": {
+            "frame": [
+              "shower-head"
+            ]
+          }
+        },
+        {
+          "t": 71.58,
+          "do": {
+            "scene": "house"
+          }
+        },
+        {
+          "t": 81.28,
+          "do": {
+            "mode": "assembly"
+          }
+        },
+        {
+          "t": 84.76,
+          "do": {
+            "mode": "install"
+          }
+        },
+        {
+          "t": 86.46,
+          "do": {
+            "mode": "sim"
+          }
+        },
+        {
+          "t": 97.98,
+          "do": {
+            "mode": "lessons"
+          }
+        },
+        {
+          "t": 102.36,
+          "do": {
+            "mode": "plans"
+          }
+        },
+        {
+          "t": 104.34,
+          "do": {
+            "mode": "explore"
+          }
+        },
+        {
+          "t": 115.44,
+          "do": {
+            "scene": "house"
+          }
+        },
+        {
+          "t": 128.32,
+          "do": {
+            "select": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "scene-house",
+      "scope": "scene:house",
+      "title": "Une maison, un toit, aucune pompe",
+      "scene": "house",
+      "file": "scene-house.mp3",
+      "duration": 45.28,
+      "chars": 764,
+      "hash": "37b3039d698f858a",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 5.12,
+          "text": "Un village, une maison de pierre, et sur son toit, une machine sans pompe."
+        },
+        {
+          "t0": 5.12,
+          "t1": 8.88,
+          "text": "Deux capteurs et, juste au-dessus, un ballon couché."
+        },
+        {
+          "t0": 8.88,
+          "t1": 13.48,
+          "text": "L’olivier rappelle la première règle : aucune ombre, de toute l’année."
+        },
+        {
+          "t0": 13.48,
+          "t1": 16.98,
+          "text": "Tranchée le long de la machine, la maison montre ses chevrons."
+        },
+        {
+          "t0": 16.98,
+          "t1": 20.62,
+          "text": "Sous la ligne du ballon, un mur porteur descend jusqu’au sol."
+        },
+        {
+          "t0": 20.62,
+          "t1": 23.98,
+          "text": "Ce tableau ne sert qu’à l’appoint : le seul courant de l’affaire."
+        },
+        {
+          "t0": 23.98,
+          "t1": 28.4,
+          "text": "Flux dessine le chemin de l’eau, de la rue au toit, puis à la salle de bains."
+        },
+        {
+          "t0": 28.4,
+          "t1": 32.12,
+          "text": "Ici, ces points ne bougent que quand un robinet tire."
+        },
+        {
+          "t0": 32.12,
+          "t1": 34.86,
+          "text": "Quelle part de votre eau chaude viendra du soleil ?"
+        },
+        {
+          "t0": 34.86,
+          "t1": 41.52,
+          "text": "À deux cents litres par jour, les résultats publiés vont de quarante-cinq pour cent à Stockholm à quatre-vingt-un à Athènes."
+        },
+        {
+          "t0": 41.52,
+          "t1": 45.28,
+          "text": "C’est un essai plus un calcul, pas une année mesurée sur un toit."
+        }
+      ],
+      "cues": [
+        {
+          "t": 0,
+          "do": {
+            "home": true
+          }
+        },
+        {
+          "t": 5.12,
+          "do": {
+            "frame": [
+              "roof-unit"
+            ]
+          }
+        },
+        {
+          "t": 8.88,
+          "do": {
+            "frame": [
+              "shade-tree"
+            ]
+          }
+        },
+        {
+          "t": 13.48,
+          "do": {
+            "frame": [
+              "roof-structure"
+            ]
+          }
+        },
+        {
+          "t": 16.98,
+          "do": {
+            "frame": [
+              "load-bearing-wall"
+            ]
+          }
+        },
+        {
+          "t": 20.62,
+          "do": {
+            "frame": [
+              "meter-box"
+            ]
+          }
+        },
+        {
+          "t": 23.98,
+          "do": {
+            "home": true
+          }
+        },
+        {
+          "t": 23.98,
+          "do": {
+            "flows": true
+          }
+        },
+        {
+          "t": 32.12,
+          "do": {
+            "flows": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "scene-rig",
+      "scope": "scene:rig",
+      "title": "La machine, et le ballon qui bouge",
+      "scene": "rig",
+      "file": "scene-rig.mp3",
+      "duration": 58.35,
+      "chars": 1018,
+      "hash": "244d388c2c907333",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 3.2,
+          "text": "La même machine, seule, sur un morceau de toit."
+        },
+        {
+          "t0": 3.2,
+          "t1": 5.3,
+          "text": "Ce support-là n’a pas de source."
+        },
+        {
+          "t0": 5.3,
+          "t1": 8.68,
+          "text": "Deux capteurs, une seule rangée de soixante-dix tubes."
+        },
+        {
+          "t0": 8.68,
+          "t1": 11.4,
+          "text": "Tout en bas, le rail, d’où tout part."
+        },
+        {
+          "t0": 11.4,
+          "t1": 14.44,
+          "text": "À gauche, le tuyau chaud, où notre goutte monte."
+        },
+        {
+          "t0": 14.44,
+          "t1": 17.52,
+          "text": "À droite, le tuyau froid, où elle redescend."
+        },
+        {
+          "t0": 17.52,
+          "t1": 20.18,
+          "text": "En haut, le ballon, au niveau du haut des capteurs."
+        },
+        {
+          "t0": 20.18,
+          "t1": 21.84,
+          "text": "La vraie machine reste à zéro."
+        },
+        {
+          "t0": 21.84,
+          "t1": 25.4,
+          "text": "Le curseur Hauteur du ballon, lui, l’emmène sur un banc d’essai."
+        },
+        {
+          "t0": 25.4,
+          "t1": 26.68,
+          "text": "Allumons Flux."
+        },
+        {
+          "t0": 26.68,
+          "t1": 30.96,
+          "text": "L’horloge file, au départ, à une heure par seconde ; ces points, non."
+        },
+        {
+          "t0": 30.96,
+          "t1": 36.88,
+          "text": "Le jour, ils courent à leur vraie vitesse, environ douze centimètres par seconde à midi, dans les tuyaux."
+        },
+        {
+          "t0": 36.88,
+          "t1": 40.48,
+          "text": "La nuit, ils restent visibles, et vont alors plus vite que la vérité."
+        },
+        {
+          "t0": 40.48,
+          "t1": 44.43,
+          "text": "Lancez le scénario Un ballon trop bas : au soir, ils repartent à l’envers !"
+        },
+        {
+          "t0": 44.43,
+          "t1": 49.16,
+          "text": "Soixante et un centimètres sous le haut des capteurs : la pire place de notre modèle."
+        },
+        {
+          "t0": 49.16,
+          "t1": 54.86,
+          "text": "Ces chiffres-là viennent d’un modèle de mil neuf cent quatre-vingt-un, au ballon debout, ou du nôtre."
+        },
+        {
+          "t0": 54.86,
+          "t1": 58.35,
+          "text": "Nous n’avons trouvé aucune mesure d’un capteur plan avec son ballon plus bas."
+        }
+      ],
+      "cues": [
+        {
+          "t": 0,
+          "do": {
+            "home": true
+          }
+        },
+        {
+          "t": 5.3,
+          "do": {
+            "frame": [
+              "collector-link"
+            ]
+          }
+        },
+        {
+          "t": 5.3,
+          "do": {
+            "xray": true
+          }
+        },
+        {
+          "t": 8.68,
+          "do": {
+            "xray": false
+          }
+        },
+        {
+          "t": 8.68,
+          "do": {
+            "frame": [
+              "collector-rail"
+            ]
+          }
+        },
+        {
+          "t": 11.4,
+          "do": {
+            "frame": [
+              "hot-pipe"
+            ]
+          }
+        },
+        {
+          "t": 14.44,
+          "do": {
+            "frame": [
+              "cold-pipe"
+            ]
+          }
+        },
+        {
+          "t": 17.52,
+          "do": {
+            "frame": [
+              "tank-strap"
+            ]
+          }
+        },
+        {
+          "t": 20.18,
+          "do": {
+            "home": true
+          }
+        },
+        {
+          "t": 25.4,
+          "do": {
+            "xray": true
+          }
+        },
+        {
+          "t": 25.4,
+          "do": {
+            "flows": true
+          }
+        },
+        {
+          "t": 40.48,
+          "do": {
+            "flows": false
+          }
+        },
+        {
+          "t": 40.48,
+          "do": {
+            "xray": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "scene-collector",
+      "scope": "scene:collector",
+      "title": "Là où le soleil devient chaleur",
+      "scene": "collector",
+      "file": "scene-collector.mp3",
+      "duration": 45.52,
+      "chars": 733,
+      "hash": "2a9d1cd5d456c723",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 3.26,
+          "text": "Un seul capteur, sur un chevalet, à la pente du toit."
+        },
+        {
+          "t0": 3.26,
+          "t1": 8.1,
+          "text": "Ce monde s’ouvre déjà coupé : une marche, à son coin, montre les couches."
+        },
+        {
+          "t0": 8.1,
+          "t1": 11.16,
+          "text": "Le verre d’abord, tenu par son joint souple."
+        },
+        {
+          "t0": 11.16,
+          "t1": 14.72,
+          "text": "Dessous, la plaque noire, où la lumière devient chaleur."
+        },
+        {
+          "t0": 14.72,
+          "t1": 17.62,
+          "text": "Puis les tubes, où notre goutte attend son tour."
+        },
+        {
+          "t0": 17.62,
+          "t1": 20.76,
+          "text": "Derrière eux, une laine ferme le passage vers l’arrière."
+        },
+        {
+          "t0": 20.76,
+          "t1": 23.86,
+          "text": "Et tout en haut, le collecteur, où tout se rassemble."
+        },
+        {
+          "t0": 23.86,
+          "t1": 26.72,
+          "text": "L’outil Coupe tranche maintenant en travers des tubes."
+        },
+        {
+          "t0": 26.72,
+          "t1": 31.62,
+          "text": "Ils sont peints en fausses couleurs : un tube à soixante degrés ne devient pas orange."
+        },
+        {
+          "t0": 31.62,
+          "t1": 34.88,
+          "text": "Leur échelle, en degrés, est juste à côté."
+        },
+        {
+          "t0": 34.88,
+          "t1": 38.24,
+          "text": "Écartons les couches, dans l’ordre de leur pose…"
+        },
+        {
+          "t0": 38.24,
+          "t1": 39.66,
+          "text": "Et la nuit ?"
+        },
+        {
+          "t0": 39.66,
+          "t1": 45.52,
+          "text": "Le papier passe au bleu, la plaque descend sous l’air, et c’est le ciel qui la tire vers le bas."
+        }
+      ],
+      "cues": [
+        {
+          "t": 0,
+          "do": {
+            "home": true
+          }
+        },
+        {
+          "t": 8.1,
+          "do": {
+            "frame": [
+              "glass-seal"
+            ]
+          }
+        },
+        {
+          "t": 11.16,
+          "do": {
+            "frame": [
+              "absorber-plate"
+            ]
+          }
+        },
+        {
+          "t": 14.72,
+          "do": {
+            "frame": [
+              "riser-tube"
+            ]
+          }
+        },
+        {
+          "t": 17.62,
+          "do": {
+            "frame": [
+              "back-insulation"
+            ]
+          }
+        },
+        {
+          "t": 20.76,
+          "do": {
+            "frame": [
+              "upper-header"
+            ]
+          }
+        },
+        {
+          "t": 23.86,
+          "do": {
+            "home": true
+          }
+        },
+        {
+          "t": 23.86,
+          "do": {
+            "cutaway": true
+          }
+        },
+        {
+          "t": 34.88,
+          "do": {
+            "cutaway": false
+          }
+        },
+        {
+          "t": 34.88,
+          "do": {
+            "explode": 0.5
+          }
+        },
+        {
+          "t": 38.24,
+          "do": {
+            "explode": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "scene-tank-and-tap",
+      "scope": "scene:tank-and-tap",
+      "title": "Le ballon, puis le chemin jusqu’à la douche",
+      "scene": "tank-and-tap",
+      "file": "scene-tank-and-tap.mp3",
+      "duration": 44.7,
+      "chars": 817,
+      "hash": "9ce559f28096116f",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 2.72,
+          "text": "De gauche à droite, dans l’ordre de la chaleur."
+        },
+        {
+          "t0": 2.72,
+          "t1": 5.82,
+          "text": "Ce monde aussi s’ouvre coupé, le long de l’axe du ballon."
+        },
+        {
+          "t0": 5.82,
+          "t1": 9.5,
+          "text": "Voici la colonne d’eau, en dix couches, colorées en direct."
+        },
+        {
+          "t0": 9.5,
+          "t1": 13,
+          "text": "À mi-hauteur, la résistance, pour les jours gris."
+        },
+        {
+          "t0": 13,
+          "t1": 16.36,
+          "text": "Sur le mur, le clapet et la soupape d’eau froide."
+        },
+        {
+          "t0": 16.36,
+          "t1": 19.34,
+          "text": "Puis le mitigeur, entre la brûlure et la légionelle."
+        },
+        {
+          "t0": 19.34,
+          "t1": 21.76,
+          "text": "Et enfin la douche, pour qui tout existe."
+        },
+        {
+          "t0": 21.76,
+          "t1": 25.63,
+          "text": "Les deux consoles qui portent le ballon sont un support de ce monde, sans source."
+        },
+        {
+          "t0": 25.63,
+          "t1": 29.74,
+          "text": "Flux montre deux chemins : le circuit de notre goutte, et l’eau que l’on boit,"
+        },
+        {
+          "t0": 29.78,
+          "t1": 31.88,
+          "text": "qui ne bouge que quand un robinet tire."
+        },
+        {
+          "t0": 31.88,
+          "t1": 33.92,
+          "text": "Regardons maintenant le ballon par son bout."
+        },
+        {
+          "t0": 33.92,
+          "t1": 38.48,
+          "text": "L’outil Coupe le tranche en travers : voici les dix couches, en tranches de cercle."
+        },
+        {
+          "t0": 38.48,
+          "t1": 43.14,
+          "text": "Puis lancez le scénario Le matin de la famille : à la troisième douche, le mitigeur disparaît."
+        },
+        {
+          "t0": 43.14,
+          "t1": 44.7,
+          "text": "Regardez le chiffre du robinet."
+        }
+      ],
+      "cues": [
+        {
+          "t": 0,
+          "do": {
+            "home": true
+          }
+        },
+        {
+          "t": 5.82,
+          "do": {
+            "frame": [
+              "water-column"
+            ]
+          }
+        },
+        {
+          "t": 9.5,
+          "do": {
+            "frame": [
+              "booster-element"
+            ]
+          }
+        },
+        {
+          "t": 13,
+          "do": {
+            "frame": [
+              "trio-valve",
+              "cold-relief-valve"
+            ]
+          }
+        },
+        {
+          "t": 16.36,
+          "do": {
+            "frame": [
+              "tempering-valve"
+            ]
+          }
+        },
+        {
+          "t": 19.34,
+          "do": {
+            "frame": [
+              "shower-head"
+            ]
+          }
+        },
+        {
+          "t": 21.76,
+          "do": {
+            "home": true
+          }
+        },
+        {
+          "t": 25.63,
+          "do": {
+            "flows": true
+          }
+        },
+        {
+          "t": 31.88,
+          "do": {
+            "flows": false
+          }
+        },
+        {
+          "t": 31.88,
+          "do": {
+            "frame": [
+              "end-cap"
+            ]
+          }
+        },
+        {
+          "t": 33.92,
+          "do": {
+            "cutaway": true
+          }
+        },
+        {
+          "t": 38.48,
+          "do": {
+            "cutaway": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "part-roof-unit",
+      "scope": "part:roof-unit",
+      "title": "Le chauffe-eau sur le toit",
+      "scene": "house",
+      "file": "part-roof-unit.mp3",
+      "duration": 18.24,
+      "chars": 321,
+      "hash": "659a4a66d3b1a9a9",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 6.34,
+          "text": "Toute la machine tient sur un seul cadre : deux capteurs, un ballon couché juste au-dessus, et aucune pompe."
+        },
+        {
+          "t0": 6.34,
+          "t1": 9.08,
+          "text": "Seule la résistance d’appoint demande du courant."
+        },
+        {
+          "t0": 9.08,
+          "t1": 11.74,
+          "text": "Rien ne tourne, donc rien ne s’use vite."
+        },
+        {
+          "t0": 11.74,
+          "t1": 15.96,
+          "text": "Mais rien ne sonne non plus : un jour, l’eau reste tiède, sans alarme."
+        },
+        {
+          "t0": 15.96,
+          "t1": 18.24,
+          "text": "Comparez donc une journée claire à celles d’avant."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-roof-structure",
+      "scope": "part:roof-structure",
+      "title": "Chevrons et liteaux",
+      "scene": "house",
+      "file": "part-roof-structure.mp3",
+      "duration": 19.12,
+      "chars": 353,
+      "hash": "74d94547b2b241ff",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 4.34,
+          "text": "Cinq cent quinze kilos en charge, et presque tout ce poids se tient en haut."
+        },
+        {
+          "t0": 4.34,
+          "t1": 8.5,
+          "text": "La moyenne a l’air sage : environ quatre-vingt-cinq kilos par mètre carré."
+        },
+        {
+          "t0": 8.5,
+          "t1": 11.86,
+          "text": "Mais le ballon en pèse quatre cent dix-sept, sur une seule ligne."
+        },
+        {
+          "t0": 11.86,
+          "t1": 13.56,
+          "text": "C’est cette ligne qui décide."
+        },
+        {
+          "t0": 13.56,
+          "t1": 19.12,
+          "text": "Prévoyez un engin de levage, et l’avis d’un charpentier ou d’un ingénieur de structure, avant tout achat."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-roof-tiles",
+      "scope": "part:roof-tiles",
+      "title": "Tuiles",
+      "scene": "house",
+      "file": "part-roof-tiles.mp3",
+      "duration": 16.4,
+      "chars": 296,
+      "hash": "b6af927025766d65",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 3.66,
+          "text": "La machine ne remplace pas la couverture : elle se pose dessus."
+        },
+        {
+          "t0": 3.66,
+          "t1": 7.3,
+          "text": "On soulève les tuiles, les feuillards glissent dessous jusqu’aux chevrons,"
+        },
+        {
+          "t0": 7.3,
+          "t1": 10.04,
+          "text": "et les tuiles reprennent leur place."
+        },
+        {
+          "t0": 10.04,
+          "t1": 12.82,
+          "text": "Pas de toit à refaire, tant que la charpente suit."
+        },
+        {
+          "t0": 12.82,
+          "t1": 16.4,
+          "text": "Et là-haut, on marche sur les chevrons, jamais au milieu d’une tuile."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-roof-penetration",
+      "scope": "part:roof-penetration",
+      "title": "Traversée de toit",
+      "scene": "house",
+      "file": "part-roof-penetration.mp3",
+      "duration": 18.08,
+      "chars": 299,
+      "hash": "ba91dfe1e45fe31b",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 1.97,
+          "text": "Le seul trou de toute l’affaire !"
+        },
+        {
+          "t0": 1.97,
+          "t1": 7.64,
+          "text": "Eau froide, eau chaude, câble de l’appoint, évacuation : tout passe ici."
+        },
+        {
+          "t0": 7.64,
+          "t1": 10.56,
+          "text": "Une seule étanchéité à surveiller, au lieu de quatre."
+        },
+        {
+          "t0": 10.56,
+          "t1": 14.2,
+          "text": "Le constructeur la veut derrière le ballon, au point haut d’une tuile."
+        },
+        {
+          "t0": 14.2,
+          "t1": 18.08,
+          "text": "Le point haut, c’est son dos : la pluie, elle, court dans le creux."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-load-bearing-wall",
+      "scope": "part:load-bearing-wall",
+      "title": "Mur porteur",
+      "scene": "house",
+      "file": "part-load-bearing-wall.mp3",
+      "duration": 16.96,
+      "chars": 318,
+      "hash": "c7f45d9e3037c25b",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 3.78,
+          "text": "Comment quatre cent dix-sept kilos descendent-ils jusqu’au sol ?"
+        },
+        {
+          "t0": 3.78,
+          "t1": 6.3,
+          "text": "Par le plus court chemin, s’il existe."
+        },
+        {
+          "t0": 6.3,
+          "t1": 10.62,
+          "text": "Un mur sous le ballon raccourcit ce chemin, au lieu de muscler les chevrons."
+        },
+        {
+          "t0": 10.62,
+          "t1": 12.98,
+          "text": "Le constructeur dit seulement que c’est souhaitable."
+        },
+        {
+          "t0": 12.98,
+          "t1": 16.96,
+          "text": "Et ce mur-ci est un choix de décor : toutes les maisons ne l’ont pas au bon endroit."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-cold-main",
+      "scope": "part:cold-main",
+      "title": "Arrivée d’eau froide",
+      "scene": "house",
+      "file": "part-cold-main.mp3",
+      "duration": 18.16,
+      "chars": 329,
+      "hash": "de996d3812619302",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 1.88,
+          "text": "Pas de pompe de ce côté non plus !"
+        },
+        {
+          "t0": 1.88,
+          "t1": 5.8,
+          "text": "Le réseau remplit le ballon par le bas, chaque fois qu’un robinet tire en haut."
+        },
+        {
+          "t0": 5.8,
+          "t1": 10.2,
+          "text": "La même pression pousse l’eau chaude jusqu’aux robinets : elle sert deux fois."
+        },
+        {
+          "t0": 10.2,
+          "t1": 12.26,
+          "text": "D’où une cuve d’acier épais."
+        },
+        {
+          "t0": 12.26,
+          "t1": 18.16,
+          "text": "Au ballon, six cent quatre-vingts kilopascals au plus avec une soupape d’eau froide, huit cents sans elle."
+        }
+      ],
+      "cues": [
+        {
+          "t": 0,
+          "do": {
+            "xray": true
+          }
+        },
+        {
+          "t": 10.2,
+          "do": {
+            "xray": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "part-hot-line",
+      "scope": "part:hot-line",
+      "title": "Conduite d’eau chaude",
+      "scene": "house",
+      "file": "part-hot-line.mp3",
+      "duration": 19.76,
+      "chars": 334,
+      "hash": "b91dc3f681e44eeb",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 3.18,
+          "text": "Du toit aux robinets, à travers toute la maison."
+        },
+        {
+          "t0": 3.18,
+          "t1": 5.38,
+          "text": "Elle voit l’eau telle qu’elle sort du ballon."
+        },
+        {
+          "t0": 5.38,
+          "t1": 10.98,
+          "text": "L’été, soixante à soixante-dix degrés, et parfois jusqu’à quatre-vingt-quinze, dit le manuel."
+        },
+        {
+          "t0": 10.98,
+          "t1": 13.9,
+          "text": "Ses points ne bougent que quand un robinet tire."
+        },
+        {
+          "t0": 13.9,
+          "t1": 19.76,
+          "text": "Le reste du temps, elle refroidit : plus elle est longue, plus il reste d’eau chaude à y perdre."
+        }
+      ],
+      "cues": [
+        {
+          "t": 0,
+          "do": {
+            "xray": true
+          }
+        },
+        {
+          "t": 0,
+          "do": {
+            "flows": true
+          }
+        },
+        {
+          "t": 13.9,
+          "do": {
+            "flows": false
+          }
+        },
+        {
+          "t": 13.9,
+          "do": {
+            "xray": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "part-drain-outlet",
+      "scope": "part:drain-outlet",
+      "title": "Évacuation des soupapes",
+      "scene": "house",
+      "file": "part-drain-outlet.mp3",
+      "duration": 18.8,
+      "chars": 334,
+      "hash": "394ea4f95b2b9e7a",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 2.28,
+          "text": "Une goutte ici, pendant que le ballon chauffe ?"
+        },
+        {
+          "t0": 2.28,
+          "t1": 3.36,
+          "text": "C’est normal !"
+        },
+        {
+          "t0": 3.36,
+          "t1": 8.22,
+          "text": "De dix à quatre-vingts degrés, environ huit virgule six litres doivent sortir."
+        },
+        {
+          "t0": 8.22,
+          "t1": 13.56,
+          "text": "Chaque évacuation descend seule, sans contre-pente, et finit à l’air libre, bien en vue."
+        },
+        {
+          "t0": 13.56,
+          "t1": 18.8,
+          "text": "Car personne ne remarque une soupape qui ne s’ouvre plus, sauf celui qui a appris à attendre sa goutte."
+        }
+      ],
+      "cues": [
+        {
+          "t": 0,
+          "do": {
+            "xray": true
+          }
+        },
+        {
+          "t": 8.22,
+          "do": {
+            "xray": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "part-meter-box",
+      "scope": "part:meter-box",
+      "title": "Tableau et interrupteur",
+      "scene": "house",
+      "file": "part-meter-box.mp3",
+      "duration": 21.68,
+      "chars": 387,
+      "hash": "c3dc94438ed1398f",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 3.8,
+          "text": "Le seul courant de toute la machine, et il ne sert qu’à l’appoint."
+        },
+        {
+          "t0": 3.8,
+          "t1": 5.8,
+          "text": "Tout le choix tient dans cette horloge."
+        },
+        {
+          "t0": 5.8,
+          "t1": 10.92,
+          "text": "Laissée allumée en permanence, la résistance chauffe l’eau que le soleil aurait chauffée."
+        },
+        {
+          "t0": 10.92,
+          "t1": 15.9,
+          "text": "Réglée sur horloge, elle chauffe ici de seize à dix-neuf heures : une hypothèse."
+        },
+        {
+          "t0": 15.9,
+          "t1": 21.68,
+          "text": "Le raccordement revient à un électricien qualifié : c’est du courant du réseau, sur un toit, à côté de l’eau."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-shade-tree",
+      "scope": "part:shade-tree",
+      "title": "L’olivier",
+      "scene": "house",
+      "file": "part-shade-tree.mp3",
+      "duration": 20.88,
+      "chars": 337,
+      "hash": "4c1167689b0eabea",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 2.04,
+          "text": "Un olivier bien innocent…"
+        },
+        {
+          "t0": 2.04,
+          "t1": 4.92,
+          "text": "tant que son ombre manque les capteurs."
+        },
+        {
+          "t0": 4.92,
+          "t1": 11.14,
+          "text": "Le constructeur ne veut aucune ombre, toute l’année : un arbre pousse, et le soleil d’hiver passe bas."
+        },
+        {
+          "t0": 11.14,
+          "t1": 14.2,
+          "text": "Notre modèle, lui, ne connaît aucune ombre."
+        },
+        {
+          "t0": 14.2,
+          "t1": 18.7,
+          "text": "Un détail amusant : cette machine vient d’Australie, où son nord est notre sud."
+        },
+        {
+          "t0": 18.7,
+          "t1": 20.88,
+          "text": "Seule compte la direction du soleil de midi."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-collector-left",
+      "scope": "part:collector-left",
+      "title": "Capteur de gauche",
+      "scene": "rig",
+      "file": "part-collector-left.mp3",
+      "duration": 17.76,
+      "chars": 317,
+      "hash": "0ecf9355b9588b20",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 5.8,
+          "text": "Une vitre sombre dans un cadre pâle : c’est par le coin haut de ce capteur que notre goutte s’en va."
+        },
+        {
+          "t0": 5.8,
+          "t1": 9.46,
+          "text": "Un laboratoire indépendant lui donne près de soixante-dix-huit pour cent de rendement,"
+        },
+        {
+          "t0": 9.46,
+          "t1": 12.04,
+          "text": "à température égale avec l’air."
+        },
+        {
+          "t0": 12.04,
+          "t1": 14.58,
+          "text": "Ensuite, chaque degré de plus coûte."
+        },
+        {
+          "t0": 14.58,
+          "t1": 17.76,
+          "text": "Le bouton de cette fiche l’ouvre en coupe, tubes en couleur."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-collector-right",
+      "scope": "part:collector-right",
+      "title": "Capteur de droite",
+      "scene": "rig",
+      "file": "part-collector-right.mp3",
+      "duration": 23.92,
+      "chars": 376,
+      "hash": "811a2adbb8017d84",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 1.96,
+          "text": "Son voisin, en miroir."
+        },
+        {
+          "t0": 1.96,
+          "t1": 6.18,
+          "text": "Notre goutte entre par son coin bas, et traverse la rangée en diagonale."
+        },
+        {
+          "t0": 6.18,
+          "t1": 10.16,
+          "text": "Chaque tube a ainsi à peu près le même chemin, sans vanne ni pompe."
+        },
+        {
+          "t0": 10.16,
+          "t1": 11.86,
+          "text": "Sa fiche d’essai dit tout."
+        },
+        {
+          "t0": 11.86,
+          "t1": 16.03,
+          "text": "Un même jour donne six kilowattheures à cinq degrés au-dessus de l’air,"
+        },
+        {
+          "t0": 16.11,
+          "t1": 21.12,
+          "text": "quatre kilowattheures à vingt, zéro virgule sept à cinquante."
+        },
+        {
+          "t0": 21.12,
+          "t1": 23.92,
+          "text": "Tout l’art de cette machine : lui rendre du froid !"
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-collector-link",
+      "scope": "part:collector-link",
+      "title": "Raccord entre capteurs",
+      "scene": "rig",
+      "file": "part-collector-link.mp3",
+      "duration": 20.4,
+      "chars": 363,
+      "hash": "1cc411c7b9dbe72c",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 2.64,
+          "text": "Les capteurs s’estompent, et ce raccord reste."
+        },
+        {
+          "t0": 2.64,
+          "t1": 7.1,
+          "text": "Pour notre goutte, il n’y a plus deux capteurs : un raccord en haut, un autre en bas,"
+        },
+        {
+          "t0": 7.1,
+          "t1": 8.88,
+          "text": "et voilà une seule rangée."
+        },
+        {
+          "t0": 8.88,
+          "t1": 10.26,
+          "text": "Rien de plus discret."
+        },
+        {
+          "t0": 10.26,
+          "t1": 15.48,
+          "text": "C’est le seul joint entre deux pièces qui se dilatent chacune de leur côté, une fois par jour."
+        },
+        {
+          "t0": 15.48,
+          "t1": 20.4,
+          "text": "Une trace bleue et sèche ici, et le circuit perd peut-être son niveau depuis des mois."
+        }
+      ],
+      "cues": [
+        {
+          "t": 0,
+          "do": {
+            "xray": true
+          }
+        },
+        {
+          "t": 8.88,
+          "do": {
+            "xray": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "part-storage-tank",
+      "scope": "part:storage-tank",
+      "title": "Le ballon",
+      "scene": "rig",
+      "file": "part-storage-tank.mp3",
+      "duration": 18.24,
+      "chars": 321,
+      "hash": "b5bbd23c7cb3d5e9",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 4.08,
+          "text": "De dehors, un long cylindre d’aluminium aux flasques noirs."
+        },
+        {
+          "t0": 4.08,
+          "t1": 8.16,
+          "text": "Dedans, trois cents litres d’eau potable, quatre cent dix-sept kilos en charge."
+        },
+        {
+          "t0": 8.16,
+          "t1": 14.24,
+          "text": "Un guide officiel juge ces ballons couchés bien moins performants : trop peu de hauteur pour le chaud et le froid."
+        },
+        {
+          "t0": 14.24,
+          "t1": 18.24,
+          "text": "Mais debout sur un toit, il serait haut, lourd, et plein de vent !"
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-hot-pipe",
+      "scope": "part:hot-pipe",
+      "title": "Tuyau chaud",
+      "scene": "rig",
+      "file": "part-hot-pipe.mp3",
+      "duration": 32.19,
+      "chars": 575,
+      "hash": "8e195cc055e16f9f",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 5.54,
+          "text": "Un tout petit tuyau, et rien pour y pousser notre goutte, sinon une différence de poids."
+        },
+        {
+          "t0": 5.54,
+          "t1": 11.34,
+          "text": "Vers midi, par ciel clair, notre modèle trouve une poussée de six virgule six millimètres d’eau."
+        },
+        {
+          "t0": 11.34,
+          "t1": 13.08,
+          "text": "À peu près l’épaisseur d’un crayon."
+        },
+        {
+          "t0": 13.08,
+          "t1": 16.1,
+          "text": "Et cela fait circuler cent trente-deux litres par heure !"
+        },
+        {
+          "t0": 16.1,
+          "t1": 21.16,
+          "text": "Par un jour clair de juin, à l’heure solaire, la plaque gagne dès quatre heures cinquante."
+        },
+        {
+          "t0": 21.16,
+          "t1": 25.42,
+          "text": "Mais la goutte ne part que vers sept heures dix : il faut d’abord remonter du froid de la nuit."
+        },
+        {
+          "t0": 25.42,
+          "t1": 32.19,
+          "text": "La nuit, justement, un filet y coule à l’envers : un litre et demi par heure, en moyenne de minuit à l’aube."
+        }
+      ],
+      "cues": [
+        {
+          "t": 0,
+          "do": {
+            "flows": true
+          }
+        },
+        {
+          "t": 25.42,
+          "do": {
+            "flows": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "part-cold-pipe",
+      "scope": "part:cold-pipe",
+      "title": "Tuyau froid",
+      "scene": "rig",
+      "file": "part-cold-pipe.mp3",
+      "duration": 19.64,
+      "chars": 333,
+      "hash": "4870f436cab59cf4",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 3.9,
+          "text": "Le long tuyau de droite : la moitié lourde de la boucle."
+        },
+        {
+          "t0": 3.9,
+          "t1": 9.54,
+          "text": "Refroidie, plus dense, notre goutte y redescend, et c’est ce poids-là qui fait tout tourner."
+        },
+        {
+          "t0": 9.54,
+          "t1": 14.68,
+          "text": "Au débit de midi, les dix-neuf litres du circuit font le tour en neuf minutes environ."
+        },
+        {
+          "t0": 14.68,
+          "t1": 19.64,
+          "text": "Pas de vanne ajoutée sans raison, donc : chaque rétrécissement mange une poussée déjà minuscule."
+        }
+      ],
+      "cues": [
+        {
+          "t": 0,
+          "do": {
+            "flows": true
+          }
+        },
+        {
+          "t": 9.54,
+          "do": {
+            "flows": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "part-collector-rail",
+      "scope": "part:collector-rail",
+      "title": "Rail de pied",
+      "scene": "rig",
+      "file": "part-collector-rail.mp3",
+      "duration": 21.36,
+      "chars": 355,
+      "hash": "6db60041ce32686a",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 3.52,
+          "text": "Tout part de lui, et il est posé de travers, exprès !"
+        },
+        {
+          "t0": 3.52,
+          "t1": 8.12,
+          "text": "Le constructeur le relève de douze millimètres par capteur, d’un côté."
+        },
+        {
+          "t0": 8.12,
+          "t1": 11.26,
+          "text": "Le manuel ne dit pas pourquoi, dans ce que nous avons lu."
+        },
+        {
+          "t0": 11.26,
+          "t1": 17.58,
+          "text": "Notre lecture : les collecteurs montent alors vers un seul coin, et l’air n’a qu’une direction où aller."
+        },
+        {
+          "t0": 17.58,
+          "t1": 21.36,
+          "text": "On le pose avant tout le reste : toutes les mesures partent de lui."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-collector-strap",
+      "scope": "part:collector-strap",
+      "title": "Feuillard de capteur",
+      "scene": "rig",
+      "file": "part-collector-strap.mp3",
+      "duration": 17.04,
+      "chars": 302,
+      "hash": "ea9e45c312aec9d2",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 2.82,
+          "text": "Quarante-trois kilos, ce n’est rien pour un chevron."
+        },
+        {
+          "t0": 2.82,
+          "t1": 5.9,
+          "text": "Mais un vent de face soulève un capteur comme une aile !"
+        },
+        {
+          "t0": 5.9,
+          "t1": 11.46,
+          "text": "Ces bandes d’acier s’accrochent au rail, passent sous les tuiles, et se fixent là où il y a du bois."
+        },
+        {
+          "t0": 11.46,
+          "t1": 13.59,
+          "text": "Une fixation à la tuile ne tiendrait rien."
+        },
+        {
+          "t0": 13.59,
+          "t1": 17.04,
+          "text": "Quatre sont dessinées ici, à une taille estimée."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-tank-spacer",
+      "scope": "part:tank-spacer",
+      "title": "Cale capteur-ballon",
+      "scene": "rig",
+      "file": "part-tank-spacer.mp3",
+      "duration": 17.84,
+      "chars": 326,
+      "hash": "82f788894d39cf8b",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 4.22,
+          "text": "Deux cales de rien du tout, et toute la question de la nuit tient là."
+        },
+        {
+          "t0": 4.22,
+          "t1": 8.85,
+          "text": "Le ballon s’y arrête, son bas au niveau du haut des capteurs, à cinq centimètres près,"
+        },
+        {
+          "t0": 9.08,
+          "t1": 10.84,
+          "text": "d’après notre lecture des plans."
+        },
+        {
+          "t0": 10.84,
+          "t1": 15.7,
+          "text": "Pour certaines sources, c’est la limite entre une nuit tranquille et une nuit coûteuse."
+        },
+        {
+          "t0": 15.7,
+          "t1": 17.84,
+          "text": "D’autres ne s’accordent pas sur la bonne valeur."
+        }
+      ],
+      "cues": [
+        {
+          "t": 0,
+          "do": {
+            "xray": true
+          }
+        },
+        {
+          "t": 10.84,
+          "do": {
+            "xray": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "part-tank-strap",
+      "scope": "part:tank-strap",
+      "title": "Feuillard du ballon",
+      "scene": "rig",
+      "file": "part-tank-strap.mp3",
+      "duration": 16.64,
+      "chars": 302,
+      "hash": "309d702b57d48f2f",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 2.75,
+          "text": "Quatre cent dix-sept kilos pendent vers le bas de la pente,"
+        },
+        {
+          "t0": 2.94,
+          "t1": 6.16,
+          "text": "et le vent les prend de biais sur deux mètres trente et un."
+        },
+        {
+          "t0": 6.16,
+          "t1": 8.96,
+          "text": "Ce feuillard en répond, par-dessus le ballon."
+        },
+        {
+          "t0": 8.96,
+          "t1": 12.78,
+          "text": "Il ne fait presque rien, puis beaucoup, en quelques heures de tempête."
+        },
+        {
+          "t0": 12.78,
+          "t1": 15,
+          "text": "Sa taille et sa place sont estimées."
+        },
+        {
+          "t0": 15,
+          "t1": 16.64,
+          "text": "Une bande marquée se change."
+        }
+      ],
+      "cues": [
+        {
+          "t": 0,
+          "do": {
+            "xray": true
+          }
+        },
+        {
+          "t": 8.96,
+          "do": {
+            "xray": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "part-fill-port",
+      "scope": "part:fill-port",
+      "title": "Remplissage",
+      "scene": "rig",
+      "file": "part-fill-port.mp3",
+      "duration": 19.68,
+      "chars": 348,
+      "hash": "c78ab0ca8e38deaf",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 2.75,
+          "text": "C’est par ce coin que notre goutte entre dans l’histoire."
+        },
+        {
+          "t0": 2.75,
+          "t1": 8.34,
+          "text": "Dix-neuf litres de circuit, dont une bouteille de quatre litres et demi de glycol alimentaire bleu."
+        },
+        {
+          "t0": 8.34,
+          "t1": 13.52,
+          "text": "Cela fait environ vingt-quatre pour cent du mélange, qui gèle à moins neuf virgule deux degrés."
+        },
+        {
+          "t0": 13.52,
+          "t1": 19.68,
+          "text": "Le manuel réserve ce geste à des installateurs formés, ballon déjà plein et capteurs couverts."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-top-plug",
+      "scope": "part:top-plug",
+      "title": "Bouchon haut",
+      "scene": "rig",
+      "file": "part-top-plug.mp3",
+      "duration": 19.76,
+      "chars": 309,
+      "hash": "a51eddcd89d102a6",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 3.76,
+          "text": "À l’autre bout de la diagonale, un simple bouchon de laiton."
+        },
+        {
+          "t0": 3.76,
+          "t1": 8.38,
+          "text": "Au remplissage, l’air s’en va par là, jusqu’à ce que le mélange arrive."
+        },
+        {
+          "t0": 8.38,
+          "t1": 15.58,
+          "text": "Rôle minuscule et décisif : une bulle restée au point haut peut bloquer une circulation que presque rien ne pousse."
+        },
+        {
+          "t0": 15.58,
+          "t1": 16.58,
+          "text": "Le symptôme ?"
+        },
+        {
+          "t0": 16.58,
+          "t1": 19.76,
+          "text": "Un capteur brûlant et un ballon froid, à midi."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-overheat-valve",
+      "scope": "part:overheat-valve",
+      "title": "Vanne anti-surchauffe",
+      "scene": "rig",
+      "file": "part-overheat-valve.mp3",
+      "duration": 21.44,
+      "chars": 371,
+      "hash": "88d203e3f7aeca47",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 4.84,
+          "text": "Une famille part une semaine en juillet : plus personne ne tire d’eau, et le ballon monte."
+        },
+        {
+          "t0": 4.84,
+          "t1": 8.1,
+          "text": "Cette vanne, une option, ferme alors la boucle."
+        },
+        {
+          "t0": 8.1,
+          "t1": 11.97,
+          "text": "À Athènes, notre modèle monte à quatre-vingt-quatorze degrés en haut du ballon sans elle,"
+        },
+        {
+          "t0": 12.02,
+          "t1": 13.88,
+          "text": "quatre-vingt-cinq avec…"
+        },
+        {
+          "t0": 13.88,
+          "t1": 17.16,
+          "text": "mais cent seize au capteur, resté seul au soleil."
+        },
+        {
+          "t0": 17.16,
+          "t1": 21.44,
+          "text": "Ni sa consigne ni sa place ne sont publiées : ici, deux estimations."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-overflow-reservoir",
+      "scope": "part:overflow-reservoir",
+      "title": "Vase du circuit",
+      "scene": "rig",
+      "file": "part-overflow-reservoir.mp3",
+      "duration": 18,
+      "chars": 316,
+      "hash": "f7b3a354ced5a4ef",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 4.66,
+          "text": "Un circuit fermé plein de liquide chaud doit bien mettre sa dilatation quelque part."
+        },
+        {
+          "t0": 4.66,
+          "t1": 8.84,
+          "text": "Le constructeur ne publie ni le volume de ce vase, ni sa fixation."
+        },
+        {
+          "t0": 8.84,
+          "t1": 13.42,
+          "text": "Ce petit cylindre est donc notre estimation, et notre modèle ne le compte pas."
+        },
+        {
+          "t0": 13.42,
+          "t1": 18,
+          "text": "Si le constructeur répondait à un message, c’est cette fiche qui changerait le plus !"
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-test-stand",
+      "scope": "part:test-stand",
+      "title": "Banc d’essai",
+      "scene": "rig",
+      "file": "part-test-stand.mp3",
+      "duration": 34.56,
+      "chars": 595,
+      "hash": "896dcc478f90e2dc",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 2.9,
+          "text": "Il n’appartient pas à la machine : il pose une question."
+        },
+        {
+          "t0": 2.9,
+          "t1": 4.48,
+          "text": "Et si le ballon était plus bas ?"
+        },
+        {
+          "t0": 4.48,
+          "t1": 5.92,
+          "text": "Prenons une nuit claire de juin."
+        },
+        {
+          "t0": 5.92,
+          "t1": 12.28,
+          "text": "Soixante et un centimètres au-dessus de zéro, notre modèle perd un virgule un pour cent de la chaleur du jour."
+        },
+        {
+          "t0": 12.28,
+          "t1": 15.84,
+          "text": "À trente centimètres dessous : treize virgule sept."
+        },
+        {
+          "t0": 15.84,
+          "t1": 19.96,
+          "text": "Le pire : quinze virgule trois, à soixante et un centimètres dessous."
+        },
+        {
+          "t0": 19.96,
+          "t1": 23.64,
+          "text": "Plus bas, le jour s’arrête, et il ne reste plus rien à voler !"
+        },
+        {
+          "t0": 23.64,
+          "t1": 30.42,
+          "text": "Tout cela repose sur un calcul du ciel, sans rosée : sans lui, ces pertes tombent au quart environ."
+        },
+        {
+          "t0": 30.42,
+          "t1": 34.56,
+          "text": "Et sous zéro, le dessin fait un détour de tuyau que le modèle ne compte pas."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-glass-cover",
+      "scope": "part:glass-cover",
+      "title": "Vitrage",
+      "scene": "collector",
+      "file": "part-glass-cover.mp3",
+      "duration": 14.4,
+      "chars": 268,
+      "hash": "de06257ac3b87610",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 4.98,
+          "text": "Trois virgule deux millimètres de verre trempé, sans le reflet vert du verre courant."
+        },
+        {
+          "t0": 4.98,
+          "t1": 9.38,
+          "text": "Le soleil le traverse, et la chaleur que renvoie la plaque s’y arrête en bonne partie."
+        },
+        {
+          "t0": 9.38,
+          "t1": 11.42,
+          "text": "Mais la nuit, il change de camp !"
+        },
+        {
+          "t0": 11.42,
+          "t1": 14.4,
+          "text": "Il rayonne vers le ciel clair, et tire la plaque vers le bas."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-glass-seal",
+      "scope": "part:glass-seal",
+      "title": "Joint de vitrage",
+      "scene": "collector",
+      "file": "part-glass-seal.mp3",
+      "duration": 16.32,
+      "chars": 272,
+      "hash": "6ebad84a05e11a20",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 4.74,
+          "text": "Voici une pièce sans chiffre : personne ne publie sa matière, ni sa forme."
+        },
+        {
+          "t0": 4.74,
+          "t1": 9.22,
+          "text": "Ce joint souple doit serrer un verre fragile, et laisser le caisson se dilater."
+        },
+        {
+          "t0": 9.22,
+          "t1": 14.56,
+          "text": "Son travail se voit par son absence : qu’il fuie, et le vent entre sous le verre."
+        },
+        {
+          "t0": 14.56,
+          "t1": 16.32,
+          "text": "La buée est alors le premier signe."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-air-gap",
+      "scope": "part:air-gap",
+      "title": "Lame d’air",
+      "scene": "collector",
+      "file": "part-air-gap.mp3",
+      "duration": 19.56,
+      "chars": 334,
+      "hash": "185c1c532966cba6",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 1.8,
+          "text": "Cette pièce n’en est pas une !"
+        },
+        {
+          "t0": 1.8,
+          "t1": 5.78,
+          "text": "L’air n’a pas de surface : ce labo lui dessine une plaque presque invisible,"
+        },
+        {
+          "t0": 5.96,
+          "t1": 8.6,
+          "text": "juste pour la nommer et voir son contour."
+        },
+        {
+          "t0": 8.6,
+          "t1": 10.62,
+          "text": "Il n’y a rien d’autre à montrer."
+        },
+        {
+          "t0": 10.62,
+          "t1": 17.28,
+          "text": "Pourtant, tant qu’il reste immobile, cet air conduit très mal la chaleur : c’est l’isolant côté soleil."
+        },
+        {
+          "t0": 17.28,
+          "t1": 19.56,
+          "text": "Et c’est la seule fiche sans pièce à commander."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-absorber-plate",
+      "scope": "part:absorber-plate",
+      "title": "Absorbeur",
+      "scene": "collector",
+      "file": "part-absorber-plate.mp3",
+      "duration": 26.16,
+      "chars": 407,
+      "hash": "075d966b0849bcfc",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 6.18,
+          "text": "La seule transformation de toute la machine : à la surface de cette tôle, le soleil devient chaleur."
+        },
+        {
+          "t0": 6.18,
+          "t1": 9.42,
+          "text": "Elle est peinte en noir, sans revêtement sélectif."
+        },
+        {
+          "t0": 9.42,
+          "t1": 11.84,
+          "text": "Bon choix pour un fluide peu chaud."
+        },
+        {
+          "t0": 11.84,
+          "t1": 17.44,
+          "text": "Sous huit cents watts par mètre carré, le noir gagne jusqu’à vingt-cinq degrés au-dessus de l’air."
+        },
+        {
+          "t0": 17.44,
+          "t1": 19.54,
+          "text": "Mais la nuit, elle rayonne."
+        },
+        {
+          "t0": 19.54,
+          "t1": 26.16,
+          "text": "Par nuit claire, à dix degrés d’air, le calcul la place cinq virgule quatre degrés plus bas."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-riser-tube",
+      "scope": "part:riser-tube",
+      "title": "Tube montant",
+      "scene": "collector",
+      "file": "part-riser-tube.mp3",
+      "duration": 33.28,
+      "chars": 551,
+      "hash": "91f18d5a2eb38c5f",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 3.74,
+          "text": "La chambre de notre goutte : un tube d’acier parmi soixante-dix."
+        },
+        {
+          "t0": 3.74,
+          "t1": 7,
+          "text": "C’est ici qu’elle chauffe, et que la montée commence."
+        },
+        {
+          "t0": 7,
+          "t1": 14.04,
+          "text": "Vers midi, elle avance à environ un virgule quatre centimètre par seconde : le débit se partage entre tous."
+        },
+        {
+          "t0": 14.04,
+          "t1": 18.54,
+          "text": "Personne ne publie leur diamètre : sept millimètres, c’est une estimation."
+        },
+        {
+          "t0": 18.54,
+          "t1": 19.6,
+          "text": "Et plus fin ?"
+        },
+        {
+          "t0": 19.6,
+          "t1": 24.68,
+          "text": "À trois millimètres, notre modèle voit le débit de midi tomber à cinquante-trois litres par heure."
+        },
+        {
+          "t0": 24.68,
+          "t1": 29.38,
+          "text": "La journée, elle, ne perd que trois pour cent, et l’année huit."
+        },
+        {
+          "t0": 29.38,
+          "t1": 33.28,
+          "text": "Mais un modèle ne dit pas si un tel circuit démarre : rien à copier ici."
+        }
+      ],
+      "cues": [
+        {
+          "t": 0,
+          "do": {
+            "flows": true
+          }
+        },
+        {
+          "t": 14.04,
+          "do": {
+            "flows": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "part-upper-header",
+      "scope": "part:upper-header",
+      "title": "Collecteur haut",
+      "scene": "collector",
+      "file": "part-upper-header.mp3",
+      "duration": 20,
+      "chars": 344,
+      "hash": "528bf442fdbd9424",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 6.5,
+          "text": "Tout en haut, notre goutte retrouve toutes les autres : ce tube reçoit le fluide des trente-cinq tubes du capteur."
+        },
+        {
+          "t0": 6.5,
+          "t1": 11.5,
+          "text": "C’est aussi de lui que tout se mesure : un ballon à zéro a son bas juste à ce niveau."
+        },
+        {
+          "t0": 11.5,
+          "t1": 13.37,
+          "text": "Son diamètre vient d’un petit calcul."
+        },
+        {
+          "t0": 13.37,
+          "t1": 20,
+          "text": "Trois virgule huit litres par capteur, moins ce que tiennent les tubes : il reste vingt-sept millimètres."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-lower-header",
+      "scope": "part:lower-header",
+      "title": "Collecteur bas",
+      "scene": "collector",
+      "file": "part-lower-header.mp3",
+      "duration": 22.16,
+      "chars": 404,
+      "hash": "74475feb726930a5",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 6.34,
+          "text": "Ici, c’est froid par construction : il reçoit le bas du ballon, et partage le fluide entre tous les tubes."
+        },
+        {
+          "t0": 6.34,
+          "t1": 10.6,
+          "text": "La nuit, c’est par là que sort le filet à l’envers, plus froid que l’air."
+        },
+        {
+          "t0": 10.6,
+          "t1": 16.58,
+          "text": "Par nuit claire, notre modèle y atteint le point de gel dès cinq virgule six degrés d’air avec de l’eau seule."
+        },
+        {
+          "t0": 16.58,
+          "t1": 19.14,
+          "text": "Avec notre mélange, à moins trois virgule deux."
+        },
+        {
+          "t0": 19.14,
+          "t1": 22.16,
+          "text": "Ce sont les premiers cristaux : il ne dit pas si un tube éclate."
+        }
+      ],
+      "cues": [
+        {
+          "t": 0,
+          "do": {
+            "xray": true
+          }
+        },
+        {
+          "t": 6.34,
+          "do": {
+            "xray": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "part-back-insulation",
+      "scope": "part:back-insulation",
+      "title": "Isolant arrière",
+      "scene": "collector",
+      "file": "part-back-insulation.mp3",
+      "duration": 17.6,
+      "chars": 292,
+      "hash": "8ddc858dc7de0c97",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 5.42,
+          "text": "Écartons les couches : la voici, la plus épaisse du capteur, entre le caisson et les tubes."
+        },
+        {
+          "t0": 5.42,
+          "t1": 10.3,
+          "text": "Trente-huit millimètres de laine de polyester, qui ferment l’arrière à la chaleur,"
+        },
+        {
+          "t0": 10.3,
+          "t1": 12.36,
+          "text": "et posent les tubes à leur niveau."
+        },
+        {
+          "t0": 12.36,
+          "t1": 17.6,
+          "text": "Mais si l’eau entre, une laine humide isole mal, et sèche lentement sous le verre."
+        }
+      ],
+      "cues": [
+        {
+          "t": 0,
+          "do": {
+            "explode": 0.5
+          }
+        },
+        {
+          "t": 5.42,
+          "do": {
+            "explode": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "part-collector-tray",
+      "scope": "part:collector-tray",
+      "title": "Caisson",
+      "scene": "collector",
+      "file": "part-collector-tray.mp3",
+      "duration": 18.16,
+      "chars": 325,
+      "hash": "678c337aba1ff2ec",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 5.84,
+          "text": "Zéro virgule sept millimètre d’aluminium : ce caisson tient par sa forme, pas par son épaisseur."
+        },
+        {
+          "t0": 5.84,
+          "t1": 11.78,
+          "text": "Une tôle si fine suffit, car le fluide ne s’y appuie jamais : la pression reste dans les tubes."
+        },
+        {
+          "t0": 11.78,
+          "t1": 14.33,
+          "text": "C’est lui qui se pose sur le rail et prend les feuillards."
+        },
+        {
+          "t0": 14.33,
+          "t1": 18.16,
+          "text": "Quarante-trois kilos en tout, et on le porte à deux, jamais par le verre."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-inner-vessel",
+      "scope": "part:inner-vessel",
+      "title": "Cuve émaillée",
+      "scene": "tank-and-tap",
+      "file": "part-inner-vessel.mp3",
+      "duration": 20.16,
+      "chars": 370,
+      "hash": "030d91b0c5ff9d28",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 2.07,
+          "text": "La seule pièce qui touche l’eau de la douche."
+        },
+        {
+          "t0": 2.07,
+          "t1": 8.3,
+          "text": "Deux virgule cinq millimètres d’acier, deux couches d’émail, et trois cents litres à la pression du réseau."
+        },
+        {
+          "t0": 8.3,
+          "t1": 12.14,
+          "text": "Une curiosité du manuel : laissée sans tirage deux semaines ou plus,"
+        },
+        {
+          "t0": 12.36,
+          "t1": 14.68,
+          "text": "elle peut amasser de l’hydrogène inflammable."
+        },
+        {
+          "t0": 14.68,
+          "t1": 17.9,
+          "text": "On fait alors couler un robinet d’évier, sans flamme à côté."
+        },
+        {
+          "t0": 17.9,
+          "t1": 20.16,
+          "text": "Et si elle perce, elle ne se répare pas."
+        }
+      ],
+      "cues": [
+        {
+          "t": 0,
+          "do": {
+            "xray": true
+          }
+        },
+        {
+          "t": 8.3,
+          "do": {
+            "xray": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "part-mantle-jacket",
+      "scope": "part:mantle-jacket",
+      "title": "Double enveloppe",
+      "scene": "tank-and-tap",
+      "file": "part-mantle-jacket.mp3",
+      "duration": 21.92,
+      "chars": 386,
+      "hash": "a655c7fe511e27aa",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 2.1,
+          "text": "Le grand moment de notre goutte."
+        },
+        {
+          "t0": 2.1,
+          "t1": 8.32,
+          "text": "Elle monte dans cette fente, le long de la cuve, y laisse sa chaleur à travers l’acier, puis redescend."
+        },
+        {
+          "t0": 8.32,
+          "t1": 13.58,
+          "text": "Environ dix litres d’un côté, trois cents de l’autre, et les deux liquides ne se touchent jamais."
+        },
+        {
+          "t0": 13.58,
+          "t1": 15,
+          "text": "Et si la paroi cédait ?"
+        },
+        {
+          "t0": 15,
+          "t1": 19.34,
+          "text": "C’est à ça que sert le bleu : de l’eau bleue au robinet veut dire une fuite."
+        },
+        {
+          "t0": 19.34,
+          "t1": 21.92,
+          "text": "Alors on coupe tout, et on appelle l’installateur."
+        }
+      ],
+      "cues": [
+        {
+          "t": 0,
+          "do": {
+            "xray": true
+          }
+        },
+        {
+          "t": 0,
+          "do": {
+            "flows": true
+          }
+        },
+        {
+          "t": 8.32,
+          "do": {
+            "flows": false
+          }
+        },
+        {
+          "t": 8.32,
+          "do": {
+            "xray": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "part-water-column",
+      "scope": "part:water-column",
+      "title": "La colonne d’eau",
+      "scene": "tank-and-tap",
+      "file": "part-water-column.mp3",
+      "duration": 29.12,
+      "chars": 478,
+      "hash": "26a9e324ebd53412",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 1.7,
+          "text": "Le cœur de ce labo !"
+        },
+        {
+          "t0": 1.7,
+          "t1": 6.62,
+          "text": "L’eau chaude est plus légère : elle reste au-dessus, sans aucune paroi pour l’y tenir."
+        },
+        {
+          "t0": 6.62,
+          "t1": 12.7,
+          "text": "Ces couches sont toute la fortune du ballon : le froid retourne au capteur, le chaud sort par le haut."
+        },
+        {
+          "t0": 12.7,
+          "t1": 19.22,
+          "text": "Le soir d’un jour clair de juin, à Athènes, notre modèle trouve soixante-douze degrés et demi en haut."
+        },
+        {
+          "t0": 19.22,
+          "t1": 21.14,
+          "text": "En bas, près de quarante-sept."
+        },
+        {
+          "t0": 21.14,
+          "t1": 24.44,
+          "text": "À l’aube, le haut est encore à soixante-huit."
+        },
+        {
+          "t0": 24.44,
+          "t1": 29.12,
+          "text": "Dans le scénario Le matin de la famille, la couche chaude descend, douche après douche."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-tank-foam",
+      "scope": "part:tank-foam",
+      "title": "Mousse isolante",
+      "scene": "tank-and-tap",
+      "file": "part-tank-foam.mp3",
+      "duration": 22.88,
+      "chars": 388,
+      "hash": "ff4bca18bfa31a9d",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 5.18,
+          "text": "Un manteau bien mince : environ vingt-cinq millimètres de polyuréthane injecté."
+        },
+        {
+          "t0": 5.18,
+          "t1": 10.22,
+          "text": "D’autres machines en ont de trente à cinquante : c’est le prix d’une forme fine sur un toit."
+        },
+        {
+          "t0": 10.22,
+          "t1": 17.26,
+          "text": "Par une nuit claire de juin, notre modèle voit partir zéro virgule quatre-vingt-six kilowattheure par cette peau."
+        },
+        {
+          "t0": 17.26,
+          "t1": 21.02,
+          "text": "Par le circuit à l’envers, zéro virgule quarante-cinq de plus."
+        },
+        {
+          "t0": 21.02,
+          "t1": 22.88,
+          "text": "Voilà qui remet le voleur à sa place !"
+        }
+      ],
+      "cues": [
+        {
+          "t": 0,
+          "do": {
+            "xray": true
+          }
+        },
+        {
+          "t": 10.22,
+          "do": {
+            "xray": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "part-outer-case",
+      "scope": "part:outer-case",
+      "title": "Enveloppe aluminium",
+      "scene": "tank-and-tap",
+      "file": "part-outer-case.mp3",
+      "duration": 15.2,
+      "chars": 269,
+      "hash": "972cab15454d1f8e",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 3.4,
+          "text": "Zéro virgule quatre millimètre d’aluminium, c’est très peu."
+        },
+        {
+          "t0": 3.4,
+          "t1": 6.76,
+          "text": "Cette peau n’est là que pour la pluie, le soleil et l’œil."
+        },
+        {
+          "t0": 6.76,
+          "t1": 9.84,
+          "text": "Le poids du ballon reste dans l’acier qui tient la pression."
+        },
+        {
+          "t0": 9.84,
+          "t1": 15.2,
+          "text": "Cette tôle ne porte rien : ne vous y appuyez jamais, et refermez une fente sans attendre."
+        }
+      ],
+      "cues": [
+        {
+          "t": 0,
+          "do": {
+            "xray": true
+          }
+        },
+        {
+          "t": 6.76,
+          "do": {
+            "xray": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "part-end-cap",
+      "scope": "part:end-cap",
+      "title": "Flasque",
+      "scene": "tank-and-tap",
+      "file": "part-end-cap.mp3",
+      "duration": 19.44,
+      "chars": 317,
+      "hash": "b6ddcfdf9b75356f",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 4.4,
+          "text": "Deux flasques noirs, légèrement bombés, ferment les bouts du cylindre."
+        },
+        {
+          "t0": 4.4,
+          "t1": 9.1,
+          "text": "Noirs au soleil, ils chauffent : leur polypropylène est stabilisé."
+        },
+        {
+          "t0": 9.1,
+          "t1": 14.08,
+          "text": "Celui de gauche porte une trappe ovale, par où la résistance sort d’un seul bloc."
+        },
+        {
+          "t0": 14.08,
+          "t1": 19.44,
+          "text": "Et ce plastique coupe un pont thermique : la chaleur de la cuve n’y trouve aucun chemin de métal."
+        }
+      ],
+      "cues": [
+        {
+          "t": 0,
+          "do": {
+            "explode": 0.6
+          }
+        },
+        {
+          "t": 4.4,
+          "do": {
+            "explode": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "part-sacrificial-anode",
+      "scope": "part:sacrificial-anode",
+      "title": "Anode",
+      "scene": "tank-and-tap",
+      "file": "part-sacrificial-anode.mp3",
+      "duration": 20.16,
+      "chars": 337,
+      "hash": "1032e5f130aa9b91",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 2.24,
+          "text": "Un héros qui disparaît pour les autres."
+        },
+        {
+          "t0": 2.24,
+          "t1": 7.42,
+          "text": "Aucun émail n’est parfait : il reste de minuscules défauts, où l’eau touche l’acier."
+        },
+        {
+          "t0": 7.42,
+          "t1": 12.34,
+          "text": "Le magnésium, plus prompt à se corroder, prend la corrosion à sa place."
+        },
+        {
+          "t0": 12.34,
+          "t1": 14.68,
+          "text": "Le marché le moins cher de toute la machine."
+        },
+        {
+          "t0": 14.68,
+          "t1": 20.16,
+          "text": "À condition d’y penser : elle ne prévient pas, et le constructeur la fait remplacer à cinq ans."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-booster-element",
+      "scope": "part:booster-element",
+      "title": "Résistance d’appoint",
+      "scene": "tank-and-tap",
+      "file": "part-booster-element.mp3",
+      "duration": 23.28,
+      "chars": 398,
+      "hash": "870780dfb46cf3be",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 2.86,
+          "text": "Pour les jours gris, une résistance gainée de cuivre…"
+        },
+        {
+          "t0": 2.86,
+          "t1": 6.02,
+          "text": "à mi-hauteur, et ce n’est pas un hasard."
+        },
+        {
+          "t0": 6.02,
+          "t1": 12.02,
+          "text": "Elle ne chauffe que les cent cinquante litres du dessus, et laisse au capteur un bas froid où travailler."
+        },
+        {
+          "t0": 12.02,
+          "t1": 18.14,
+          "text": "À trois virgule six kilowatts, pour cinquante degrés à gagner, le constructeur annonce deux heures et demie."
+        },
+        {
+          "t0": 18.14,
+          "t1": 23.28,
+          "text": "Notre modèle met deux virgule huit heures : il ajoute l’acier, la peau et la conduction."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-tank-thermostat",
+      "scope": "part:tank-thermostat",
+      "title": "Thermostat",
+      "scene": "tank-and-tap",
+      "file": "part-tank-thermostat.mp3",
+      "duration": 19.84,
+      "chars": 355,
+      "hash": "70bf307dbf293a60",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 2.44,
+          "text": "Soixante degrés : un chiffre choisi."
+        },
+        {
+          "t0": 2.44,
+          "t1": 7.52,
+          "text": "Il répond aux légionelles, ces bactéries qui se multiplient de vingt-cinq à quarante-cinq degrés."
+        },
+        {
+          "t0": 7.52,
+          "t1": 9.78,
+          "text": "Le manuel autorise soixante-dix au plus."
+        },
+        {
+          "t0": 9.78,
+          "t1": 15.24,
+          "text": "À quatre-vingt-trois, un second dispositif coupe l’élément si le thermostat a lâché."
+        },
+        {
+          "t0": 15.24,
+          "t1": 19.84,
+          "text": "Ici, il mesure à mi-hauteur : il ne coupe donc pas quand le soleil a seulement rempli le haut."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-tpr-valve",
+      "scope": "part:tpr-valve",
+      "title": "Soupape température-pression",
+      "scene": "tank-and-tap",
+      "file": "part-tpr-valve.mp3",
+      "duration": 19.92,
+      "chars": 343,
+      "hash": "856f05e5e210a525",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 5.38,
+          "text": "Le dernier recours du ballon : elle s’ouvre à quatre-vingt-dix-neuf degrés, ou à mille kilopascals."
+        },
+        {
+          "t0": 5.38,
+          "t1": 11.5,
+          "text": "Dans un essai allemand, sans tirage et au soleil, un ballon comparable a atteint cent neuf degrés."
+        },
+        {
+          "t0": 11.5,
+          "t1": 15.84,
+          "text": "L’eau qui sort ici est donc très chaude : l’évacuation tombe à l’air libre,"
+        },
+        {
+          "t0": 16.04,
+          "t1": 18.62,
+          "text": "jamais sur le toit ni dans une gouttière."
+        },
+        {
+          "t0": 18.62,
+          "t1": 19.92,
+          "text": "Et on ne la bouche jamais."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-jacket-relief-valve",
+      "scope": "part:jacket-relief-valve",
+      "title": "Soupape du circuit",
+      "scene": "tank-and-tap",
+      "file": "part-jacket-relief-valve.mp3",
+      "duration": 19.76,
+      "chars": 351,
+      "hash": "b9a33c9ac584b3b5",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 6.3,
+          "text": "Deux pressions, deux mondes : l’eau potable à la pression du réseau, le circuit presque sans pression."
+        },
+        {
+          "t0": 6.3,
+          "t1": 11.14,
+          "text": "Cette soupape tient les capteurs à quatre-vingts kilopascals, loin des mille de la cuve."
+        },
+        {
+          "t0": 11.14,
+          "t1": 13.88,
+          "text": "Voilà ce qui autorise des tubes si fins."
+        },
+        {
+          "t0": 13.88,
+          "t1": 15.76,
+          "text": "On ne la retire jamais en service."
+        },
+        {
+          "t0": 15.76,
+          "t1": 19.76,
+          "text": "Et son drain contient du glycol : il ne doit pas rejoindre une cuve d’eau de pluie."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-cold-diffuser",
+      "scope": "part:cold-diffuser",
+      "title": "Diffuseur d’eau froide",
+      "scene": "tank-and-tap",
+      "file": "part-cold-diffuser.mp3",
+      "duration": 18.72,
+      "chars": 339,
+      "hash": "d8b2b4d6df5097be",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 4.54,
+          "text": "Quand la douche s’ouvre, autant d’eau froide entre en bas qu’il en sort de chaude en haut."
+        },
+        {
+          "t0": 4.54,
+          "t1": 6.9,
+          "text": "Un jet direct remuerait tout !"
+        },
+        {
+          "t0": 6.9,
+          "t1": 10.34,
+          "text": "D’où ce tube couché au fond, avec son répartiteur."
+        },
+        {
+          "t0": 10.34,
+          "t1": 14.7,
+          "text": "Sur d’autres ballons, des mesures trouvent des couches sur quarante à soixante pour cent du volume."
+        },
+        {
+          "t0": 14.7,
+          "t1": 17.02,
+          "text": "Notre modèle en trouve soixante et un."
+        },
+        {
+          "t0": 17.02,
+          "t1": 18.72,
+          "text": "Sa forme, ici, est estimée."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-hot-outlet",
+      "scope": "part:hot-outlet",
+      "title": "Sortie d’eau chaude",
+      "scene": "tank-and-tap",
+      "file": "part-hot-outlet.mp3",
+      "duration": 18.72,
+      "chars": 311,
+      "hash": "2b1df7f7c558de3b",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 5.36,
+          "text": "Le robinet ne tire pas au hasard : il prend tout en haut, là où l’eau est la plus chaude."
+        },
+        {
+          "t0": 5.36,
+          "t1": 9.04,
+          "text": "Voilà pourquoi on peut prendre une douche à un ballon à moitié froid."
+        },
+        {
+          "t0": 9.04,
+          "t1": 14.82,
+          "text": "Un ballon mélangé, lui, perd douze pour cent de son année à Athènes, dans nos calculs."
+        },
+        {
+          "t0": 14.82,
+          "t1": 18.72,
+          "text": "Prendre en haut, remplir en bas : le même choix, à chaque geste."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-trio-valve",
+      "scope": "part:trio-valve",
+      "title": "Clapet et robinet d’arrêt",
+      "scene": "tank-and-tap",
+      "file": "part-trio-valve.mp3",
+      "duration": 19.84,
+      "chars": 350,
+      "hash": "74b928125a297fd2",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 6.24,
+          "text": "Sur le chemin de l’eau froide, l’ordre vient du constructeur : une vanne d’arrêt, ce clapet, puis la soupape."
+        },
+        {
+          "t0": 6.24,
+          "t1": 10.13,
+          "text": "Il ne laisse passer l’eau que dans un sens : quand le ballon se dilate,"
+        },
+        {
+          "t0": 10.36,
+          "t1": 13.04,
+          "text": "l’eau tiède ne rejoint pas celle de vos voisins."
+        },
+        {
+          "t0": 13.04,
+          "t1": 18.11,
+          "text": "Rien à voir avec le clapet facultatif du circuit fermé : celui-ci est sur l’eau potable,"
+        },
+        {
+          "t0": 18.28,
+          "t1": 19.84,
+          "text": "à au moins un mètre du ballon."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-cold-relief-valve",
+      "scope": "part:cold-relief-valve",
+      "title": "Soupape d’eau froide",
+      "scene": "tank-and-tap",
+      "file": "part-cold-relief-valve.mp3",
+      "duration": 19.28,
+      "chars": 335,
+      "hash": "2059dda34bb72730",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 3.46,
+          "text": "L’eau chaude prend plus de place, et l’eau ne se comprime pas."
+        },
+        {
+          "t0": 3.46,
+          "t1": 10.62,
+          "text": "Le clapet posé, il lui faut une sortie : cette soupape s’ouvre à huit cent cinquante kilopascals, avant celle du ballon."
+        },
+        {
+          "t0": 10.62,
+          "t1": 14.34,
+          "text": "Le manuel prévient : de l’eau coulera pendant le chauffage."
+        },
+        {
+          "t0": 14.34,
+          "t1": 15.92,
+          "text": "Ce n’est donc pas une fuite."
+        },
+        {
+          "t0": 15.92,
+          "t1": 19.28,
+          "text": "Le scénario Une semaine de vacances compte ces litres un à un."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-tempering-valve",
+      "scope": "part:tempering-valve",
+      "title": "Mitigeur thermostatique",
+      "scene": "tank-and-tap",
+      "file": "part-tempering-valve.mp3",
+      "duration": 29.2,
+      "chars": 536,
+      "hash": "caaf23833dae65c7",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 2.84,
+          "text": "La ligne entre la brûlure et la légionelle."
+        },
+        {
+          "t0": 2.84,
+          "t1": 9.42,
+          "text": "À soixante degrés, un adulte se brûle en deux à cinq secondes, un enfant environ quatre fois plus vite."
+        },
+        {
+          "t0": 9.42,
+          "t1": 14.52,
+          "text": "L’été, ce ballon tourne à soixante ou soixante-dix degrés, et peut atteindre quatre-vingt-quinze."
+        },
+        {
+          "t0": 14.52,
+          "t1": 20.1,
+          "text": "Le constructeur demande donc un mitigeur dans tous les cas, prévu pour quatre-vingt-dix-neuf degrés."
+        },
+        {
+          "t0": 20.1,
+          "t1": 23.54,
+          "text": "Il mêle de l’eau froide, et ne laisse passer que cinquante degrés."
+        },
+        {
+          "t0": 23.54,
+          "t1": 24.92,
+          "text": "Baisser le thermostat ?"
+        },
+        {
+          "t0": 24.92,
+          "t1": 27.02,
+          "text": "Ce serait redonner de la place aux bactéries."
+        },
+        {
+          "t0": 27.02,
+          "t1": 29.2,
+          "text": "Et avant d’entrer, testez toujours l’eau d’une main."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-shower-head",
+      "scope": "part:shower-head",
+      "title": "La douche",
+      "scene": "tank-and-tap",
+      "file": "part-shower-head.mp3",
+      "duration": 23.96,
+      "chars": 426,
+      "hash": "3ba556e392a94051",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 4.18,
+          "text": "Toute l’histoire finit ici, par une eau à quarante degrés sur un dos."
+        },
+        {
+          "t0": 4.18,
+          "t1": 7.58,
+          "text": "Une enquête française trouve cinquante-six litres à quarante degrés,"
+        },
+        {
+          "t0": 7.62,
+          "t1": 11.24,
+          "text": "par personne et par jour, à vingt-trois litres près."
+        },
+        {
+          "t0": 11.24,
+          "t1": 15.38,
+          "text": "Pour quatre personnes, environ cent quatre-vingt-dix litres à quarante-cinq degrés."
+        },
+        {
+          "t0": 15.38,
+          "t1": 19.1,
+          "text": "Ces gouttes suivent le débit ; la vapeur n’est qu’un décor."
+        },
+        {
+          "t0": 19.1,
+          "t1": 20.16,
+          "text": "Et notre goutte bleue ?"
+        },
+        {
+          "t0": 20.16,
+          "t1": 21.9,
+          "text": "Elle n’aura jamais vu cette douche."
+        },
+        {
+          "t0": 21.9,
+          "t1": 23.96,
+          "text": "Demain matin, elle recommence."
+        }
+      ],
+      "cues": []
+    }
+  ]
+}

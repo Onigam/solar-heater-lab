@@ -1,0 +1,3215 @@
+{
+  "lang": "en",
+  "model": "qwen3-tts-1.7B",
+  "generatedAt": "2026-11-03T13:38:43.030Z",
+  "voiceLabel": {
+    "fr": "Voix de synthèse",
+    "en": "Synthetic voice"
+  },
+  "totalSeconds": 1311.21,
+  "segments": [
+    {
+      "id": "intro",
+      "scope": "intro",
+      "title": "About the lab",
+      "scene": "house",
+      "file": "intro.mp3",
+      "duration": 120.06,
+      "chars": 2194,
+      "hash": "cbf9e0453274d1fa",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 2.92,
+          "text": "Picture a tiled roof on a summer morning."
+        },
+        {
+          "t0": 2.92,
+          "t1": 5.62,
+          "text": "No motor, no sensor, no button…"
+        },
+        {
+          "t0": 5.62,
+          "t1": 8.08,
+          "text": "and yet, by this evening, the water will be hot."
+        },
+        {
+          "t0": 8.08,
+          "t1": 10.62,
+          "text": "How does the heat get up there, all by itself?"
+        },
+        {
+          "t0": 10.62,
+          "t1": 12.7,
+          "text": "Let’s follow one small blue drop."
+        },
+        {
+          "t0": 12.7,
+          "t1": 17.74,
+          "text": "This is not the water you drink: it is a mix of water and glycol, in a circuit of its own."
+        },
+        {
+          "t0": 17.74,
+          "t1": 22.02,
+          "text": "At first light it lies asleep in a tube, under glass, against a black plate."
+        },
+        {
+          "t0": 22.02,
+          "t1": 26.72,
+          "text": "The sun warms the plate, the plate warms the drop, and now it is a little lighter."
+        },
+        {
+          "t0": 26.72,
+          "t1": 27.38,
+          "text": "Only just!"
+        },
+        {
+          "t0": 27.38,
+          "t1": 31.78,
+          "text": "Around noon, our model finds a push of six point six millimetres of water, no more."
+        },
+        {
+          "t0": 31.78,
+          "t1": 36.16,
+          "text": "That is enough: our drop climbs towards the tank, with no motor and no controller."
+        },
+        {
+          "t0": 36.16,
+          "t1": 38.54,
+          "text": "Here it is in a narrow gap, along the vessel."
+        },
+        {
+          "t0": 38.54,
+          "t1": 42.86,
+          "text": "It gives up its heat through the steel without ever touching the water, grows heavier, and comes back down."
+        },
+        {
+          "t0": 42.86,
+          "t1": 45.82,
+          "text": "The hot water, meanwhile, stays on top, above the cold."
+        },
+        {
+          "t0": 45.82,
+          "t1": 46.5,
+          "text": "But at night?"
+        },
+        {
+          "t0": 46.5,
+          "t1": 52.62,
+          "text": "The clear sky cools the collector, and our drop would like to set off backward, taking the tank’s heat along."
+        },
+        {
+          "t0": 52.62,
+          "t1": 56.56,
+          "text": "So it depends on the height of that tank: here, you can raise it and lower it."
+        },
+        {
+          "t0": 56.56,
+          "t1": 61.46,
+          "text": "Morning comes, and someone opens a tap, and there is water at forty degrees on somebody’s back."
+        },
+        {
+          "t0": 61.46,
+          "t1": 64.9,
+          "text": "That is the whole story: a sun, a drop, a wall of steel…"
+        },
+        {
+          "t0": 64.9,
+          "t1": 66.68,
+          "text": "and a shower with no pump."
+        },
+        {
+          "t0": 66.68,
+          "t1": 72.46,
+          "text": "A few landmarks: four views, the house, the machine, the collector, the tank and its shower."
+        },
+        {
+          "t0": 72.46,
+          "t1": 75.76,
+          "text": "Click a part: its sheet opens, and you can listen to its story."
+        },
+        {
+          "t0": 75.76,
+          "t1": 78.5,
+          "text": "One guide tells of the factory, then the climb to the roof."
+        },
+        {
+          "t0": 78.5,
+          "t1": 80.28,
+          "text": "Another joins the machine to the house."
+        },
+        {
+          "t0": 80.28,
+          "t1": 85.16,
+          "text": "The simulation changes the place, the hour and the tank’s height, and runs twelve scenarios."
+        },
+        {
+          "t0": 85.16,
+          "t1": 91.74,
+          "text": "Its other starting points change only the figures: the three-dimensional view always draws this one machine."
+        },
+        {
+          "t0": 91.74,
+          "t1": 94.7,
+          "text": "Six lessons, with quizzes, explain the physics."
+        },
+        {
+          "t0": 94.7,
+          "t1": 96.6,
+          "text": "Ten sheets gather the drawings."
+        },
+        {
+          "t0": 96.6,
+          "t1": 100.42,
+          "text": "One last thing: this lab is an educational reconstruction."
+        },
+        {
+          "t0": 100.42,
+          "t1": 103.32,
+          "text": "It follows a real machine, from its maker’s documents."
+        },
+        {
+          "t0": 103.32,
+          "t1": 106.18,
+          "text": "It is neither a plan to follow, nor a product of that maker."
+        },
+        {
+          "t0": 106.18,
+          "t1": 110.48,
+          "text": "The figures come from those documents, and from published certificates and tests."
+        },
+        {
+          "t0": 110.48,
+          "t1": 114.4,
+          "text": "Or from our simulation and our estimates: calculations, not measurements."
+        },
+        {
+          "t0": 114.4,
+          "t1": 116.74,
+          "text": "The Sources panel says who said what."
+        },
+        {
+          "t0": 116.74,
+          "t1": 120.06,
+          "text": "Come on, the sun is rising, and our drop is waiting for you!"
+        }
+      ],
+      "cues": [
+        {
+          "t": 0,
+          "do": {
+            "home": true
+          }
+        },
+        {
+          "t": 10.62,
+          "do": {
+            "frame": [
+              "roof-unit"
+            ]
+          }
+        },
+        {
+          "t": 17.74,
+          "do": {
+            "scene": "collector"
+          }
+        },
+        {
+          "t": 22.02,
+          "do": {
+            "frame": [
+              "absorber-plate"
+            ]
+          }
+        },
+        {
+          "t": 27.38,
+          "do": {
+            "scene": "rig"
+          }
+        },
+        {
+          "t": 27.38,
+          "do": {
+            "flows": true
+          }
+        },
+        {
+          "t": 31.78,
+          "do": {
+            "frame": [
+              "hot-pipe"
+            ]
+          }
+        },
+        {
+          "t": 36.16,
+          "do": {
+            "flows": false
+          }
+        },
+        {
+          "t": 36.16,
+          "do": {
+            "scene": "tank-and-tap"
+          }
+        },
+        {
+          "t": 38.54,
+          "do": {
+            "frame": [
+              "mantle-jacket"
+            ]
+          }
+        },
+        {
+          "t": 42.86,
+          "do": {
+            "frame": [
+              "water-column"
+            ]
+          }
+        },
+        {
+          "t": 46.5,
+          "do": {
+            "scene": "rig"
+          }
+        },
+        {
+          "t": 56.56,
+          "do": {
+            "scene": "tank-and-tap"
+          }
+        },
+        {
+          "t": 58.4,
+          "do": {
+            "frame": [
+              "shower-head"
+            ]
+          }
+        },
+        {
+          "t": 66.68,
+          "do": {
+            "scene": "house"
+          }
+        },
+        {
+          "t": 75.76,
+          "do": {
+            "mode": "assembly"
+          }
+        },
+        {
+          "t": 78.5,
+          "do": {
+            "mode": "install"
+          }
+        },
+        {
+          "t": 80.28,
+          "do": {
+            "mode": "sim"
+          }
+        },
+        {
+          "t": 91.74,
+          "do": {
+            "mode": "lessons"
+          }
+        },
+        {
+          "t": 94.7,
+          "do": {
+            "mode": "plans"
+          }
+        },
+        {
+          "t": 96.6,
+          "do": {
+            "mode": "explore"
+          }
+        },
+        {
+          "t": 106.18,
+          "do": {
+            "scene": "house"
+          }
+        },
+        {
+          "t": 116.74,
+          "do": {
+            "select": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "scene-house",
+      "scope": "scene:house",
+      "title": "A house, a roof, no pump",
+      "scene": "house",
+      "file": "scene-house.mp3",
+      "duration": 40.64,
+      "chars": 747,
+      "hash": "5d78b4cac142f3da",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 4.46,
+          "text": "A village, a stone house, and on its roof, a machine with no pump."
+        },
+        {
+          "t0": 4.46,
+          "t1": 8.44,
+          "text": "Two collectors and, just above them, a tank lying flat."
+        },
+        {
+          "t0": 8.44,
+          "t1": 12.22,
+          "text": "The olive tree recalls the first rule: no shade, all year round."
+        },
+        {
+          "t0": 12.22,
+          "t1": 15.56,
+          "text": "Sliced along the machine, the house shows its rafters."
+        },
+        {
+          "t0": 15.56,
+          "t1": 18.82,
+          "text": "Under the tank’s line, a load-bearing wall runs down to the ground."
+        },
+        {
+          "t0": 18.82,
+          "t1": 22.24,
+          "text": "This panel serves only the booster: the one current in the whole affair."
+        },
+        {
+          "t0": 22.24,
+          "t1": 25.48,
+          "text": "Flows draws the water’s route, from the street to the roof, then to the bathroom."
+        },
+        {
+          "t0": 25.48,
+          "t1": 28.08,
+          "text": "Here, these dots move only when a tap draws."
+        },
+        {
+          "t0": 28.08,
+          "t1": 30.72,
+          "text": "What share of your hot water will come from the sun?"
+        },
+        {
+          "t0": 30.72,
+          "t1": 36.88,
+          "text": "At two hundred litres a day, the published results run from forty-five per cent at Stockholm to eighty-one at Athens."
+        },
+        {
+          "t0": 36.88,
+          "t1": 40.64,
+          "text": "That is a test plus a calculation, not a year measured on a roof."
+        }
+      ],
+      "cues": [
+        {
+          "t": 0,
+          "do": {
+            "home": true
+          }
+        },
+        {
+          "t": 4.46,
+          "do": {
+            "frame": [
+              "roof-unit"
+            ]
+          }
+        },
+        {
+          "t": 8.44,
+          "do": {
+            "frame": [
+              "shade-tree"
+            ]
+          }
+        },
+        {
+          "t": 12.22,
+          "do": {
+            "frame": [
+              "roof-structure"
+            ]
+          }
+        },
+        {
+          "t": 15.56,
+          "do": {
+            "frame": [
+              "load-bearing-wall"
+            ]
+          }
+        },
+        {
+          "t": 18.82,
+          "do": {
+            "frame": [
+              "meter-box"
+            ]
+          }
+        },
+        {
+          "t": 22.24,
+          "do": {
+            "home": true
+          }
+        },
+        {
+          "t": 22.24,
+          "do": {
+            "flows": true
+          }
+        },
+        {
+          "t": 28.08,
+          "do": {
+            "flows": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "scene-rig",
+      "scope": "scene:rig",
+      "title": "The machine, and the tank that moves",
+      "scene": "rig",
+      "file": "scene-rig.mp3",
+      "duration": 54.83,
+      "chars": 969,
+      "hash": "0bb64b163f8d3f09",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 2.5,
+          "text": "The same machine, alone, on a piece of roof."
+        },
+        {
+          "t0": 2.5,
+          "t1": 4.84,
+          "text": "That support has no source."
+        },
+        {
+          "t0": 4.84,
+          "t1": 7.24,
+          "text": "Two collectors, one bank of seventy tubes."
+        },
+        {
+          "t0": 7.24,
+          "t1": 10.32,
+          "text": "Right at the bottom, the rail, where it all starts."
+        },
+        {
+          "t0": 10.32,
+          "t1": 13,
+          "text": "On the left, the hot pipe, where our drop climbs."
+        },
+        {
+          "t0": 13,
+          "t1": 16.12,
+          "text": "On the right, the cold pipe, where it comes back down."
+        },
+        {
+          "t0": 16.12,
+          "t1": 18.92,
+          "text": "Up top, the tank, level with the top of the collectors."
+        },
+        {
+          "t0": 18.92,
+          "t1": 20.94,
+          "text": "The real machine stays at zero."
+        },
+        {
+          "t0": 20.94,
+          "t1": 24.26,
+          "text": "The Height of the tank slider takes it onto a test stand."
+        },
+        {
+          "t0": 24.26,
+          "t1": 25.34,
+          "text": "Let’s switch on Flows."
+        },
+        {
+          "t0": 25.34,
+          "t1": 29.66,
+          "text": "The clock starts out at an hour a second; these dots do not."
+        },
+        {
+          "t0": 29.66,
+          "t1": 34.62,
+          "text": "By day they run at their true speed, about twelve centimetres a second at noon, in the pipes."
+        },
+        {
+          "t0": 34.62,
+          "t1": 38.18,
+          "text": "At night they stay visible, and then go faster than the truth."
+        },
+        {
+          "t0": 38.18,
+          "t1": 41.85,
+          "text": "Run the scenario A tank too low: by evening, they set off backward!"
+        },
+        {
+          "t0": 41.85,
+          "t1": 46.48,
+          "text": "Sixty-one centimetres below the top of the collectors: the worst place in our model."
+        },
+        {
+          "t0": 46.48,
+          "t1": 51.82,
+          "text": "Those figures come from a model of nineteen eighty-one, with an upright tank, or from ours."
+        },
+        {
+          "t0": 51.82,
+          "t1": 54.83,
+          "text": "We found no measurement of a flat collector with its tank lower."
+        }
+      ],
+      "cues": [
+        {
+          "t": 0,
+          "do": {
+            "home": true
+          }
+        },
+        {
+          "t": 4.84,
+          "do": {
+            "frame": [
+              "collector-link"
+            ]
+          }
+        },
+        {
+          "t": 4.84,
+          "do": {
+            "xray": true
+          }
+        },
+        {
+          "t": 7.24,
+          "do": {
+            "xray": false
+          }
+        },
+        {
+          "t": 7.24,
+          "do": {
+            "frame": [
+              "collector-rail"
+            ]
+          }
+        },
+        {
+          "t": 10.32,
+          "do": {
+            "frame": [
+              "hot-pipe"
+            ]
+          }
+        },
+        {
+          "t": 13,
+          "do": {
+            "frame": [
+              "cold-pipe"
+            ]
+          }
+        },
+        {
+          "t": 16.12,
+          "do": {
+            "frame": [
+              "tank-strap"
+            ]
+          }
+        },
+        {
+          "t": 18.92,
+          "do": {
+            "home": true
+          }
+        },
+        {
+          "t": 24.26,
+          "do": {
+            "xray": true
+          }
+        },
+        {
+          "t": 24.26,
+          "do": {
+            "flows": true
+          }
+        },
+        {
+          "t": 38.18,
+          "do": {
+            "flows": false
+          }
+        },
+        {
+          "t": 38.18,
+          "do": {
+            "xray": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "scene-collector",
+      "scope": "scene:collector",
+      "title": "Where the sun becomes heat",
+      "scene": "collector",
+      "file": "scene-collector.mp3",
+      "duration": 39.84,
+      "chars": 704,
+      "hash": "90df577c7566f254",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 3.52,
+          "text": "One collector alone, on an easel, at the roof’s pitch."
+        },
+        {
+          "t0": 3.52,
+          "t1": 7.94,
+          "text": "This world opens already cut: a stair at its corner shows the layers."
+        },
+        {
+          "t0": 7.94,
+          "t1": 10.4,
+          "text": "The glass first, held by its supple seal."
+        },
+        {
+          "t0": 10.4,
+          "t1": 13.3,
+          "text": "Beneath it, the black plate, where light becomes heat."
+        },
+        {
+          "t0": 13.3,
+          "t1": 15.74,
+          "text": "Then the tubes, where our drop waits its turn."
+        },
+        {
+          "t0": 15.74,
+          "t1": 18,
+          "text": "Behind them, a blanket closes the way to the back."
+        },
+        {
+          "t0": 18,
+          "t1": 20.96,
+          "text": "And right at the top, the header, where it all gathers."
+        },
+        {
+          "t0": 20.96,
+          "t1": 23.38,
+          "text": "The Section tool now cuts across the tubes."
+        },
+        {
+          "t0": 23.38,
+          "t1": 27.36,
+          "text": "They are painted in false colour: a tube at sixty degrees does not turn orange."
+        },
+        {
+          "t0": 27.36,
+          "t1": 30.96,
+          "text": "Their scale, in degrees, stands just beside them."
+        },
+        {
+          "t0": 30.96,
+          "t1": 33.34,
+          "text": "Let’s part the layers, in the order they went on…"
+        },
+        {
+          "t0": 33.34,
+          "t1": 33.74,
+          "text": "And at night?"
+        },
+        {
+          "t0": 33.74,
+          "t1": 39.84,
+          "text": "The paper turns blue, the plate falls below the air, and it is the sky that pulls it down."
+        }
+      ],
+      "cues": [
+        {
+          "t": 0,
+          "do": {
+            "home": true
+          }
+        },
+        {
+          "t": 7.94,
+          "do": {
+            "frame": [
+              "glass-seal"
+            ]
+          }
+        },
+        {
+          "t": 10.4,
+          "do": {
+            "frame": [
+              "absorber-plate"
+            ]
+          }
+        },
+        {
+          "t": 13.3,
+          "do": {
+            "frame": [
+              "riser-tube"
+            ]
+          }
+        },
+        {
+          "t": 15.74,
+          "do": {
+            "frame": [
+              "back-insulation"
+            ]
+          }
+        },
+        {
+          "t": 18,
+          "do": {
+            "frame": [
+              "upper-header"
+            ]
+          }
+        },
+        {
+          "t": 20.96,
+          "do": {
+            "home": true
+          }
+        },
+        {
+          "t": 20.96,
+          "do": {
+            "cutaway": true
+          }
+        },
+        {
+          "t": 30.96,
+          "do": {
+            "cutaway": false
+          }
+        },
+        {
+          "t": 30.96,
+          "do": {
+            "explode": 0.5
+          }
+        },
+        {
+          "t": 33.34,
+          "do": {
+            "explode": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "scene-tank-and-tap",
+      "scope": "scene:tank-and-tap",
+      "title": "The tank, then the way to the shower",
+      "scene": "tank-and-tap",
+      "file": "scene-tank-and-tap.mp3",
+      "duration": 47.84,
+      "chars": 791,
+      "hash": "9d1a3261ea6b51d2",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 2.88,
+          "text": "From left to right, in the order of the heat."
+        },
+        {
+          "t0": 2.88,
+          "t1": 6.48,
+          "text": "This world too opens cut, along the tank’s axis."
+        },
+        {
+          "t0": 6.48,
+          "t1": 10.3,
+          "text": "Here is the water column, in ten layers, coloured live."
+        },
+        {
+          "t0": 10.3,
+          "t1": 13.84,
+          "text": "At half height, the booster element, for grey days."
+        },
+        {
+          "t0": 13.84,
+          "t1": 17.98,
+          "text": "On the wall, the non-return valve and the cold relief valve."
+        },
+        {
+          "t0": 17.98,
+          "t1": 21.38,
+          "text": "Then the tempering valve, between scald and legionella."
+        },
+        {
+          "t0": 21.38,
+          "t1": 24.64,
+          "text": "And at last the shower, the reason for it all."
+        },
+        {
+          "t0": 24.64,
+          "t1": 28.42,
+          "text": "The two brackets carrying the tank are a support of this world, with no source."
+        },
+        {
+          "t0": 28.42,
+          "t1": 34.46,
+          "text": "Flows shows two paths: our drop’s circuit, and the water you drink, which moves only when a tap draws."
+        },
+        {
+          "t0": 34.46,
+          "t1": 36.88,
+          "text": "Now let’s look at the tank from its end."
+        },
+        {
+          "t0": 36.88,
+          "t1": 41.16,
+          "text": "The Section tool cuts it across: here are the ten layers, as slices of a circle."
+        },
+        {
+          "t0": 41.16,
+          "t1": 46.46,
+          "text": "Then run the scenario The family’s morning: at the third shower, the tempering valve goes away."
+        },
+        {
+          "t0": 46.46,
+          "t1": 47.84,
+          "text": "Watch the tap’s figure."
+        }
+      ],
+      "cues": [
+        {
+          "t": 0,
+          "do": {
+            "home": true
+          }
+        },
+        {
+          "t": 6.48,
+          "do": {
+            "frame": [
+              "water-column"
+            ]
+          }
+        },
+        {
+          "t": 10.3,
+          "do": {
+            "frame": [
+              "booster-element"
+            ]
+          }
+        },
+        {
+          "t": 13.84,
+          "do": {
+            "frame": [
+              "trio-valve",
+              "cold-relief-valve"
+            ]
+          }
+        },
+        {
+          "t": 17.98,
+          "do": {
+            "frame": [
+              "tempering-valve"
+            ]
+          }
+        },
+        {
+          "t": 21.38,
+          "do": {
+            "frame": [
+              "shower-head"
+            ]
+          }
+        },
+        {
+          "t": 24.64,
+          "do": {
+            "home": true
+          }
+        },
+        {
+          "t": 28.42,
+          "do": {
+            "flows": true
+          }
+        },
+        {
+          "t": 34.46,
+          "do": {
+            "flows": false
+          }
+        },
+        {
+          "t": 34.46,
+          "do": {
+            "frame": [
+              "end-cap"
+            ]
+          }
+        },
+        {
+          "t": 36.88,
+          "do": {
+            "cutaway": true
+          }
+        },
+        {
+          "t": 41.16,
+          "do": {
+            "cutaway": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "part-roof-unit",
+      "scope": "part:roof-unit",
+      "title": "The roof unit",
+      "scene": "house",
+      "file": "part-roof-unit.mp3",
+      "duration": 19.6,
+      "chars": 298,
+      "hash": "f2d0db57ca692387",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 6.98,
+          "text": "The whole machine sits on one frame: two collectors, a tank lying flat just above them, and no pump."
+        },
+        {
+          "t0": 6.98,
+          "t1": 9.42,
+          "text": "Only the booster element asks for current."
+        },
+        {
+          "t0": 9.42,
+          "t1": 12.4,
+          "text": "Nothing turns, so nothing wears fast."
+        },
+        {
+          "t0": 12.4,
+          "t1": 17.28,
+          "text": "But nothing rings either: one day the water stays lukewarm, with no alarm."
+        },
+        {
+          "t0": 17.28,
+          "t1": 19.6,
+          "text": "So compare a clear day with earlier ones."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-roof-structure",
+      "scope": "part:roof-structure",
+      "title": "Rafters and battens",
+      "scene": "house",
+      "file": "part-roof-structure.mp3",
+      "duration": 20.4,
+      "chars": 342,
+      "hash": "e80ea1aeafdfb8f1",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 4.88,
+          "text": "Five hundred and fifteen kilos when full, and nearly all that weight sits up high."
+        },
+        {
+          "t0": 4.88,
+          "t1": 8.82,
+          "text": "The average looks tame: about eighty-five kilos a square metre."
+        },
+        {
+          "t0": 8.82,
+          "t1": 13.2,
+          "text": "But the tank weighs four hundred and seventeen of them, along a single line."
+        },
+        {
+          "t0": 13.2,
+          "t1": 14.26,
+          "text": "That line decides."
+        },
+        {
+          "t0": 14.26,
+          "t1": 20.4,
+          "text": "Plan on a lifting device, and the view of a builder or structural engineer, before buying anything."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-roof-tiles",
+      "scope": "part:roof-tiles",
+      "title": "Roof tiles",
+      "scene": "house",
+      "file": "part-roof-tiles.mp3",
+      "duration": 15.2,
+      "chars": 263,
+      "hash": "d7b20a01443b87fa",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 3.72,
+          "text": "The machine does not replace the roof covering: it sits on top."
+        },
+        {
+          "t0": 3.72,
+          "t1": 8.68,
+          "text": "The tiles are lifted, the straps slip beneath them to the rafters, and the tiles go back."
+        },
+        {
+          "t0": 8.68,
+          "t1": 11.92,
+          "text": "No roof to redo, as long as the timbers can take it."
+        },
+        {
+          "t0": 11.92,
+          "t1": 15.2,
+          "text": "And up there, you walk over the rafters, never mid-tile."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-roof-penetration",
+      "scope": "part:roof-penetration",
+      "title": "Roof penetration",
+      "scene": "house",
+      "file": "part-roof-penetration.mp3",
+      "duration": 16.24,
+      "chars": 275,
+      "hash": "7f67162552c36375",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 1.74,
+          "text": "The only hole in the whole job!"
+        },
+        {
+          "t0": 1.74,
+          "t1": 6.76,
+          "text": "Cold water, hot water, the booster’s cable, the drain: everything passes here."
+        },
+        {
+          "t0": 6.76,
+          "t1": 8.96,
+          "text": "One seal to watch, instead of four."
+        },
+        {
+          "t0": 8.96,
+          "t1": 12.82,
+          "text": "The maker wants it behind the tank, at the high point of a tile."
+        },
+        {
+          "t0": 12.82,
+          "t1": 16.24,
+          "text": "The high point is the tile’s back: the rain runs in the trough."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-load-bearing-wall",
+      "scope": "part:load-bearing-wall",
+      "title": "Load-bearing wall",
+      "scene": "house",
+      "file": "part-load-bearing-wall.mp3",
+      "duration": 16.08,
+      "chars": 300,
+      "hash": "72c787e2a9855f23",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 3.1,
+          "text": "How do four hundred and seventeen kilos get down to the ground?"
+        },
+        {
+          "t0": 3.1,
+          "t1": 5.86,
+          "text": "By the shortest path, if there is one."
+        },
+        {
+          "t0": 5.86,
+          "t1": 10.26,
+          "text": "A wall under the tank shortens that path, instead of beefing up the rafters."
+        },
+        {
+          "t0": 10.26,
+          "t1": 11.86,
+          "text": "The maker only calls it advisable."
+        },
+        {
+          "t0": 11.86,
+          "t1": 16.08,
+          "text": "And this wall is a choice for the setting: not every house has it in the right place."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-cold-main",
+      "scope": "part:cold-main",
+      "title": "Cold water main",
+      "scene": "house",
+      "file": "part-cold-main.mp3",
+      "duration": 17.92,
+      "chars": 308,
+      "hash": "9c8bc83fbfabfb5f",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 1.98,
+          "text": "No pump on this side either!"
+        },
+        {
+          "t0": 1.98,
+          "t1": 6.32,
+          "text": "The mains fill the tank from below, each time a tap draws from the top."
+        },
+        {
+          "t0": 6.32,
+          "t1": 10.22,
+          "text": "The same pressure pushes the hot water on to the taps: it serves twice."
+        },
+        {
+          "t0": 10.22,
+          "t1": 11.7,
+          "text": "Hence a vessel of thick steel."
+        },
+        {
+          "t0": 11.7,
+          "t1": 17.92,
+          "text": "At the tank, six hundred and eighty kilopascals at most with a cold relief valve, eight hundred without."
+        }
+      ],
+      "cues": [
+        {
+          "t": 0,
+          "do": {
+            "xray": true
+          }
+        },
+        {
+          "t": 10.22,
+          "do": {
+            "xray": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "part-hot-line",
+      "scope": "part:hot-line",
+      "title": "Hot water line",
+      "scene": "house",
+      "file": "part-hot-line.mp3",
+      "duration": 16.8,
+      "chars": 311,
+      "hash": "6e6a25591df579ae",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 2.74,
+          "text": "From the roof to the taps, down through the whole house."
+        },
+        {
+          "t0": 2.74,
+          "t1": 4.94,
+          "text": "It sees the water as it leaves the tank."
+        },
+        {
+          "t0": 4.94,
+          "t1": 9.68,
+          "text": "In summer, sixty to seventy degrees, and at times up to ninety-five, says the manual."
+        },
+        {
+          "t0": 9.68,
+          "t1": 12.54,
+          "text": "Its dots move only when a tap draws."
+        },
+        {
+          "t0": 12.54,
+          "t1": 16.8,
+          "text": "The rest of the time it cools: the longer it is, the more hot water sits in it to be lost."
+        }
+      ],
+      "cues": [
+        {
+          "t": 0,
+          "do": {
+            "xray": true
+          }
+        },
+        {
+          "t": 0,
+          "do": {
+            "flows": true
+          }
+        },
+        {
+          "t": 12.54,
+          "do": {
+            "flows": false
+          }
+        },
+        {
+          "t": 12.54,
+          "do": {
+            "xray": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "part-drain-outlet",
+      "scope": "part:drain-outlet",
+      "title": "Relief drain outlet",
+      "scene": "house",
+      "file": "part-drain-outlet.mp3",
+      "duration": 19.52,
+      "chars": 308,
+      "hash": "cf415b3ed154b8ce",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 2.76,
+          "text": "A drip here, while the tank is heating?"
+        },
+        {
+          "t0": 2.76,
+          "t1": 3.88,
+          "text": "That is normal!"
+        },
+        {
+          "t0": 3.88,
+          "t1": 8.34,
+          "text": "From ten to eighty degrees, about eight point six litres must leave."
+        },
+        {
+          "t0": 8.34,
+          "t1": 13.68,
+          "text": "Each drain falls on its own, with no rise, and ends in the open, in plain view."
+        },
+        {
+          "t0": 13.68,
+          "t1": 19.52,
+          "text": "Because nobody notices a valve that no longer opens, except someone who has learned to expect its drip."
+        }
+      ],
+      "cues": [
+        {
+          "t": 0,
+          "do": {
+            "xray": true
+          }
+        },
+        {
+          "t": 8.34,
+          "do": {
+            "xray": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "part-meter-box",
+      "scope": "part:meter-box",
+      "title": "Meter box and isolator",
+      "scene": "house",
+      "file": "part-meter-box.mp3",
+      "duration": 19.84,
+      "chars": 355,
+      "hash": "bc17ae8846419390",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 4.14,
+          "text": "The one current in the whole machine, and it serves only the booster."
+        },
+        {
+          "t0": 4.14,
+          "t1": 6.54,
+          "text": "The whole choice lies in this timer."
+        },
+        {
+          "t0": 6.54,
+          "t1": 10.36,
+          "text": "Left on all the time, the element heats water the sun would have heated."
+        },
+        {
+          "t0": 10.36,
+          "t1": 15.1,
+          "text": "Set on its timer, it heats here from four to seven in the afternoon: an assumption."
+        },
+        {
+          "t0": 15.1,
+          "t1": 19.84,
+          "text": "The wiring is for a qualified electrician: this is mains current, on a roof, next to water."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-shade-tree",
+      "scope": "part:shade-tree",
+      "title": "The olive tree",
+      "scene": "house",
+      "file": "part-shade-tree.mp3",
+      "duration": 19.76,
+      "chars": 317,
+      "hash": "99d2b732cec16a56",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 1.62,
+          "text": "An innocent olive tree…"
+        },
+        {
+          "t0": 1.62,
+          "t1": 4.1,
+          "text": "as long as its shadow misses the collectors."
+        },
+        {
+          "t0": 4.1,
+          "t1": 9.18,
+          "text": "The maker wants no shade, all year: a tree grows, and the winter sun runs low."
+        },
+        {
+          "t0": 9.18,
+          "t1": 12.52,
+          "text": "Our model, for its part, knows no shade at all."
+        },
+        {
+          "t0": 12.52,
+          "t1": 17.5,
+          "text": "A fun detail: this machine comes from Australia, where its north is our south."
+        },
+        {
+          "t0": 17.5,
+          "t1": 19.76,
+          "text": "Only the direction of the noon sun counts."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-collector-left",
+      "scope": "part:collector-left",
+      "title": "Left collector",
+      "scene": "rig",
+      "file": "part-collector-left.mp3",
+      "duration": 17.52,
+      "chars": 292,
+      "hash": "6d23f58f8ae2d32f",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 5.44,
+          "text": "Dark glass in a pale frame: our drop leaves by the top corner of this collector."
+        },
+        {
+          "t0": 5.44,
+          "t1": 8.84,
+          "text": "An independent laboratory gives it nearly seventy-eight per cent efficiency,"
+        },
+        {
+          "t0": 8.84,
+          "t1": 10.84,
+          "text": "at equal temperature with the air."
+        },
+        {
+          "t0": 10.84,
+          "t1": 13.56,
+          "text": "After that, every degree more costs."
+        },
+        {
+          "t0": 13.56,
+          "t1": 17.52,
+          "text": "The button on this sheet opens it in section, tubes in colour."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-collector-right",
+      "scope": "part:collector-right",
+      "title": "Right collector",
+      "scene": "rig",
+      "file": "part-collector-right.mp3",
+      "duration": 21.2,
+      "chars": 356,
+      "hash": "02f9394568db7ac4",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 1.62,
+          "text": "Its neighbour, mirrored."
+        },
+        {
+          "t0": 1.62,
+          "t1": 5.76,
+          "text": "Our drop comes in at its low corner, and crosses the bank on the diagonal."
+        },
+        {
+          "t0": 5.76,
+          "t1": 9.82,
+          "text": "So each tube has about the same path, with no valve or pump."
+        },
+        {
+          "t0": 9.82,
+          "t1": 11.34,
+          "text": "Its test sheet says it all."
+        },
+        {
+          "t0": 11.34,
+          "t1": 15.75,
+          "text": "A single day gives six kilowatt-hours at five degrees above the air, four at twenty,"
+        },
+        {
+          "t0": 15.81,
+          "t1": 17.74,
+          "text": "zero point seven at fifty."
+        },
+        {
+          "t0": 17.74,
+          "t1": 21.2,
+          "text": "The whole art of this machine: hand it back cold fluid!"
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-collector-link",
+      "scope": "part:collector-link",
+      "title": "Collector connector",
+      "scene": "rig",
+      "file": "part-collector-link.mp3",
+      "duration": 20.64,
+      "chars": 344,
+      "hash": "2493759aaeb57b7d",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 2.52,
+          "text": "The collectors fade, and this connector stays."
+        },
+        {
+          "t0": 2.52,
+          "t1": 9.6,
+          "text": "For our drop there are no longer two collectors: one union above, another below, and here is a single bank."
+        },
+        {
+          "t0": 9.6,
+          "t1": 11.24,
+          "text": "Nothing is more discreet."
+        },
+        {
+          "t0": 11.24,
+          "t1": 16.1,
+          "text": "It is the one joint between two parts that each expand their own way, once a day."
+        },
+        {
+          "t0": 16.1,
+          "t1": 20.64,
+          "text": "A dry blue trace here, and the circuit may have been losing its level for months."
+        }
+      ],
+      "cues": [
+        {
+          "t": 0,
+          "do": {
+            "xray": true
+          }
+        },
+        {
+          "t": 9.6,
+          "do": {
+            "xray": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "part-storage-tank",
+      "scope": "part:storage-tank",
+      "title": "The storage tank",
+      "scene": "rig",
+      "file": "part-storage-tank.mp3",
+      "duration": 18.88,
+      "chars": 322,
+      "hash": "da492c792e97094a",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 3.76,
+          "text": "From outside, a long aluminium cylinder with black end caps."
+        },
+        {
+          "t0": 3.76,
+          "t1": 9.58,
+          "text": "Inside, three hundred litres of drinking water, four hundred and seventeen kilos when full."
+        },
+        {
+          "t0": 9.58,
+          "t1": 15.08,
+          "text": "An official guide calls such tanks far less efficient: too little height to keep hot and cold apart."
+        },
+        {
+          "t0": 15.08,
+          "t1": 18.88,
+          "text": "But upright on a roof, it would stand tall, heavy, and full of wind!"
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-hot-pipe",
+      "scope": "part:hot-pipe",
+      "title": "Hot pipe",
+      "scene": "rig",
+      "file": "part-hot-pipe.mp3",
+      "duration": 32.24,
+      "chars": 559,
+      "hash": "dde11120fdcc9a86",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 5.14,
+          "text": "A very small pipe, and nothing to push our drop up it, except a difference in weight."
+        },
+        {
+          "t0": 5.14,
+          "t1": 11.04,
+          "text": "Around noon, under a clear sky, our model finds a push of six point six millimetres of water."
+        },
+        {
+          "t0": 11.04,
+          "t1": 12.86,
+          "text": "About the thickness of a pencil."
+        },
+        {
+          "t0": 12.86,
+          "t1": 15.8,
+          "text": "And that moves a hundred and thirty-two litres an hour!"
+        },
+        {
+          "t0": 15.8,
+          "t1": 20.26,
+          "text": "On a clear June day, in solar time, the plate is gaining from ten to five."
+        },
+        {
+          "t0": 20.26,
+          "t1": 25.74,
+          "text": "But the drop only sets off at about ten past seven: it must first climb back from the night’s cold."
+        },
+        {
+          "t0": 25.74,
+          "t1": 30.34,
+          "text": "At night, as it happens, a trickle runs backward here: a litre and a half an hour,"
+        },
+        {
+          "t0": 30.52,
+          "t1": 32.24,
+          "text": "as a mean from midnight to dawn."
+        }
+      ],
+      "cues": [
+        {
+          "t": 0,
+          "do": {
+            "flows": true
+          }
+        },
+        {
+          "t": 25.74,
+          "do": {
+            "flows": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "part-cold-pipe",
+      "scope": "part:cold-pipe",
+      "title": "Cold pipe",
+      "scene": "rig",
+      "file": "part-cold-pipe.mp3",
+      "duration": 19.28,
+      "chars": 308,
+      "hash": "ece722d1b99149d9",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 3.26,
+          "text": "The long pipe on the right: the heavy half of the loop."
+        },
+        {
+          "t0": 3.26,
+          "t1": 9.24,
+          "text": "Cooled, denser, our drop comes back down it, and that weight is what turns the whole thing."
+        },
+        {
+          "t0": 9.24,
+          "t1": 13.78,
+          "text": "At noon’s flow, the circuit’s nineteen litres go round in about nine minutes."
+        },
+        {
+          "t0": 13.78,
+          "t1": 19.28,
+          "text": "So no valve added without a reason: every narrowing eats into a push already tiny."
+        }
+      ],
+      "cues": [
+        {
+          "t": 0,
+          "do": {
+            "flows": true
+          }
+        },
+        {
+          "t": 9.24,
+          "do": {
+            "flows": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "part-collector-rail",
+      "scope": "part:collector-rail",
+      "title": "Collector rail",
+      "scene": "rig",
+      "file": "part-collector-rail.mp3",
+      "duration": 19.12,
+      "chars": 329,
+      "hash": "9c2dfbf9875e5e62",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 4.18,
+          "text": "It all starts from the rail, and it is set askew, on purpose!"
+        },
+        {
+          "t0": 4.18,
+          "t1": 8.18,
+          "text": "The maker raises it twelve millimetres per collector, on one side."
+        },
+        {
+          "t0": 8.18,
+          "t1": 10.78,
+          "text": "The manual does not say why, in what we read."
+        },
+        {
+          "t0": 10.78,
+          "t1": 15.58,
+          "text": "Our reading: the headers then climb towards one corner, and air has only one way to go."
+        },
+        {
+          "t0": 15.58,
+          "t1": 19.12,
+          "text": "It goes on before anything else: every measurement starts from it."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-collector-strap",
+      "scope": "part:collector-strap",
+      "title": "Collector strap",
+      "scene": "rig",
+      "file": "part-collector-strap.mp3",
+      "duration": 15.2,
+      "chars": 259,
+      "hash": "bfa0e3f941978fb8",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 2.5,
+          "text": "Forty-three kilos is nothing to a rafter."
+        },
+        {
+          "t0": 2.5,
+          "t1": 5.42,
+          "text": "But a head wind lifts a collector like a wing!"
+        },
+        {
+          "t0": 5.42,
+          "t1": 10.28,
+          "text": "These steel bands hook to the rail, pass under the tiles, and fix where there is timber."
+        },
+        {
+          "t0": 10.28,
+          "t1": 12.46,
+          "text": "A fixing to a tile would hold nothing."
+        },
+        {
+          "t0": 12.46,
+          "t1": 15.2,
+          "text": "Four are drawn here, at an estimated size."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-tank-spacer",
+      "scope": "part:tank-spacer",
+      "title": "Tank-to-collector spacer",
+      "scene": "rig",
+      "file": "part-tank-spacer.mp3",
+      "duration": 17.04,
+      "chars": 307,
+      "hash": "64eccbfa01832961",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 4.08,
+          "text": "Two little spacers, and the whole question of the night rests on them."
+        },
+        {
+          "t0": 4.08,
+          "t1": 9.06,
+          "text": "The tank stops there, its bottom level with the collectors’ top, within five centimetres,"
+        },
+        {
+          "t0": 9.06,
+          "t1": 10.9,
+          "text": "by our reading of the drawings."
+        },
+        {
+          "t0": 10.9,
+          "t1": 15.18,
+          "text": "For some sources, that is the line between a quiet night and a costly one."
+        },
+        {
+          "t0": 15.18,
+          "t1": 17.04,
+          "text": "Others do not agree on the right value."
+        }
+      ],
+      "cues": [
+        {
+          "t": 0,
+          "do": {
+            "xray": true
+          }
+        },
+        {
+          "t": 10.9,
+          "do": {
+            "xray": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "part-tank-strap",
+      "scope": "part:tank-strap",
+      "title": "Tank strap",
+      "scene": "rig",
+      "file": "part-tank-strap.mp3",
+      "duration": 18.64,
+      "chars": 300,
+      "hash": "d2a5797afe9ff8af",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 2.5,
+          "text": "Four hundred and seventeen kilos hang down the slope,"
+        },
+        {
+          "t0": 2.5,
+          "t1": 6.86,
+          "text": "and the wind catches them at an angle along two metres thirty-one."
+        },
+        {
+          "t0": 6.86,
+          "t1": 9.96,
+          "text": "This strap answers for them, over the top of the tank."
+        },
+        {
+          "t0": 9.96,
+          "t1": 14.08,
+          "text": "It does almost nothing, then a lot, over a few hours of storm."
+        },
+        {
+          "t0": 14.08,
+          "t1": 16.66,
+          "text": "Its size and place are estimates."
+        },
+        {
+          "t0": 16.66,
+          "t1": 18.64,
+          "text": "A marked band gets changed."
+        }
+      ],
+      "cues": [
+        {
+          "t": 0,
+          "do": {
+            "xray": true
+          }
+        },
+        {
+          "t": 9.96,
+          "do": {
+            "xray": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "part-fill-port",
+      "scope": "part:fill-port",
+      "title": "Fill assembly",
+      "scene": "rig",
+      "file": "part-fill-port.mp3",
+      "duration": 19.2,
+      "chars": 347,
+      "hash": "b9e53c882c81a62d",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 2.94,
+          "text": "This is the corner where our drop enters the story."
+        },
+        {
+          "t0": 2.94,
+          "t1": 7.78,
+          "text": "A nineteen-litre circuit, with one bottle of four and a half litres of blue food-grade glycol."
+        },
+        {
+          "t0": 7.78,
+          "t1": 13.9,
+          "text": "That makes about twenty-four per cent of the mix, which freezes at minus nine point two degrees."
+        },
+        {
+          "t0": 13.9,
+          "t1": 19.2,
+          "text": "The manual keeps this job to trained installers, with the tank already full and the collectors covered."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-top-plug",
+      "scope": "part:top-plug",
+      "title": "Collector plug",
+      "scene": "rig",
+      "file": "part-top-plug.mp3",
+      "duration": 18.72,
+      "chars": 285,
+      "hash": "f9e7bb9389e343d5",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 4.04,
+          "text": "At the other end of the diagonal, a simple brass plug."
+        },
+        {
+          "t0": 4.04,
+          "t1": 7.9,
+          "text": "During filling, the air leaves this way, until the mix arrives."
+        },
+        {
+          "t0": 7.9,
+          "t1": 14.52,
+          "text": "A tiny, decisive role: a bubble left at the high point can stop a circulation that almost nothing pushes."
+        },
+        {
+          "t0": 14.52,
+          "t1": 15.66,
+          "text": "The symptom?"
+        },
+        {
+          "t0": 15.66,
+          "t1": 18.72,
+          "text": "A scorching collector and a cold tank, at noon."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-overheat-valve",
+      "scope": "part:overheat-valve",
+      "title": "Overheat valve",
+      "scene": "rig",
+      "file": "part-overheat-valve.mp3",
+      "duration": 21.52,
+      "chars": 367,
+      "hash": "ae03cd3320309e85",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 5.6,
+          "text": "A family leaves for a week in July: nobody draws any water, and the tank climbs."
+        },
+        {
+          "t0": 5.6,
+          "t1": 8.86,
+          "text": "This valve, an option, then shuts the loop."
+        },
+        {
+          "t0": 8.86,
+          "t1": 14.24,
+          "text": "At Athens, our model climbs to ninety-four degrees at the top of the tank without it, eighty-five with it…"
+        },
+        {
+          "t0": 14.24,
+          "t1": 17.74,
+          "text": "but a hundred and sixteen at the collector, left alone in the sun."
+        },
+        {
+          "t0": 17.74,
+          "t1": 21.52,
+          "text": "Neither its setting nor its place is published: here, two estimates."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-overflow-reservoir",
+      "scope": "part:overflow-reservoir",
+      "title": "Circuit reservoir",
+      "scene": "rig",
+      "file": "part-overflow-reservoir.mp3",
+      "duration": 16.56,
+      "chars": 291,
+      "hash": "21b3848bb826633a",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 4.44,
+          "text": "A closed circuit full of hot liquid has to put its expansion somewhere."
+        },
+        {
+          "t0": 4.44,
+          "t1": 8.66,
+          "text": "The maker publishes neither the volume of this reservoir, nor its mount."
+        },
+        {
+          "t0": 8.66,
+          "t1": 12.4,
+          "text": "So this little cylinder is our estimate, and our model leaves it out."
+        },
+        {
+          "t0": 12.4,
+          "t1": 16.56,
+          "text": "If the maker answered one message, this is the sheet that would change most!"
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-test-stand",
+      "scope": "part:test-stand",
+      "title": "Test stand",
+      "scene": "rig",
+      "file": "part-test-stand.mp3",
+      "duration": 32.88,
+      "chars": 545,
+      "hash": "31560a9c7614be6a",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 3.36,
+          "text": "It is no part of the machine: it asks a question."
+        },
+        {
+          "t0": 3.36,
+          "t1": 5.36,
+          "text": "What if the tank stood lower?"
+        },
+        {
+          "t0": 5.36,
+          "t1": 6.82,
+          "text": "Take a clear June night."
+        },
+        {
+          "t0": 6.82,
+          "t1": 12.89,
+          "text": "Sixty-one centimetres above zero, our model loses one point one per cent of the day’s heat."
+        },
+        {
+          "t0": 12.89,
+          "t1": 16.2,
+          "text": "Thirty centimetres below: thirteen point seven."
+        },
+        {
+          "t0": 16.2,
+          "t1": 20.14,
+          "text": "The worst: fifteen point three, sixty-one centimetres below."
+        },
+        {
+          "t0": 20.14,
+          "t1": 23.4,
+          "text": "Lower still, the day stops, and nothing is left to steal!"
+        },
+        {
+          "t0": 23.4,
+          "t1": 28.68,
+          "text": "All this rests on a sum for the sky, with no dew: without it, these losses fall to about a quarter."
+        },
+        {
+          "t0": 28.68,
+          "t1": 32.88,
+          "text": "And below zero, the drawing makes a detour of pipe that the model does not count."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-glass-cover",
+      "scope": "part:glass-cover",
+      "title": "Glass cover",
+      "scene": "collector",
+      "file": "part-glass-cover.mp3",
+      "duration": 14.8,
+      "chars": 258,
+      "hash": "36c45f0bbf4e083b",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 4.94,
+          "text": "Three point two millimetres of tempered glass, without the green edge of ordinary glass."
+        },
+        {
+          "t0": 4.94,
+          "t1": 9.44,
+          "text": "The sun passes through it, and the heat the plate sends back largely stops there."
+        },
+        {
+          "t0": 9.44,
+          "t1": 11.72,
+          "text": "But at night, it changes sides!"
+        },
+        {
+          "t0": 11.72,
+          "t1": 14.8,
+          "text": "It radiates to the clear sky, and pulls the plate down."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-glass-seal",
+      "scope": "part:glass-seal",
+      "title": "Glass seal",
+      "scene": "collector",
+      "file": "part-glass-seal.mp3",
+      "duration": 16.32,
+      "chars": 249,
+      "hash": "6b200030bcf69620",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 5.04,
+          "text": "Here is a part with no figure: nobody publishes its material or its shape."
+        },
+        {
+          "t0": 5.04,
+          "t1": 9.7,
+          "text": "This supple seal must grip a fragile pane, and let the tray expand."
+        },
+        {
+          "t0": 9.7,
+          "t1": 14.6,
+          "text": "Its work shows by its absence: if it leaks, the wind gets in under the glass."
+        },
+        {
+          "t0": 14.6,
+          "t1": 16.32,
+          "text": "Mist is then the first sign."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-air-gap",
+      "scope": "part:air-gap",
+      "title": "Air gap",
+      "scene": "collector",
+      "file": "part-air-gap.mp3",
+      "duration": 18.72,
+      "chars": 307,
+      "hash": "1e1701ab0850b67e",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 1.76,
+          "text": "This part is no part!"
+        },
+        {
+          "t0": 1.76,
+          "t1": 8.54,
+          "text": "Air has no surface: this lab draws it a nearly invisible slab, just to name it and see its outline."
+        },
+        {
+          "t0": 8.54,
+          "t1": 9.9,
+          "text": "There is nothing else to show."
+        },
+        {
+          "t0": 9.9,
+          "t1": 15.76,
+          "text": "Yet as long as it stays still, this air conducts heat very poorly: it is the insulation on the sun’s side."
+        },
+        {
+          "t0": 15.76,
+          "t1": 18.72,
+          "text": "And it is the only sheet with no part to order."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-absorber-plate",
+      "scope": "part:absorber-plate",
+      "title": "Absorber plate",
+      "scene": "collector",
+      "file": "part-absorber-plate.mp3",
+      "duration": 22.08,
+      "chars": 386,
+      "hash": "e8ef3611b498d62d",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 4.2,
+          "text": "The machine’s one conversion: at the surface of this sheet, the sun becomes heat."
+        },
+        {
+          "t0": 4.2,
+          "t1": 7.34,
+          "text": "It is painted black, with no selective coating."
+        },
+        {
+          "t0": 7.34,
+          "t1": 9.64,
+          "text": "A good choice for fluid that is not very hot."
+        },
+        {
+          "t0": 9.64,
+          "t1": 15.04,
+          "text": "Under eight hundred watts a square metre, black wins up to twenty-five degrees above the air."
+        },
+        {
+          "t0": 15.04,
+          "t1": 16.92,
+          "text": "But at night, it radiates."
+        },
+        {
+          "t0": 16.92,
+          "t1": 22.08,
+          "text": "On a clear night, with air at ten degrees, the sums put it five point four degrees lower."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-riser-tube",
+      "scope": "part:riser-tube",
+      "title": "Riser tube",
+      "scene": "collector",
+      "file": "part-riser-tube.mp3",
+      "duration": 28,
+      "chars": 510,
+      "hash": "ce76c1b279920f3e",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 3.52,
+          "text": "Our drop’s bedroom: one steel tube among seventy."
+        },
+        {
+          "t0": 3.52,
+          "t1": 6.82,
+          "text": "This is where it warms, and where the climb begins."
+        },
+        {
+          "t0": 6.82,
+          "t1": 12.7,
+          "text": "Around noon, it moves at about one point four centimetres a second: the flow shares itself out among them all."
+        },
+        {
+          "t0": 12.7,
+          "t1": 16.14,
+          "text": "Nobody publishes their bore: seven millimetres is an estimate."
+        },
+        {
+          "t0": 16.14,
+          "t1": 16.76,
+          "text": "And narrower?"
+        },
+        {
+          "t0": 16.76,
+          "t1": 21.46,
+          "text": "At three millimetres, our model sees noon’s flow fall to fifty-three litres an hour."
+        },
+        {
+          "t0": 21.46,
+          "t1": 24.58,
+          "text": "The day loses only three per cent, and eight over the year."
+        },
+        {
+          "t0": 24.58,
+          "t1": 28,
+          "text": "But a model cannot say whether such a circuit starts: nothing to copy here."
+        }
+      ],
+      "cues": [
+        {
+          "t": 0,
+          "do": {
+            "flows": true
+          }
+        },
+        {
+          "t": 12.7,
+          "do": {
+            "flows": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "part-upper-header",
+      "scope": "part:upper-header",
+      "title": "Upper header",
+      "scene": "collector",
+      "file": "part-upper-header.mp3",
+      "duration": 18.48,
+      "chars": 342,
+      "hash": "fdba2e7bcc1ca6d8",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 7.08,
+          "text": "Right at the top, our drop meets all the others: this tube gathers the fluid from the collector’s thirty-five risers."
+        },
+        {
+          "t0": 7.08,
+          "t1": 11.92,
+          "text": "Every height is measured from here too: a tank at zero has its bottom just at this level."
+        },
+        {
+          "t0": 11.92,
+          "t1": 13.46,
+          "text": "Its bore comes from a small sum."
+        },
+        {
+          "t0": 13.46,
+          "t1": 18.48,
+          "text": "Three point eight litres a collector, less what the tubes hold: that leaves twenty-seven millimetres."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-lower-header",
+      "scope": "part:lower-header",
+      "title": "Lower header",
+      "scene": "collector",
+      "file": "part-lower-header.mp3",
+      "duration": 22.24,
+      "chars": 380,
+      "hash": "697611ea991e01c7",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 6.06,
+          "text": "Here it is cold by design: it receives the tank’s bottom, and shares the fluid among all the tubes."
+        },
+        {
+          "t0": 6.06,
+          "t1": 10.02,
+          "text": "At night, the backward trickle leaves this way, colder than the air."
+        },
+        {
+          "t0": 10.02,
+          "t1": 15.98,
+          "text": "On a clear night, our model reaches freezing here from five point six degrees of air with water alone."
+        },
+        {
+          "t0": 15.98,
+          "t1": 18.64,
+          "text": "With our mix, at minus three point two."
+        },
+        {
+          "t0": 18.64,
+          "t1": 22.24,
+          "text": "Those are the first crystals: it does not say whether a tube bursts."
+        }
+      ],
+      "cues": [
+        {
+          "t": 0,
+          "do": {
+            "xray": true
+          }
+        },
+        {
+          "t": 6.06,
+          "do": {
+            "xray": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "part-back-insulation",
+      "scope": "part:back-insulation",
+      "title": "Back insulation",
+      "scene": "collector",
+      "file": "part-back-insulation.mp3",
+      "duration": 15.28,
+      "chars": 299,
+      "hash": "953ff606ba7126fb",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 4.22,
+          "text": "Let’s part the layers: here it is, the thickest in the collector, between the tray and the tubes."
+        },
+        {
+          "t0": 4.22,
+          "t1": 6.72,
+          "text": "Thirty-eight millimetres of polyester blanket,"
+        },
+        {
+          "t0": 6.9,
+          "t1": 10.16,
+          "text": "which close the back to the heat and set the tubes at their level."
+        },
+        {
+          "t0": 10.16,
+          "t1": 15.28,
+          "text": "But if water gets in, a wet blanket insulates poorly, and dries slowly under the glass."
+        }
+      ],
+      "cues": [
+        {
+          "t": 0,
+          "do": {
+            "explode": 0.5
+          }
+        },
+        {
+          "t": 4.22,
+          "do": {
+            "explode": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "part-collector-tray",
+      "scope": "part:collector-tray",
+      "title": "Tray",
+      "scene": "collector",
+      "file": "part-collector-tray.mp3",
+      "duration": 16.8,
+      "chars": 309,
+      "hash": "f89848d24069ad2a",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 4.92,
+          "text": "Zero point seven millimetres of aluminium: this tray holds by its shape, not its thickness."
+        },
+        {
+          "t0": 4.92,
+          "t1": 10.28,
+          "text": "So thin a sheet will do, because the fluid never presses on it: the pressure stays in the tubes."
+        },
+        {
+          "t0": 10.28,
+          "t1": 12.42,
+          "text": "This is what sits on the rail and takes the straps."
+        },
+        {
+          "t0": 12.42,
+          "t1": 16.8,
+          "text": "Forty-three kilos in all, carried by two people, never by the glass."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-inner-vessel",
+      "scope": "part:inner-vessel",
+      "title": "Enamelled vessel",
+      "scene": "tank-and-tap",
+      "file": "part-inner-vessel.mp3",
+      "duration": 20,
+      "chars": 347,
+      "hash": "592fd1bb586b1e93",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 2.27,
+          "text": "The only part that touches the shower’s water."
+        },
+        {
+          "t0": 2.27,
+          "t1": 8.56,
+          "text": "Two point five millimetres of steel, two coats of enamel, and three hundred litres at mains pressure."
+        },
+        {
+          "t0": 8.56,
+          "t1": 14.6,
+          "text": "A curiosity from the manual: left undrawn for two weeks or more, flammable hydrogen may gather in it."
+        },
+        {
+          "t0": 14.6,
+          "t1": 17.8,
+          "text": "So you first run a sink tap, with no flame nearby."
+        },
+        {
+          "t0": 17.8,
+          "t1": 20,
+          "text": "And if it rusts through, it cannot be mended."
+        }
+      ],
+      "cues": [
+        {
+          "t": 0,
+          "do": {
+            "xray": true
+          }
+        },
+        {
+          "t": 8.56,
+          "do": {
+            "xray": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "part-mantle-jacket",
+      "scope": "part:mantle-jacket",
+      "title": "Heat-exchange jacket",
+      "scene": "tank-and-tap",
+      "file": "part-mantle-jacket.mp3",
+      "duration": 21.12,
+      "chars": 366,
+      "hash": "8c25253e8457c701",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 1.58,
+          "text": "Our drop’s great moment."
+        },
+        {
+          "t0": 1.58,
+          "t1": 7.86,
+          "text": "It climbs through this gap, along the vessel, gives up its heat through the steel, then comes back down."
+        },
+        {
+          "t0": 7.86,
+          "t1": 12.66,
+          "text": "About ten litres on one side, three hundred on the other, and the two liquids never touch."
+        },
+        {
+          "t0": 12.66,
+          "t1": 14.1,
+          "text": "And if the wall gave way?"
+        },
+        {
+          "t0": 14.1,
+          "t1": 18.1,
+          "text": "That is what the blue is for: blue water at the tap means a leak."
+        },
+        {
+          "t0": 18.1,
+          "t1": 21.12,
+          "text": "Then you shut everything off, and call the installer."
+        }
+      ],
+      "cues": [
+        {
+          "t": 0,
+          "do": {
+            "xray": true
+          }
+        },
+        {
+          "t": 0,
+          "do": {
+            "flows": true
+          }
+        },
+        {
+          "t": 7.86,
+          "do": {
+            "flows": false
+          }
+        },
+        {
+          "t": 7.86,
+          "do": {
+            "xray": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "part-water-column",
+      "scope": "part:water-column",
+      "title": "The water column",
+      "scene": "tank-and-tap",
+      "file": "part-water-column.mp3",
+      "duration": 27.28,
+      "chars": 463,
+      "hash": "0babbc4e1c86d7c6",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 1.68,
+          "text": "The heart of this lab!"
+        },
+        {
+          "t0": 1.68,
+          "t1": 6.42,
+          "text": "Hot water is lighter: it stays on top, with no wall to hold it there."
+        },
+        {
+          "t0": 6.42,
+          "t1": 12.9,
+          "text": "These layers are the tank’s whole fortune: the cold goes back to the collector, the hot leaves from the top."
+        },
+        {
+          "t0": 12.9,
+          "t1": 18.84,
+          "text": "On the evening of a clear June day at Athens, our model finds seventy-two and a half degrees at the top."
+        },
+        {
+          "t0": 18.84,
+          "t1": 20.88,
+          "text": "At the bottom, nearly forty-seven."
+        },
+        {
+          "t0": 20.88,
+          "t1": 23.32,
+          "text": "At dawn, the top is still at sixty-eight."
+        },
+        {
+          "t0": 23.32,
+          "t1": 27.28,
+          "text": "In the scenario The family’s morning, the hot layer falls, shower after shower."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-tank-foam",
+      "scope": "part:tank-foam",
+      "title": "Insulating foam",
+      "scene": "tank-and-tap",
+      "file": "part-tank-foam.mp3",
+      "duration": 19.84,
+      "chars": 350,
+      "hash": "7455b87629dc9313",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 4.72,
+          "text": "A very thin coat: about twenty-five millimetres of injected polyurethane."
+        },
+        {
+          "t0": 4.72,
+          "t1": 9.62,
+          "text": "Other machines have thirty to fifty: that is the price of a slim shape on a roof."
+        },
+        {
+          "t0": 9.62,
+          "t1": 14.96,
+          "text": "On a clear June night, our model sees zero point eight six kilowatt-hours go through this skin."
+        },
+        {
+          "t0": 14.96,
+          "t1": 18.16,
+          "text": "Through the circuit running backward, zero point four five more."
+        },
+        {
+          "t0": 18.16,
+          "t1": 19.84,
+          "text": "That puts the thief in its place!"
+        }
+      ],
+      "cues": [
+        {
+          "t": 0,
+          "do": {
+            "xray": true
+          }
+        },
+        {
+          "t": 9.62,
+          "do": {
+            "xray": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "part-outer-case",
+      "scope": "part:outer-case",
+      "title": "Aluminium case",
+      "scene": "tank-and-tap",
+      "file": "part-outer-case.mp3",
+      "duration": 14.4,
+      "chars": 250,
+      "hash": "7406be2024fda325",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 3.86,
+          "text": "Zero point four millimetres of aluminium is very little."
+        },
+        {
+          "t0": 3.86,
+          "t1": 7.56,
+          "text": "This skin is only there for the rain, the sun and the eye."
+        },
+        {
+          "t0": 7.56,
+          "t1": 10.54,
+          "text": "The tank’s weight stays in the steel that holds the pressure."
+        },
+        {
+          "t0": 10.54,
+          "t1": 14.4,
+          "text": "This sheet carries nothing: never lean on it, and close a split at once."
+        }
+      ],
+      "cues": [
+        {
+          "t": 0,
+          "do": {
+            "xray": true
+          }
+        },
+        {
+          "t": 7.56,
+          "do": {
+            "xray": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "part-end-cap",
+      "scope": "part:end-cap",
+      "title": "End cap",
+      "scene": "tank-and-tap",
+      "file": "part-end-cap.mp3",
+      "duration": 18.88,
+      "chars": 300,
+      "hash": "d043233950b0a05a",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 4.86,
+          "text": "Two black caps, slightly domed, close the ends of the cylinder."
+        },
+        {
+          "t0": 4.86,
+          "t1": 10.02,
+          "text": "Being black, in the sun, they get hot: their polypropylene is stabilised."
+        },
+        {
+          "t0": 10.02,
+          "t1": 14.26,
+          "text": "The left one carries an oval hatch, where the element comes out in one piece."
+        },
+        {
+          "t0": 14.26,
+          "t1": 18.88,
+          "text": "And this plastic cuts a thermal bridge: the vessel’s heat finds no metal path there."
+        }
+      ],
+      "cues": [
+        {
+          "t": 0,
+          "do": {
+            "explode": 0.6
+          }
+        },
+        {
+          "t": 4.86,
+          "do": {
+            "explode": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "part-sacrificial-anode",
+      "scope": "part:sacrificial-anode",
+      "title": "Sacrificial anode",
+      "scene": "tank-and-tap",
+      "file": "part-sacrificial-anode.mp3",
+      "duration": 18.08,
+      "chars": 311,
+      "hash": "499c793377e902d6",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 2.32,
+          "text": "A hero that disappears for the others."
+        },
+        {
+          "t0": 2.32,
+          "t1": 7.56,
+          "text": "No enamel is perfect: a few tiny flaws remain, where water touches steel."
+        },
+        {
+          "t0": 7.56,
+          "t1": 11.28,
+          "text": "Magnesium, quicker to corrode, takes the corrosion in its place."
+        },
+        {
+          "t0": 11.28,
+          "t1": 13.54,
+          "text": "The cheapest bargain in the whole machine."
+        },
+        {
+          "t0": 13.54,
+          "t1": 18.08,
+          "text": "As long as you remember: it gives no warning, and the maker has it replaced at five years."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-booster-element",
+      "scope": "part:booster-element",
+      "title": "Booster element",
+      "scene": "tank-and-tap",
+      "file": "part-booster-element.mp3",
+      "duration": 21.6,
+      "chars": 369,
+      "hash": "c4fd885776ede4c1",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 2.28,
+          "text": "For grey days, a copper-sheathed element…"
+        },
+        {
+          "t0": 2.28,
+          "t1": 5.28,
+          "text": "at half height, and that is no accident."
+        },
+        {
+          "t0": 5.28,
+          "t1": 10.8,
+          "text": "It heats only the upper hundred and fifty litres, and leaves the collector a cold bottom to work with."
+        },
+        {
+          "t0": 10.8,
+          "t1": 16.66,
+          "text": "At three point six kilowatts, with fifty degrees to gain, the maker quotes two and a half hours."
+        },
+        {
+          "t0": 16.66,
+          "t1": 21.6,
+          "text": "Our model takes two point eight hours: it adds the steel, the skin and the conduction."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-tank-thermostat",
+      "scope": "part:tank-thermostat",
+      "title": "Thermostat",
+      "scene": "tank-and-tap",
+      "file": "part-tank-thermostat.mp3",
+      "duration": 20.48,
+      "chars": 330,
+      "hash": "9f9cc36944c746fa",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 2.6,
+          "text": "Sixty degrees: a chosen figure."
+        },
+        {
+          "t0": 2.6,
+          "t1": 8.38,
+          "text": "It answers legionella, the bacteria that multiply from twenty-five to forty-five degrees."
+        },
+        {
+          "t0": 8.38,
+          "t1": 10.72,
+          "text": "The manual allows seventy at most."
+        },
+        {
+          "t0": 10.72,
+          "t1": 15.62,
+          "text": "At eighty-three, a second device cuts the element if the thermostat has failed."
+        },
+        {
+          "t0": 15.62,
+          "t1": 20.48,
+          "text": "Here it measures at half height: so it does not cut out when the sun has only filled the top."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-tpr-valve",
+      "scope": "part:tpr-valve",
+      "title": "Temperature and pressure relief valve",
+      "scene": "tank-and-tap",
+      "file": "part-tpr-valve.mp3",
+      "duration": 19.28,
+      "chars": 316,
+      "hash": "ac1e1fbfeb01aec3",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 5.22,
+          "text": "The tank’s last resort: it opens at ninety-nine degrees, or at a thousand kilopascals."
+        },
+        {
+          "t0": 5.22,
+          "t1": 11.46,
+          "text": "In a German test, with no draw and in the sun, a comparable tank reached a hundred and nine degrees."
+        },
+        {
+          "t0": 11.46,
+          "t1": 18.1,
+          "text": "So the water leaving here is very hot: the drain falls in the open, never on the roof or into a gutter."
+        },
+        {
+          "t0": 18.1,
+          "t1": 19.28,
+          "text": "And it is never blocked."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-jacket-relief-valve",
+      "scope": "part:jacket-relief-valve",
+      "title": "Jacket relief valve",
+      "scene": "tank-and-tap",
+      "file": "part-jacket-relief-valve.mp3",
+      "duration": 18.4,
+      "chars": 308,
+      "hash": "f6790737027ad762",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 5.8,
+          "text": "Two pressures, two worlds: drinking water at mains pressure, the circuit at almost none."
+        },
+        {
+          "t0": 5.8,
+          "t1": 10.78,
+          "text": "This valve keeps the collectors at eighty kilopascals, far below the vessel’s thousand."
+        },
+        {
+          "t0": 10.78,
+          "t1": 12.98,
+          "text": "That is what allows such thin tubes."
+        },
+        {
+          "t0": 12.98,
+          "t1": 14.76,
+          "text": "It never comes off in service."
+        },
+        {
+          "t0": 14.76,
+          "t1": 18.4,
+          "text": "And its drain holds glycol: it must not reach a rainwater tank."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-cold-diffuser",
+      "scope": "part:cold-diffuser",
+      "title": "Cold water diffuser",
+      "scene": "tank-and-tap",
+      "file": "part-cold-diffuser.mp3",
+      "duration": 17.92,
+      "chars": 311,
+      "hash": "cbba0bfcf181297d",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 4.74,
+          "text": "When the shower opens, as much cold water comes in below as hot leaves above."
+        },
+        {
+          "t0": 4.74,
+          "t1": 7.08,
+          "text": "A direct jet would stir everything!"
+        },
+        {
+          "t0": 7.08,
+          "t1": 9.86,
+          "text": "Hence this tube along the bottom, with its spreader."
+        },
+        {
+          "t0": 9.86,
+          "t1": 14.42,
+          "text": "On other tanks, measurements find layers over forty to sixty per cent of the volume."
+        },
+        {
+          "t0": 14.42,
+          "t1": 16.06,
+          "text": "Our model finds sixty-one."
+        },
+        {
+          "t0": 16.06,
+          "t1": 17.92,
+          "text": "Its shape, here, is an estimate."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-hot-outlet",
+      "scope": "part:hot-outlet",
+      "title": "Hot outlet",
+      "scene": "tank-and-tap",
+      "file": "part-hot-outlet.mp3",
+      "duration": 17.68,
+      "chars": 300,
+      "hash": "2e2f6475effc9fe5",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 5.62,
+          "text": "The tap does not draw at random: it takes from the very top, where the water is hottest."
+        },
+        {
+          "t0": 5.62,
+          "t1": 8.52,
+          "text": "That is why you can shower from a tank half cold."
+        },
+        {
+          "t0": 8.52,
+          "t1": 13.66,
+          "text": "A mixed tank, by contrast, loses twelve per cent of its year at Athens, in our sums."
+        },
+        {
+          "t0": 13.66,
+          "t1": 17.68,
+          "text": "Drawing from the top, filling at the bottom: the same choice, at every move."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-trio-valve",
+      "scope": "part:trio-valve",
+      "title": "Isolating and non-return valve",
+      "scene": "tank-and-tap",
+      "file": "part-trio-valve.mp3",
+      "duration": 18.56,
+      "chars": 352,
+      "hash": "d517e959d4518d72",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 4.34,
+          "text": "On the cold water’s path, the maker sets the order: an isolating valve,"
+        },
+        {
+          "t0": 4.56,
+          "t1": 7.56,
+          "text": "this non-return valve, then the relief valve."
+        },
+        {
+          "t0": 7.56,
+          "t1": 12.82,
+          "text": "It lets water through one way only: when the tank expands, lukewarm water does not reach your neighbours’."
+        },
+        {
+          "t0": 12.82,
+          "t1": 15.78,
+          "text": "Nothing to do with the optional valve on the closed circuit."
+        },
+        {
+          "t0": 15.78,
+          "t1": 18.56,
+          "text": "This one is on the drinking water, at least a metre from the tank."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-cold-relief-valve",
+      "scope": "part:cold-relief-valve",
+      "title": "Cold relief valve",
+      "scene": "tank-and-tap",
+      "file": "part-cold-relief-valve.mp3",
+      "duration": 20,
+      "chars": 316,
+      "hash": "50b7ed12b636da63",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 3.84,
+          "text": "Hot water takes more room, and water does not compress."
+        },
+        {
+          "t0": 3.84,
+          "t1": 7.2,
+          "text": "With the non-return valve in place, it needs a way out."
+        },
+        {
+          "t0": 7.2,
+          "t1": 11.66,
+          "text": "This valve opens at eight hundred and fifty kilopascals, ahead of the tank’s."
+        },
+        {
+          "t0": 11.66,
+          "t1": 14.68,
+          "text": "The manual warns: water will run during heating."
+        },
+        {
+          "t0": 14.68,
+          "t1": 16.18,
+          "text": "So it is no leak."
+        },
+        {
+          "t0": 16.18,
+          "t1": 20,
+          "text": "The scenario A holiday week counts those litres one by one."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-tempering-valve",
+      "scope": "part:tempering-valve",
+      "title": "Tempering valve",
+      "scene": "tank-and-tap",
+      "file": "part-tempering-valve.mp3",
+      "duration": 29.28,
+      "chars": 482,
+      "hash": "9f4f5c312d014302",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 2.2,
+          "text": "The line between a scald and legionella."
+        },
+        {
+          "t0": 2.2,
+          "t1": 9.06,
+          "text": "At sixty degrees, an adult burns in two to five seconds, a child about four times faster."
+        },
+        {
+          "t0": 9.06,
+          "t1": 13.98,
+          "text": "In summer this tank runs at sixty or seventy degrees, and may reach ninety-five."
+        },
+        {
+          "t0": 13.98,
+          "t1": 19.24,
+          "text": "So the maker asks for a tempering valve in every case, rated for ninety-nine degrees."
+        },
+        {
+          "t0": 19.24,
+          "t1": 23.1,
+          "text": "It mixes in cold water, and lets only fifty degrees through."
+        },
+        {
+          "t0": 23.1,
+          "t1": 24.3,
+          "text": "Lower the thermostat?"
+        },
+        {
+          "t0": 24.3,
+          "t1": 25.9,
+          "text": "That would give room back to the bacteria."
+        },
+        {
+          "t0": 25.9,
+          "t1": 29.28,
+          "text": "And before stepping in, always test the water with a hand."
+        }
+      ],
+      "cues": []
+    },
+    {
+      "id": "part-shower-head",
+      "scope": "part:shower-head",
+      "title": "The shower",
+      "scene": "tank-and-tap",
+      "file": "part-shower-head.mp3",
+      "duration": 22.48,
+      "chars": 402,
+      "hash": "f271a08533b2f822",
+      "captions": [
+        {
+          "t0": 0,
+          "t1": 4.72,
+          "text": "The whole story ends here, with water at forty degrees on somebody’s back."
+        },
+        {
+          "t0": 4.72,
+          "t1": 10.8,
+          "text": "A French survey finds fifty-six litres at forty degrees, per person per day, give or take twenty-three."
+        },
+        {
+          "t0": 10.8,
+          "t1": 14.26,
+          "text": "For four people, about a hundred and ninety litres at forty-five degrees."
+        },
+        {
+          "t0": 14.26,
+          "t1": 17.96,
+          "text": "These drops follow the flow; the steam is mere decoration."
+        },
+        {
+          "t0": 17.96,
+          "t1": 18.98,
+          "text": "And our blue drop?"
+        },
+        {
+          "t0": 18.98,
+          "t1": 20.66,
+          "text": "It will never have seen this shower."
+        },
+        {
+          "t0": 20.66,
+          "t1": 22.48,
+          "text": "Tomorrow morning, it starts again."
+        }
+      ],
+      "cues": []
+    }
+  ]
+}
