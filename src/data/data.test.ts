@@ -442,7 +442,7 @@ describe('the Sources', () => {
     const notes = SOURCE_GROUPS.flatMap((g) => g.links.map((s) => s.note.en)).join(' ');
     expect(notes).toMatch(/© European Union/);
     expect(LAB_STRINGS.noticeMarks[1]).toMatch(/asks for its own validation/);
-    expect(LAB_STRINGS.noticeMarks[1]).toMatch(/nobody has measured a flat collector with its tank below it/);
+    expect(LAB_STRINGS.noticeMarks[1]).toMatch(/we found no measurement of a flat collector with its tank below it/);
   });
 });
 
@@ -468,6 +468,31 @@ describe('the visitor’s texts', () => {
   it('promise no safety: nothing is called safe, guaranteed or without danger', () => {
     const promise = /\bsafely\b|\bis safe\b|guarantee|sans danger|en toute sécurité|garanti/i;
     for (const [where, t] of texts) for (const text of [t.fr, t.en]) expect(text, where).not.toMatch(promise);
+  });
+  const part = (id: string) => PARTS.find((p) => p.id === id)!;
+  it('claim no universal the research does not hold, and give no path of dots a colour of its own', () => {
+    const claim =
+      /personne n’a (rien )?mesuré|nobody has measured|tous les monoblocs|every compact unit|all compact units|deux couleurs|two colours/i;
+    for (const [where, t] of texts) for (const text of [t.fr, t.en]) expect(text, where).not.toMatch(claim);
+    expect(part('drain-outlet').description.fr).toMatch(/une goutte à cet endroit est normale/);
+    expect(part('drain-outlet').description.en).toMatch(/a drip at this spot is normal/);
+    expect(part('drain-outlet').description.en).not.toMatch(/all is well/);
+  });
+  it('name the X-ray tool as the kit’s button does in French, and say what it shows with the sheet open', () => {
+    for (const [where, t] of texts) expect(t.fr, where).not.toMatch(/x-ray/i);
+    for (const id of ['glass-cover', 'collector-link', 'outer-case']) {
+      expect(part(id).tip?.fr, id).toMatch(/l’outil Transparence ne garde en plein que/);
+      expect(part(id).tip?.fr, id).toMatch(/Fermez la fiche/);
+      expect(part(id).tip?.en, id).toMatch(/X-ray keeps only/);
+      expect(part(id).tip?.en, id).toMatch(/Close the sheet/);
+    }
+  });
+  it('give the night’s flow as a mean, and the hours of first light in solar time', () => {
+    const hot = part('hot-pipe');
+    expect(hot.description.fr).toMatch(/en moyenne de minuit à l’aube/);
+    expect(hot.description.en).toMatch(/as a mean from midnight to dawn/);
+    expect(hot.tip?.fr).toMatch(/à l’heure solaire/);
+    expect(hot.tip?.en).toMatch(/in solar time/);
   });
   it('write British English', () => {
     const us = /\b(color|center|aluminum|gray|fiber|liter|organiz|recogniz|analyz|neighbor|labor|vapor)\b/i;

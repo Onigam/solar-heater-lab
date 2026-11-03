@@ -86,8 +86,8 @@ export const TANK_PARTS: PartInfo[] = [
       },
     ),
     tip: l(
-      'Allumez Flux dans ce monde : deux boucles y tournent, dans deux couleurs. L’une traverse la double enveloppe, l’autre descend vers la douche.',
-      'Switch on Flows in this world: two loops run there, in two colours. One crosses the jacket, the other goes down to the shower.',
+      'Allumez Flux dans ce monde : deux chemins de points apparaissent, chaque point à la couleur de sa température. L’un traverse la double enveloppe, l’autre descend vers la douche.',
+      'Switch on Flows in this world: two paths of dots appear, each dot in the colour of its temperature. One crosses the jacket, the other goes down to the shower.',
     ),
     video: ['02:13'],
     design: lf(
@@ -222,8 +222,8 @@ export const TANK_PARTS: PartInfo[] = [
       },
     ),
     tip: l(
-      'En X-ray, cette enveloppe et la mousse s’effacent : le ballon se lit alors en entier, sans coupe.',
-      'In X-ray, this case and the foam fade: the tank then reads whole, without a section.',
+      'Cette fiche ouverte, l’outil Transparence ne garde en plein que cette enveloppe : tout le reste s’estompe. Fermez la fiche sans couper l’outil : l’enveloppe et la mousse s’effacent, et il reste la cuve et sa double enveloppe, toujours en coupe.',
+      'With this sheet open, X-ray keeps only this case solid: everything else fades. Close the sheet with the tool still on: the case and the foam fade, leaving the vessel and its jacket, still in section.',
     ),
     design: l(
       'L’aluminium ne craint guère la pluie et pèse peu : le poids du ballon reste dans l’acier qui tient la pression, pas dans sa peau.',

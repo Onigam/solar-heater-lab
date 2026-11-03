@@ -134,8 +134,8 @@ export const RIG_PARTS: PartInfo[] = [
       },
     ),
     tip: l(
-      'Dans le monde de la machine, l’outil X-ray laisse les tubes colorés visibles à travers le verre : le raccord se voit alors comme un simple pont.',
-      'In the machine’s world, X-ray leaves the coloured tubes visible through the glass: the connector then shows as a simple bridge.',
+      'Cette fiche ouverte, l’outil Transparence ne garde en plein que ce raccord : tout le reste s’estompe, tubes compris. Fermez la fiche sans couper l’outil : les tubes colorés se voient à travers le verre, et le raccord se lit comme un simple pont.',
+      'With this sheet open, X-ray keeps only this connector solid: everything else fades, tubes included. Close the sheet with the tool still on: the coloured tubes show through the glass, and the connector reads as a simple bridge.',
     ),
     design: l(
       'Mettre deux petits capteurs côte à côte plutôt qu’un grand simplifie tout : un carton qu’une équipe soulève, un verre qui se change seul, et une machine de 180 L qui utilise le même capteur.',
@@ -152,8 +152,8 @@ export const RIG_PARTS: PartInfo[] = [
       'Lying at the top of the frame: 300 L of drinking water, 417 kg full, and the jacket that takes the heat.',
     ),
     description: lf(
-      'Depuis l’extérieur, ce n’est qu’un long cylindre d’aluminium de 510 mm sur 2,31 m aux flasques noirs. Dedans, une cuve de 300 L, sa double enveloppe et sa mousse : 107 kg à vide, 417 kg en charge. Il livre 260 L solaires, et 150 L en appoint. L’agence française de l’énergie juge les ballons couchés « bien moins performants », parce qu’ils ont peu de hauteur pour garder chaud et froid séparés. Tous les monoblocs les utilisent pourtant : un ballon debout, sur un toit à {tiltDrawn}, serait haut, lourd et plein de vent.',
-      'From outside, it is just a long aluminium cylinder, 510 mm by 2.31 m, with black end caps. Inside are a 300 L vessel, its jacket and its foam: 107 kg empty, 417 kg full. It delivers 260 L of solar water, and 150 L from the booster. The French energy agency calls horizontal tanks “far less efficient”, since they have little height to keep hot and cold apart. Every compact unit uses them all the same: an upright tank, on a roof at {tiltDrawn}, would stand tall, heavy and full of wind.',
+      'Depuis l’extérieur, ce n’est qu’un long cylindre d’aluminium de 510 mm sur 2,31 m aux flasques noirs. Dedans, une cuve de 300 L, sa double enveloppe et sa mousse : 107 kg à vide, 417 kg en charge. Il livre 260 L solaires, et 150 L en appoint. L’agence française de l’énergie juge les ballons couchés « bien moins performants », parce qu’ils ont peu de hauteur pour garder chaud et froid séparés. Cette machine couche pourtant le sien, comme plusieurs de ses semblables : un ballon debout, sur un toit à {tiltDrawn}, serait haut, lourd et plein de vent.',
+      'From outside, it is just a long aluminium cylinder, 510 mm by 2.31 m, with black end caps. Inside are a 300 L vessel, its jacket and its foam: 107 kg empty, 417 kg full. It delivers 260 L of solar water, and 150 L from the booster. The French energy agency calls horizontal tanks “far less efficient”, since they have little height to keep hot and cold apart. This machine lays its tank flat all the same, as several of its kind do: an upright tank, on a roof at {tiltDrawn}, would stand tall, heavy and full of wind.',
     ),
     material: l(
       'Acier émaillé, mousse de polyuréthane, aluminium, polypropylène',
@@ -202,8 +202,8 @@ export const RIG_PARTS: PartInfo[] = [
       'The short pipe on the left, about {hotPipe}: here the fluid climbs from the collector to the tank, or comes back down if it runs backward.',
     ),
     description: lf(
-      'Rien ne le pousse, sinon la différence de densité entre ce qui monte et ce qui descend. À midi par ciel clair, le modèle trouve {pushPa}, soit {pushMm} d’eau, et ce tout petit effort suffit à faire circuler {peakFlow}. Il n’y a qu’un seul sens où tout va bien : par ce tuyau vers le ballon. La nuit, le capteur refroidit et ce fluide lourd veut redescendre : à la place de la vraie machine, un filet de {nightFlow} y coule à l’envers. Personne ne publie son diamètre : {pipeBore} est une estimation, et le dessin le fait un peu plus court que les {hotPipe} du modèle.',
-      'Nothing pushes it, except the difference in density between what climbs and what comes down. At noon under a clear sky, the model finds {pushPa}, or {pushMm} of water, and that tiny effort is enough to move {peakFlow}. There is only one way things go well: up this pipe to the tank. At night the collector cools, and that heavy fluid wants to come back down: at the real machine’s place, a trickle of {nightFlow} runs backward here. Nobody publishes its bore: {pipeBore} is an estimate, and the drawing makes it a little shorter than the model’s {hotPipe}.',
+      'Rien ne le pousse, sinon la différence de densité entre ce qui monte et ce qui descend. À midi par ciel clair, le modèle trouve {pushPa}, soit {pushMm} d’eau, et ce tout petit effort suffit à faire circuler {peakFlow}. Un seul sens charge le ballon : par ce tuyau, vers lui. La nuit, le capteur refroidit et ce fluide lourd veut redescendre : à la place de la vraie machine, par nuit claire de juin, un filet y coule à l’envers, {nightFlow} en moyenne de minuit à l’aube. Personne ne publie son diamètre : {pipeBore} est une estimation, et le dessin le fait un peu plus court que les {hotPipe} du modèle.',
+      'Nothing pushes it, except the difference in density between what climbs and what comes down. At noon under a clear sky, the model finds {pushPa}, or {pushMm} of water, and that tiny effort is enough to move {peakFlow}. Only one direction charges the tank: up this pipe to it. At night the collector cools, and that heavy fluid wants to come back down: at the real machine’s place, on a clear June night, a trickle runs backward here, {nightFlow} as a mean from midnight to dawn. Nobody publishes its bore: {pipeBore} is an estimate, and the drawing makes it a little shorter than the model’s {hotPipe}.',
     ),
     material: l('Tube métallique, écrous de raccord', 'Metal tube, union nuts'),
     specs: [
@@ -230,8 +230,8 @@ export const RIG_PARTS: PartInfo[] = [
       },
     ),
     tip: lf(
-      'Lancez « Le premier rayon » : par un jour clair de juin, la plaque gagne dès {gainStart}, mais le fluide ne bouge que vers {flowStart}. Elle doit d’abord remonter du froid de la nuit.',
-      'Run “First light”: on a clear June day the plate is gaining from {gainStart}, but the fluid only moves at about {flowStart}. It must first climb back from the night’s cold.',
+      'Lancez « Le premier rayon » : par un jour clair de juin, à l’heure solaire, la plaque gagne dès {gainStart}, mais le fluide ne bouge que vers {flowStart}. Elle doit d’abord remonter du froid de la nuit.',
+      'Run “First light”: on a clear June day, in solar time, the plate is gaining from {gainStart}, but the fluid only moves at about {flowStart}. It must first climb back from the night’s cold.',
     ),
     video: ['00:16'],
     design: lf(
@@ -455,7 +455,7 @@ export const RIG_PARTS: PartInfo[] = [
       },
     ),
     tip: l(
-      'En X-ray, ce feuillard reste visible autour du ballon transparent : c’est le meilleur moyen de lire par où passe l’effort.',
+      'Avec l’outil Transparence, ce feuillard reste visible autour du ballon transparent : c’est le meilleur moyen de lire par où passe l’effort.',
       'In X-ray this strap stays visible around the see-through tank: that is the best way to read where the force goes.',
     ),
     design: l(

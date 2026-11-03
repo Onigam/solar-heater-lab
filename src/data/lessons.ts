@@ -26,8 +26,8 @@ export const LESSONS: Lesson[] = [
         'It is all worked out by adding up density and height, all along the loop. The Simulation’s chart plots temperature against height: the area between the way up and the way down is the **push**. At noon under a clear sky, the model finds {pushPa}, or {pushMm} of water, for a rise of {peakRise} in the collector. That is enough to move {peakFlow}, about {pipeSpeed} in the pipes: the circuit’s 19 L go round in about {loopTurn}.',
       ),
       lf(
-        'Regardez « Le premier rayon ». Par un jour clair de juin, la plaque gagne plus qu’elle ne perd dès {gainStart}, mais le fluide ne bouge que vers {flowStart} : la nuit a laissé la plaque sous l’air, et il faut d’abord qu’elle remonte et dépasse le fluide des tuyaux. Pas de moteur, donc pas de bouton : c’est le soleil qui décide de l’heure. Lancez ensuite « Une journée de juin » : le débit suit le soleil toute la journée.',
-        'Watch “First light”. On a clear June day, the plate gains more than it loses from {gainStart}, but the fluid only moves at about {flowStart}: the night left the plate below the air, and it must first climb back and pass the fluid in the pipes. No motor, so no button: the sun decides the hour. Then run “A June day”: the flow follows the sun all day.',
+        'Regardez « Le premier rayon ». Par un jour clair de juin, à l’heure solaire, la plaque gagne plus qu’elle ne perd dès {gainStart}, mais le fluide ne bouge que vers {flowStart} : la nuit a laissé la plaque sous l’air, et il faut d’abord qu’elle remonte et dépasse le fluide des tuyaux. Pas de moteur, donc pas de bouton : c’est le soleil qui décide de l’heure. Lancez ensuite « Une journée de juin » : le débit suit le soleil toute la journée.',
+        'Watch “First light”. On a clear June day, in solar time, the plate gains more than it loses from {gainStart}, but the fluid only moves at about {flowStart}: the night left the plate below the air, and it must first climb back and pass the fluid in the pipes. No motor, so no button: the sun decides the hour. Then run “A June day”: the flow follows the sun all day.',
       ),
       lf(
         'Une poussée si faible craint la friction. Dans « Des tubes trop fins », des tubes de 3 mm ramènent le débit à {narrow3Flow}, mais l’énergie survit presque : {narrow3Day} de moins sur la journée. Le débit n’est donc pas tout. Des panneaux en grilles de frigo circulent en ligne, comme ceux du Low-tech Lab, mais les leurs sont poussés par un circulateur : ce n’est pas ce principe. Ce lab explique ce qui arrête la montée, sans cotes à copier.',
@@ -163,12 +163,12 @@ export const LESSONS: Lesson[] = [
         'Layers give two things at once: hot water at the tap, and cold water at the collector, where it works best. Run “A mixed tank”: the lab removes the layers by hand. The collector gets warmer fluid and loses more, the tap gets cooler water. The model loses {mixedYear} of its year at Athens; a 1981 model found about 10% on its test day, with another tank. Compare with “A June day”.',
       ),
       lf(
-        'Un ballon couché a moins de hauteur qu’un ballon debout : l’agence française de l’énergie les juge « bien moins performants ». Tous les monoblocs les utilisent quand même, pour rester bas sur le toit. Sa résistance à mi-hauteur laisse le bas froid, son diffuseur fait entrer le réseau en douceur, et le haut sert de réserve. Des essais sur d’autres ballons trouvent des couches sur 40 à 60 % du volume, au tirage ; ici le modèle trouve {drawFraction}.',
-        'A tank lying flat has less height than an upright one: the French energy agency calls them “far less efficient”. Every compact unit uses them all the same, to stay low on the roof. Its element at half height leaves the bottom cold, its diffuser lets the mains in gently, and the top serves as a reserve. Tests on other tanks find layers over 40 to 60% of the volume when drawn; here the model finds {drawFraction}.',
+        'Un ballon couché a moins de hauteur qu’un ballon debout : l’agence française de l’énergie les juge « bien moins performants ». Cette machine couche pourtant le sien, comme plusieurs de ses semblables, pour rester basse sur le toit. Sa résistance à mi-hauteur laisse le bas froid, son diffuseur fait entrer le réseau en douceur, et le haut sert de réserve. Des essais sur d’autres ballons trouvent des couches sur 40 à 60 % du volume, au tirage ; ici le modèle trouve {drawFraction}.',
+        'A tank lying flat has less height than an upright one: the French energy agency calls them “far less efficient”. This machine lays its tank flat all the same, as several of its kind do, to stay low on the roof. Its element at half height leaves the bottom cold, its diffuser lets the mains in gently, and the top serves as a reserve. Tests on other tanks find layers over 40 to 60% of the volume when drawn; here the model finds {drawFraction}.',
       ),
       lf(
-        'Comment la double enveloppe chauffe-t-elle sans tout mélanger ? Une paroi chaude crée un film d’eau tiède, qui monte jusqu’à une couche aussi chaude que lui, et s’y arrête. Le modèle suppose que {stratify} de la chaleur reçue arrive ainsi à sa propre couche, le reste à la couche voisine de la paroi. Cette part n’a jamais été mesurée sur ce ballon : c’est l’estimation qui pèse le plus sur son année, de {stratLow} à {stratHigh}.',
-        'How does the jacket heat with no mixing? A warm wall makes a film of warm water, which climbs to a layer as warm as itself and stops there. The model assumes {stratify} of the heat received reaches its own layer this way, the rest going to the layer beside the wall. That share was never measured on this tank: it is the estimate that weighs most on its year, from {stratLow} to {stratHigh}.',
+        'Comment la double enveloppe chauffe-t-elle sans tout mélanger ? Une paroi chaude crée un film d’eau tiède, qui monte jusqu’à une couche aussi chaude que lui, et s’y arrête. Le modèle suppose que {stratify} de la chaleur reçue arrive ainsi à sa propre couche, le reste à la couche voisine de la paroi. Nous n’avons trouvé aucune mesure de cette part sur ce ballon : c’est l’estimation qui pèse le plus sur son année, de {stratLow} à {stratHigh}.',
+        'How does the jacket heat with no mixing? A warm wall makes a film of warm water, which climbs to a layer as warm as itself and stops there. The model assumes {stratify} of the heat received reaches its own layer this way, the rest going to the layer beside the wall. We found no measurement of that share on this tank: it is the estimate that weighs most on its year, from {stratLow} to {stratHigh}.',
       ),
     ],
     formula: 'Q = m · c · ΔT',
@@ -201,8 +201,8 @@ export const LESSONS: Lesson[] = [
       },
       {
         q: l(
-          'Pourquoi tous les monoblocs utilisent-ils un ballon couché, malgré ses faibles couches ?',
-          'Why do all compact units use a tank lying flat, despite its poor layers?',
+          'Pourquoi cette machine couche-t-elle son ballon, malgré ses faibles couches ?',
+          'Why does this machine lay its tank flat, despite its poor layers?',
         ),
         choices: [
           l('Parce qu’il coûte moins d’acier qu’un ballon debout', 'Because it takes less steel than an upright tank'),
@@ -227,12 +227,12 @@ export const LESSONS: Lesson[] = [
     ),
     body: [
       lf(
-        'La nuit, le ballon perd de deux façons. Par sa peau, quoi qu’on fasse : {skin0} sur une nuit claire de juin, selon le modèle. Et par la boucle : le ciel clair refroidit la plaque jusqu’à {depression} sous l’air, ce fluide froid veut descendre, et il entraîne le chaud du ballon. C’est l’**écoulement inverse**. À la place de la vraie machine, y = 0, il coule à {nightFlow} et emporte {lost0} : {lost0Pct} de la chaleur du jour.',
-        'At night the tank loses in two ways. Through its skin, whatever you do: {skin0} on a clear June night, by the model. And through the loop: the clear sky cools the plate to {depression} below the air, that cold fluid wants to go down, and it draws in the tank’s warmth. That is **reverse flow**. At the real machine’s place, y = 0, it runs at {nightFlow} and carries off {lost0}: {lost0Pct} of the day’s heat.',
+        'La nuit, le ballon perd de deux façons. Par sa peau, quoi qu’on fasse : {skin0} sur une nuit claire de juin, selon le modèle. Et par la boucle : le ciel clair refroidit la plaque jusqu’à {depression} sous l’air, ce fluide froid veut descendre, et il entraîne le chaud du ballon. C’est l’**écoulement inverse**. À la place de la vraie machine, y = 0, il coule à {nightFlow} en moyenne de minuit à l’aube, et emporte {lost0} : {lost0Pct} de la chaleur du jour.',
+        'At night the tank loses in two ways. Through its skin, whatever you do: {skin0} on a clear June night, by the model. And through the loop: the clear sky cools the plate to {depression} below the air, that cold fluid wants to go down, and it draws in the tank’s warmth. That is **reverse flow**. At the real machine’s place, y = 0, it runs at {nightFlow} as a mean from midnight to dawn, and carries off {lost0}: {lost0Pct} of the day’s heat.',
       ),
       lf(
-        'Faites descendre le ballon. À −0,30 m, l’écoulement emporte {lostM03}, {lostM03Pct} de la journée, et la nuit totale double : {nightGood} à +0,61 m, {nightM03} ici. Un modèle de 1981 le disait déjà négligeable si le bas du ballon est au niveau du haut du capteur, et important en dessous. Mais sur un ballon debout : personne n’a mesuré un capteur plan avec son ballon plus bas. Le nôtre repose sur un calcul du ciel : sans lui, {noSky0} à zéro, et {noSkyM03} à −0,30 m.',
-        'Lower the tank. At −0.30 m the flow carries off {lostM03}, {lostM03Pct} of the day, and the whole night doubles: {nightGood} at +0.61 m, {nightM03} here. A 1981 model already said reverse flow is negligible if the tank’s bottom is level with the collector’s top, and substantial below. But of an upright tank: nobody has measured a flat collector with its tank lower. And ours rests on a sum for the sky: without it, {noSky0} at zero, and {noSkyM03} at −0.30 m.',
+        'Faites descendre le ballon. À −0,30 m, l’écoulement emporte {lostM03}, {lostM03Pct} de la journée, et la nuit totale double : {nightGood} à +0,61 m, {nightM03} ici. Un modèle de 1981 le disait déjà négligeable si le bas du ballon est au niveau du haut du capteur, et important en dessous. Mais sur un ballon debout. Nous n’avons trouvé aucune mesure d’un capteur plan avec son ballon plus bas. Le nôtre repose sur un calcul du ciel : sans lui, {noSky0} à zéro, et {noSkyM03} à −0,30 m.',
+        'Lower the tank. At −0.30 m the flow carries off {lostM03}, {lostM03Pct} of the day, and the whole night doubles: {nightGood} at +0.61 m, {nightM03} here. A 1981 model already said reverse flow is negligible if the tank’s bottom is level with the collector’s top, and substantial below. But of an upright tank. We found no measurement of a flat collector with its tank lower. And ours rests on a sum for the sky: without it, {noSky0} at zero, and {noSkyM03} at −0.30 m.',
       ),
       lf(
         'Lancez « Un ballon trop bas », à −0,61 m : le banc porte le ballon à côté de la rangée de capteurs, et les points repartent à l’envers à la tombée du soir. C’est la pire place du modèle, {lostM061Pct}. Plus bas, le jour s’arrête : {gainM061} à −0,61 m, {gainM09} à −0,90 m, {gainM122} à −1,22 m, car le fluide ne monte plus jusqu’à la double enveloppe. Et « Une bonne nuit » montre la place de la vraie machine, avec son petit filet.',
@@ -269,8 +269,8 @@ export const LESSONS: Lesson[] = [
         ],
         answer: 1,
         explain: lf(
-          '**De {valveYearLow} à {valveYearHigh} de plus.** À y = 0, la peau du ballon pèse plus que le filet. Il y a bien un écoulement, {nightFlow} selon le modèle, mais la machine est posée juste à la limite.',
-          '**{valveYearLow} to {valveYearHigh} more.** At y = 0, the tank’s skin weighs more than the trickle. There is a flow, {nightFlow} by the model, but the machine sits right on the limit.',
+          '**De {valveYearLow} à {valveYearHigh} de plus.** À y = 0, la peau du ballon pèse plus que le filet. Il y a bien un écoulement, {nightFlow} en moyenne de minuit à l’aube selon le modèle, mais la machine est posée juste à la limite.',
+          '**{valveYearLow} to {valveYearHigh} more.** At y = 0, the tank’s skin weighs more than the trickle. There is a flow, {nightFlow} as a mean from midnight to dawn by the model, but the machine sits right on the limit.',
         ),
       },
       {
@@ -369,8 +369,8 @@ export const LESSONS: Lesson[] = [
     ),
     body: [
       l(
-        'Deux risques tirent en sens contraire. Les **légionelles** se multiplient de 25 °C à 45 °C dans l’eau qui stagne, d’où le thermostat à 60 °C : la Suisse demande au moins 60 °C en sortie de ballon, l’Australie 60 °C pour l’appoint. La **brûlure**, elle, va vite : à 50 °C, de 1 à 5 min ; à 55 °C, de 5 à 25 s ; à 60 °C, de 2 à 5 s ; les enfants environ quatre fois plus vite. Personne n’a mesuré ce risque-là sur cette machine.',
-        'Two risks pull in opposite directions. **Legionella** multiply at 25 °C to 45 °C in standing water, hence the thermostat at 60 °C: Switzerland asks for at least 60 °C leaving the tank, Australia 60 °C for the booster. A **scald** comes fast: at 50 °C, 1 to 5 min; at 55 °C, 5 to 25 s; at 60 °C, 2 to 5 s; children about four times faster. Nobody has measured this risk on this machine.',
+        'Deux risques tirent en sens contraire. Les **légionelles** se multiplient de 25 °C à 45 °C dans l’eau qui stagne, d’où le thermostat à 60 °C : la Suisse demande au moins 60 °C en sortie de ballon, l’Australie 60 °C pour l’appoint. La **brûlure**, elle, va vite : à 50 °C, de 1 à 5 min ; à 55 °C, de 5 à 25 s ; à 60 °C, de 2 à 5 s ; les enfants environ quatre fois plus vite. Nous n’avons trouvé aucune mesure de ce risque-là sur cette machine.',
+        'Two risks pull in opposite directions. **Legionella** multiply at 25 °C to 45 °C in standing water, hence the thermostat at 60 °C: Switzerland asks for at least 60 °C leaving the tank, Australia 60 °C for the booster. A **scald** comes fast: at 50 °C, 1 to 5 min; at 55 °C, 5 to 25 s; at 60 °C, 2 to 5 s; children about four times faster. We found no measurement of this risk on this machine.',
       ),
       l(
         'Le **mitigeur** tranche : l’eau chaude reste chaude en amont, et il n’en laisse passer que 50 °C vers la salle de bains. Lancez « Le matin de la famille » : quatre douches à la suite, la couche chaude descend, et pour la troisième le lab retire le mitigeur. Regardez le chiffre du robinet. Baisser le thermostat ne remplacerait pas ce mitigeur : on redonnerait de la place aux bactéries. L’alarme du panneau signale cette zone, sans prétendre mesurer un risque.',

@@ -30,7 +30,7 @@
 
 ## What the physics changed from the research, and the sheets say
 
-The push is **65 Pa†, 6.6 mm† of water**, not 40 Pa and 4 mm. The flow starts about **7:10†**, not when the gain turns positive (**4:50†**). The worst tank is at **−0.61 m**, not −1.22 m: lower, the day stops. Below zero nobody has measured a flat collector. The valve gains **0.9 to 2 %†** a year at y = 0, and buys no frost margin there. Header **27 mm\***, forced by 3.8 L, not the research's 18 mm. Night through the skin **0.86 kWh†** on a clear June night at Athens, not the research's 1.3 kWh in 12 h at 45 K.
+The push is **65 Pa†, 6.6 mm† of water**, not 40 Pa and 4 mm. The flow starts about **7:10†**, not when the gain turns positive (**4:50†**). The worst tank is at **−0.61 m**, not −1.22 m: lower, the day stops. Below zero we found no measurement of a flat collector. The valve gains **0.9 to 2 %†** a year at y = 0, and buys no frost margin there. Header **27 mm\***, forced by 3.8 L, not the research's 18 mm. Night through the skin **0.86 kWh†** on a clear June night at Athens, not the research's 1.3 kWh in 12 h at 45 K.
 
 ## Said once
 
@@ -55,4 +55,4 @@ No wording promises safety: a test bans « safely », « sans danger », « guar
 
 ## Choices
 
-**The installation guide crosses two worlds in ten steps:** a step plays in one world, so `cold-main` and `hot-line` share step 4 in `house`, and the valves come in step 5 in `tank-and-tap`. Steps 9 and 10 frame again what the gesture is on: `cold-relief-valve`, `roof-unit`. **Glycol in the circuit** is said to be the maker's bottle, 24 %†; its brand is not named. **Timestamps** of the main video are approximate, from a private transcription. **The French names** of `src/three/part-ids.ts` and of the sheets use the same typographic apostrophe, and the data test compares them as they are.
+**The installation guide crosses two worlds in ten steps:** a step plays in one world, so `cold-main` and `hot-line` share step 4 in `house`, and the valves come in step 5 in `tank-and-tap`. Steps 9 and 10 frame again what the gesture is on: `cold-relief-valve`, `roof-unit`. **Glycol in the circuit** is said to be the maker's bottle, 24 %†; its brand is not named. **Timestamps** of the main video are approximate, from a private transcription. **The French names** of `src/three/part-ids.ts` and of the sheets use the same typographic apostrophe, and the data test compares them as they are. **The kit's X-ray tool** is « Transparence » in French. With a part selected it keeps that part alone solid and fades everything else, so a tip that needs the shells faded says so, and says to close the sheet first (`glass-cover`, `collector-link`, `outer-case`). **Flows** colours each dot by its temperature: no path has a colour of its own.

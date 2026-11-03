@@ -238,12 +238,22 @@ describe('the lessons', () => {
     expect(bodyOf(one, 'en')).toMatch(/7:10†/);
     const four = LESSONS.find((l) => l.id === 'the-night')!;
     expect(bodyOf(four, 'en')).toMatch(/model’s worst place/);
-    expect(bodyOf(four, 'en')).toMatch(/nobody has measured a flat collector/);
+    expect(bodyOf(four, 'en')).toMatch(/We found no measurement of a flat collector/);
     expect(bodyOf(four, 'en')).toMatch(/beside the bank/);
     expect(bodyOf(four, 'en')).toMatch(/at the coldest point the model finds no gain/);
     for (const [where, t] of texts()) {
       expect(/\b4 mm|\b90 %|\b75 %/.test(t.fr + t.en), where).toBe(false);
     }
+  });
+  it('say what we found rather than what nobody did, the night’s flow as a mean, and the hours in solar time', () => {
+    const claim =
+      /personne n’a (rien )?mesuré|nobody has measured|jamais été mesurée|never measured|tous les monoblocs|every compact unit|all compact units/i;
+    for (const [where, t] of texts()) expect(t.fr + t.en, where).not.toMatch(claim);
+    const four = LESSONS.find((l) => l.id === 'the-night')!;
+    expect(bodyOf(four, 'fr')).toMatch(/en moyenne de minuit à l’aube/);
+    expect(bodyOf(four, 'en')).toMatch(/as a mean from midnight to dawn/);
+    expect(bodyOf(LESSONS[0]!, 'fr')).toMatch(/à l’heure solaire/);
+    expect(bodyOf(LESSONS[0]!, 'en')).toMatch(/in solar time/);
   });
   it('name the home builds and the Low-tech Lab once, as pumped, in lesson 1', () => {
     const named = LESSONS.filter((l) => /Low-tech Lab/.test(bodyOf(l, 'en')));
